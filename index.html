@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CapstoneAuto — Document Generator</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#f0f4f8;color:#1e293b;min-height:100vh}
+:root{
+  --blue:#2563eb;--green:#059669;--amber:#d97706;--red:#dc2626;
+  --purple:#7c3aed;--teal:#0891b2;--border:#e2e8f0;--card:#fff;
+  --text2:#64748b;--bg2:#f8fafc;
+}
+
+/* ── LOGIN ── */
+#login{display:flex;align-items:center;justify-content:center;min-height:100vh;
+  background:linear-gradient(135deg,#1e3a5f 0%,#2563eb 50%,#1e40af 100%)}
+.login-box{background:#fff;border-radius:16px;padding:40px;width:380px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.25)}
+.login-logo{text-align:center;margin-bottom:28px}
+.login-logo-mark{width:52px;height:52px;background:linear-gradient(135deg,#2563eb,#7c3aed);
+  border-radius:14px;display:flex;align-items:center;justify-content:center;
+  font-size:20px;font-weight:800;color:#fff;margin:0 auto 12px;letter-spacing:-1px}
+.login-title{font-size:20px;font-weight:700;color:#1e293b}
+.login-sub{font-size:12px;color:#94a3b8;margin-top:3px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:11px;font-weight:600;color:#64748b;
+  letter-spacing:.05em;text-transform:uppercase;margin-bottom:6px}
+.field input{width:100%;border:1.5px solid #e2e8f0;border-radius:8px;
+  padding:10px 13px;font-size:13.5px;color:#1e293b;outline:none;transition:border-color .15s}
+.field input:focus{border-color:#2563eb}
+.btn-login{width:100%;background:#2563eb;color:#fff;border:none;border-radius:8px;
+  padding:12px;font-size:14px;font-weight:600;cursor:pointer;transition:opacity .15s;margin-top:4px}
+.btn-login:hover{opacity:.9}
+.err{color:#dc2626;font-size:12px;margin-top:8px;display:none}
+.creds{background:#f8fafc;border-radius:8px;padding:10px 14px;margin-top:16px;
+  font-size:11.5px;color:#64748b;text-align:center}
+.creds span{font-family:monospace;color:#2563eb}
+
+/* ── APP ── */
+#app{display:none;flex-direction:column;min-height:100vh}
+
+/* TOPBAR */
+.topbar{height:52px;background:#fff;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;padding:0 20px;justify-content:space-between;
+  position:sticky;top:0;z-index:50}
+.topbar-brand{display:flex;align-items:center;gap:10px}
+.topbar-mark{width:30px;height:30px;background:linear-gradient(135deg,#2563eb,#7c3aed);
+  border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:800;color:#fff;letter-spacing:-1px}
+.topbar-name{font-weight:700;font-size:14px;color:#1e293b}
+.topbar-right{display:flex;align-items:center;gap:10px}
+.sector-pill{background:#eff6ff;border:1px solid #bfdbfe;border-radius:20px;
+  padding:4px 14px;font-size:12px;color:#2563eb;font-weight:500;display:none}
+.user-pill{display:flex;align-items:center;gap:6px;font-size:12px;color:#64748b;
+  background:#f8fafc;border:1px solid var(--border);border-radius:20px;padding:4px 12px 4px 8px}
+.user-dot{width:7px;height:7px;border-radius:50%;background:#10b981}
+.btn-logout{background:none;border:1px solid var(--border);border-radius:6px;
+  padding:5px 12px;font-size:12px;color:#64748b;cursor:pointer;transition:all .15s}
+.btn-logout:hover{border-color:#dc2626;color:#dc2626}
+
+/* BODY */
+.app-body{display:flex;flex:1;overflow:hidden;height:calc(100vh - 52px)}
+
+/* SIDEBAR */
+.sidebar{width:220px;background:#fff;border-right:1px solid var(--border);
+  overflow-y:auto;flex-shrink:0;padding:12px}
+.sidebar-head{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  color:#94a3b8;margin-bottom:8px;padding:0 4px}
+.sector-item{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;
+  cursor:pointer;transition:all .12s;font-size:12.5px;color:#64748b;margin-bottom:2px}
+.sector-item:hover{background:#f1f5f9;color:#1e293b}
+.sector-item.active{background:#eff6ff;color:#2563eb;font-weight:500}
+.sector-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.btn-random{width:100%;background:linear-gradient(135deg,#2563eb,#7c3aed);color:#fff;
+  border:none;border-radius:8px;padding:9px;font-size:12.5px;font-weight:600;
+  cursor:pointer;margin-bottom:14px;transition:opacity .15s}
+.btn-random:hover{opacity:.9}
+
+/* MAIN */
+.main{flex:1;overflow-y:auto;padding:20px 24px}
+
+/* CONTROLS */
+.controls-bar{background:#fff;border:1px solid var(--border);border-radius:12px;
+  padding:16px 20px;margin-bottom:16px;display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap}
+.ctrl-group label{display:block;font-size:11px;font-weight:600;color:#64748b;
+  letter-spacing:.05em;text-transform:uppercase;margin-bottom:6px}
+.ctrl-group select,.ctrl-group input{border:1.5px solid var(--border);border-radius:7px;
+  padding:8px 11px;font-size:13px;color:#1e293b;outline:none;transition:border-color .15s;
+  background:#fff}
+.ctrl-group select:focus,.ctrl-group input:focus{border-color:#2563eb}
+.btn-generate{background:linear-gradient(135deg,#2563eb,#7c3aed);color:#fff;border:none;
+  border-radius:8px;padding:10px 24px;font-size:13.5px;font-weight:600;cursor:pointer;
+  transition:all .15s;white-space:nowrap}
+.btn-generate:hover{opacity:.9;transform:translateY(-1px)}
+.btn-generate:disabled{opacity:.4;cursor:not-allowed;transform:none}
+
+/* OUTPUT AREA */
+.output-wrap{display:none}
+
+/* STAT CARDS */
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.stat-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.stat-label{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  color:#94a3b8;margin-bottom:6px}
+.stat-value{font-size:24px;font-weight:700;font-family:monospace;line-height:1}
+.stat-sub{font-size:11px;color:#94a3b8;margin-top:4px}
+
+/* SECTION CARD */
+.sec-card{background:#fff;border:1px solid var(--border);border-radius:12px;
+  margin-bottom:14px;overflow:hidden}
+.sec-head{display:flex;align-items:center;gap:12px;padding:14px 18px;
+  cursor:pointer;border-bottom:1px solid var(--border);user-select:none}
+.sec-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;
+  justify-content:center;font-size:15px;flex-shrink:0}
+.sec-title{font-size:13.5px;font-weight:600;color:#1e293b;flex:1}
+.sec-badge{font-size:10px;background:#f1f5f9;border-radius:4px;padding:2px 8px;color:#64748b}
+.sec-chevron{color:#94a3b8;transition:transform .2s;font-size:12px}
+.sec-card.open .sec-chevron{transform:rotate(180deg)}
+.sec-body{display:none;padding:16px 18px}
+.sec-card.open .sec-body{display:block}
+
+/* SCHEMA TABLE */
+.schema-table{width:100%;border-collapse:collapse;font-size:12.5px;margin-bottom:10px}
+.schema-table th{background:#f8fafc;padding:8px 12px;text-align:left;font-size:11px;
+  font-weight:600;color:#64748b;letter-spacing:.05em;text-transform:uppercase;
+  border-bottom:1px solid var(--border)}
+.schema-table td{padding:8px 12px;border-bottom:1px solid #f1f5f9;color:#374151}
+.schema-table tr:last-child td{border-bottom:none}
+.schema-table tr:hover td{background:#f8fafc}
+.badge-pk{background:#dbeafe;color:#1d4ed8;border-radius:4px;padding:1px 6px;font-size:10px;font-weight:600}
+.badge-fk{background:#fef3c7;color:#92400e;border-radius:4px;padding:1px 6px;font-size:10px;font-weight:600}
+.badge-null{background:#f3f4f6;color:#6b7280;border-radius:4px;padding:1px 6px;font-size:10px}
+
+/* INCONSISTENCIES */
+.inc-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.inc-item{display:flex;align-items:flex-start;gap:8px;background:#fff7ed;
+  border:1px solid #fed7aa;border-radius:7px;padding:8px 11px;font-size:12px;color:#92400e}
+.inc-num{background:#f97316;color:#fff;border-radius:4px;padding:1px 6px;
+  font-size:10px;font-weight:700;flex-shrink:0;margin-top:1px}
+
+/* CODE BLOCK */
+.code-block{background:#0f172a;border-radius:8px;padding:14px 16px;
+  font-family:'Consolas','Courier New',monospace;font-size:12px;color:#e2e8f0;
+  line-height:1.7;overflow-x:auto;white-space:pre;margin:10px 0;position:relative}
+.code-label{font-size:10px;font-weight:600;color:#94a3b8;letter-spacing:.06em;
+  text-transform:uppercase;margin-top:12px;margin-bottom:4px}
+.btn-copy{position:absolute;top:8px;right:8px;background:#1e293b;border:1px solid #334155;
+  border-radius:5px;padding:3px 10px;font-size:11px;color:#94a3b8;cursor:pointer;
+  transition:all .15s}
+.btn-copy:hover{border-color:#3b82f6;color:#3b82f6}
+
+/* STORY BLOCKS */
+.story-block{border-left:3px solid #e2e8f0;padding:10px 14px;margin:10px 0;
+  background:#f8fafc;border-radius:0 8px 8px 0}
+.story-block h4{font-size:13px;font-weight:600;color:#1e293b;margin-bottom:5px}
+.story-block p{font-size:12.5px;color:#475569;line-height:1.6;font-style:italic}
+.story-num{display:inline-block;background:#2563eb;color:#fff;border-radius:4px;
+  padding:1px 7px;font-size:11px;font-weight:700;margin-bottom:6px}
+
+/* DAX TABLE */
+.dax-table{width:100%;border-collapse:collapse;font-size:12px}
+.dax-table th{background:#f8fafc;padding:8px 12px;text-align:left;
+  font-size:10px;font-weight:600;color:#64748b;border-bottom:1px solid var(--border)}
+.dax-table td{padding:8px 12px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+.dax-name{font-family:monospace;color:#7c3aed;font-weight:600;font-size:12px}
+.dax-formula{font-family:monospace;color:#374151;font-size:11px}
+.dax-result{font-family:monospace;color:#059669;font-weight:500}
+
+/* POWER BI DASHBOARD */
+.pbi-wrap{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:14px}
+.pbi-topbar{background:linear-gradient(90deg,#2563eb,#1d4ed8);padding:12px 18px;
+  display:flex;align-items:center;gap:10px}
+.pbi-logo{background:#F2C811;border-radius:5px;padding:2px 7px;font-size:11px;
+  font-weight:800;color:#1a1a1a;letter-spacing:-1px}
+.pbi-report-title{font-size:13px;font-weight:600;color:#fff}
+.pbi-page-nav{display:flex;gap:0;border-bottom:1px solid var(--border)}
+.pbi-page-btn{padding:9px 18px;font-size:12px;color:#64748b;cursor:pointer;
+  border:none;background:none;border-bottom:2px solid transparent;
+  transition:all .15s;font-weight:500}
+.pbi-page-btn.active{color:#2563eb;border-bottom-color:#2563eb}
+.pbi-page{display:none;padding:16px}
+.pbi-page.active{display:block}
+.pbi-chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.pbi-chart-grid-3{display:grid;grid-template-columns:2fr 1fr;gap:12px;margin-bottom:12px}
+.pbi-chart-card{background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:12px}
+.pbi-chart-title{font-size:10px;font-weight:600;color:#64748b;letter-spacing:.05em;
+  text-transform:uppercase;margin-bottom:8px}
+.pbi-chart-wrap{height:180px;position:relative}
+.pbi-chart-wrap.sm{height:130px}
+.pbi-kpi-card{background:#fff;border:1px solid var(--border);border-radius:8px;
+  padding:14px;text-align:center}
+.pbi-kpi-val{font-size:28px;font-weight:700;font-family:monospace;color:#2563eb;line-height:1}
+.pbi-kpi-lbl{font-size:10px;color:#94a3b8;margin-top:4px;text-transform:uppercase;
+  font-weight:600;letter-spacing:.05em}
+.pbi-page-head{font-size:14px;font-weight:700;color:#1e293b;
+  padding:8px 0 12px;border-bottom:1px solid var(--border);margin-bottom:14px}
+
+/* DOWNLOAD BAR */
+.dl-bar{background:#fff;border:1px solid #bbf7d0;border-radius:12px;padding:16px 20px;
+  margin-top:16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.dl-bar p{font-size:13px;color:#166534;font-weight:500;flex:1}
+.btn-dl{background:#059669;color:#fff;border:none;border-radius:8px;padding:9px 20px;
+  font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px;
+  transition:opacity .15s}
+.btn-dl:hover{opacity:.9}
+.btn-dl-outline{background:#fff;color:#059669;border:2px solid #059669;border-radius:8px;
+  padding:9px 20px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s}
+.btn-dl-outline:hover{background:#f0fdf4}
+
+/* PROGRESS */
+.progress-wrap{background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:16px 20px;margin-bottom:14px}
+.progress-title{font-size:13px;font-weight:600;color:#1e40af;margin-bottom:10px}
+.progress-track{height:6px;background:#bfdbfe;border-radius:3px;overflow:hidden;margin-bottom:8px}
+.progress-fill{height:100%;background:linear-gradient(90deg,#3b82f6,#7c3aed);
+  border-radius:3px;transition:width .4s ease;width:0%}
+.progress-steps{display:flex;flex-direction:column;gap:4px}
+.p-step{font-size:11.5px;color:#64748b;display:flex;align-items:center;gap:6px}
+.p-step.done{color:#059669} .p-step.active{color:#2563eb;font-weight:500}
+.p-dot{width:6px;height:6px;border-radius:50%;background:#e2e8f0;flex-shrink:0}
+.p-step.done .p-dot{background:#059669}
+.p-step.active .p-dot{background:#2563eb}
+
+/* TOAST */
+.toast{position:fixed;bottom:20px;right:20px;background:#1e293b;color:#e2e8f0;
+  border-radius:10px;padding:12px 18px;font-size:13px;transform:translateY(12px);
+  opacity:0;transition:all .25s;z-index:999;max-width:340px;pointer-events:none}
+.toast.show{opacity:1;transform:none}
+.toast.success{background:#166534;color:#dcfce7}
+.toast.error{background:#7f1d1d;color:#fecaca}
+
+@media(max-width:900px){
+  .stat-row{grid-template-columns:repeat(2,1fr)}
+  .pbi-chart-grid,.pbi-chart-grid-3{grid-template-columns:1fr}
+  .inc-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ LOGIN ═══ -->
+<div id="login">
+  <div class="login-box">
+    <div class="login-logo">
+      <div class="login-logo-mark">CA</div>
+      <div class="login-title">CapstoneAuto</div>
+      <div class="login-sub">Automated Capstone Document Generator</div>
+    </div>
+    <div class="field">
+      <label>Username</label>
+      <input id="lu" type="text" placeholder="admin or student" autocomplete="username"/>
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input id="lp" type="password" placeholder="Enter password" autocomplete="current-password"/>
+    </div>
+    <button class="btn-login" onclick="doLogin()">Sign In →</button>
+    <div class="err" id="lerr">Invalid credentials. Try again.</div>
+    <div class="creds">
+      <span>admin</span> / <span>admin123</span> &nbsp;|&nbsp;
+      <span>student</span> / <span>capstone2024</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ APP ═══ -->
+<div id="app" style="display:none;flex-direction:column">
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="topbar-brand">
+      <div class="topbar-mark">CA</div>
+      <div class="topbar-name">CapstoneAuto</div>
+    </div>
+    <div class="topbar-right">
+      <div class="sector-pill" id="sector-pill"></div>
+      <div class="user-pill"><div class="user-dot"></div><span id="ulabel">admin</span></div>
+      <button class="btn-logout" onclick="doLogout()">Sign Out</button>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="app-body">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <button class="btn-random" onclick="generate(null)">🎲 Random Sector</button>
+      <div class="sidebar-head">All Sectors</div>
+      <div id="sector-nav"></div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main" id="main-content">
+
+      <!-- CONTROLS -->
+      <div class="controls-bar">
+        <div class="ctrl-group">
+          <label>Rows per Entity</label>
+          <select id="ctrl-rows">
+            <option value="200">200 (fast demo)</option>
+            <option value="500" selected>500</option>
+            <option value="1000">1,000</option>
+            <option value="5000">5,000</option>
+          </select>
+        </div>
+        <div class="ctrl-group" style="flex:1">
+          <label>Anthropic API Key <span style="font-weight:400;text-transform:none;font-size:11px">(optional — for LLM-enhanced output)</span></label>
+          <input id="ctrl-key" type="password" placeholder="sk-ant-api03-… (leave blank for demo mode)" style="width:100%"/>
+        </div>
+        <button class="btn-generate" id="btn-gen" onclick="generate(null)">
+          ⚡ Generate Document
+        </button>
+      </div>
+
+      <!-- PROGRESS -->
+      <div class="progress-wrap" id="prog-wrap" style="display:none">
+        <div class="progress-title" id="prog-title">Generating…</div>
+        <div class="progress-track"><div class="progress-fill" id="prog-fill"></div></div>
+        <div class="progress-steps" id="prog-steps"></div>
+      </div>
+
+      <!-- OUTPUT -->
+      <div class="output-wrap" id="output-wrap">
+
+        <!-- STAT ROW -->
+        <div class="stat-row" id="stat-row"></div>
+
+        <!-- DATASET SOURCE -->
+        <div class="sec-card open" id="sec-source">
+          <div class="sec-head" onclick="toggleSec('sec-source')">
+            <div class="sec-icon" style="background:#eff6ff">📂</div>
+            <div class="sec-title">Dataset Source Overview</div>
+            <div class="sec-badge" id="badge-source">—</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-source"></div>
+        </div>
+
+        <!-- SCHEMA -->
+        <div class="sec-card open" id="sec-schema">
+          <div class="sec-head" onclick="toggleSec('sec-schema')">
+            <div class="sec-icon" style="background:#f0fdf4">🗂️</div>
+            <div class="sec-title">Schema Details</div>
+            <div class="sec-badge" id="badge-schema">—</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-schema"></div>
+        </div>
+
+        <!-- INCONSISTENCIES -->
+        <div class="sec-card open" id="sec-inc">
+          <div class="sec-head" onclick="toggleSec('sec-inc')">
+            <div class="sec-icon" style="background:#fff7ed">⚠️</div>
+            <div class="sec-title">Data Inconsistencies</div>
+            <div class="sec-badge" id="badge-inc">—</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-inc"></div>
+        </div>
+
+        <!-- UNIX -->
+        <div class="sec-card" id="sec-unix">
+          <div class="sec-head" onclick="toggleSec('sec-unix')">
+            <div class="sec-icon" style="background:#f0f9ff">🖥️</div>
+            <div class="sec-title">Unix Commands — 15 Story-Based</div>
+            <div class="sec-badge">15 requirements</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-unix"></div>
+        </div>
+
+        <!-- SHELL -->
+        <div class="sec-card" id="sec-shell">
+          <div class="sec-head" onclick="toggleSec('sec-shell')">
+            <div class="sec-icon" style="background:#f0fdf4">📜</div>
+            <div class="sec-title">Unix Shell Scripts — 4 Requirements</div>
+            <div class="sec-badge">4 scripts</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-shell"></div>
+        </div>
+
+        <!-- MONGODB -->
+        <div class="sec-card" id="sec-mongo">
+          <div class="sec-head" onclick="toggleSec('sec-mongo')">
+            <div class="sec-icon" style="background:#f0fdf4">🍃</div>
+            <div class="sec-title">MongoDB Requirements</div>
+            <div class="sec-badge">6 operations</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-mongo"></div>
+        </div>
+
+        <!-- PYTHON -->
+        <div class="sec-card" id="sec-python">
+          <div class="sec-head" onclick="toggleSec('sec-python')">
+            <div class="sec-icon" style="background:#fefce8">🐍</div>
+            <div class="sec-title">Python Implementation</div>
+            <div class="sec-badge">file handling + cleaning</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-python"></div>
+        </div>
+
+        <!-- PYSPARK CORE -->
+        <div class="sec-card" id="sec-spark-core">
+          <div class="sec-head" onclick="toggleSec('sec-spark-core')">
+            <div class="sec-icon" style="background:#fdf4ff">⚡</div>
+            <div class="sec-title">PySpark Core — Dataset Cleaning</div>
+            <div class="sec-badge">6 requirements</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-spark-core"></div>
+        </div>
+
+        <!-- PYSPARK ANALYSIS -->
+        <div class="sec-card" id="sec-spark-df">
+          <div class="sec-head" onclick="toggleSec('sec-spark-df')">
+            <div class="sec-icon" style="background:#fdf4ff">📊</div>
+            <div class="sec-title">PySpark — DataFrame &amp; SQL Analysis</div>
+            <div class="sec-badge">7 requirements</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-spark-df"></div>
+        </div>
+
+        <!-- MYSQL -->
+        <div class="sec-card" id="sec-mysql">
+          <div class="sec-head" onclick="toggleSec('sec-mysql')">
+            <div class="sec-icon" style="background:#fff1f2">🗄️</div>
+            <div class="sec-title">Advanced MySQL — Stored Functions &amp; Procedures</div>
+            <div class="sec-badge">6 requirements</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-mysql"></div>
+        </div>
+
+        <!-- POWER BI -->
+        <div class="sec-card open" id="sec-pbi">
+          <div class="sec-head" onclick="toggleSec('sec-pbi')">
+            <div class="sec-icon" style="background:#fefce8">📈</div>
+            <div class="sec-title">Power BI — Transformations, DAX &amp; Visualisations</div>
+            <div class="sec-badge">10 DAX + 3 dashboard pages</div>
+            <div class="sec-chevron">▼</div>
+          </div>
+          <div class="sec-body" id="body-pbi"></div>
+        </div>
+
+        <!-- DOWNLOAD -->
+        <div class="dl-bar" id="dl-bar">
+          <p>✅ Document generated successfully for <strong id="dl-sector-name"></strong></p>
+          <button class="btn-dl" onclick="dlFile('requirements')">⬇ Requirements.txt</button>
+          <button class="btn-dl" onclick="dlFile('solutions')">⬇ Solutions.txt</button>
+          <button class="btn-dl-outline" onclick="dlFile('both')">⬇ Download Both (ZIP)</button>
+        </div>
+
+      </div><!-- /output-wrap -->
+    </div><!-- /main -->
+  </div><!-- /app-body -->
+</div><!-- /app -->
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ── AUTH ───────────────────────────────────────────────── */
+const USERS = {admin:'admin123',student:'capstone2024'};
+let currentUser = null;
+
+function doLogin(){
+  const u=document.getElementById('lu').value.trim();
+  const p=document.getElementById('lp').value;
+  const err=document.getElementById('lerr');
+  if(USERS[u]&&USERS[u]===p){
+    currentUser=u;
+    err.style.display='none';
+    document.getElementById('login').style.display='none';
+    document.getElementById('app').style.display='flex';
+    document.getElementById('ulabel').textContent=u;
+    loadSectors();
+  } else {
+    err.style.display='block';
+    document.getElementById('lp').value='';
+  }
+}
+function doLogout(){
+  currentUser=null;
+  document.getElementById('app').style.display='none';
+  document.getElementById('login').style.display='flex';
+  document.getElementById('lu').value='';
+  document.getElementById('lp').value='';
+}
+document.addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&document.getElementById('login').style.display!=='none') doLogin();
+});
+
+/* ── SECTORS ────────────────────────────────────────────── */
+let sectors=[], activeSector=null, charts={};
+
+async function loadSectors(){
+  try{
+    const res = await fetch('/api/sectors');
+    sectors = await res.json();
+    buildSidebarNav();
+  } catch {
+    sectors = [{name:'Healthcare',color:'#2563eb'},{name:'Banking',color:'#0891b2'},
+               {name:'Retail',color:'#d97706'},{name:'Education',color:'#7c3aed'},
+               {name:'Insurance',color:'#059669'},{name:'Telecom',color:'#0284c7'},
+               {name:'Logistics',color:'#b45309'},{name:'Manufacturing',color:'#6366f1'}];
+    buildSidebarNav();
+  }
+}
+
+function buildSidebarNav(){
+  const nav=document.getElementById('sector-nav');
+  nav.innerHTML=sectors.map(s=>`
+    <div class="sector-item" id="nav-${s.name}" onclick="generate('${s.name}')">
+      <div class="sector-dot" style="background:${s.color}"></div>
+      ${s.name}
+    </div>`).join('');
+}
+
+/* ── PROGRESS ───────────────────────────────────────────── */
+const STEPS = [
+  'Selecting sector…',
+  'Generating entity datasets…',
+  'Injecting inconsistencies…',
+  'Building document structure…',
+  'Generating Unix commands…',
+  'Building Shell scripts…',
+  'Creating MongoDB requirements…',
+  'Writing Python implementation…',
+  'Building PySpark sections…',
+  'Generating MySQL procedures…',
+  'Building Power BI section…',
+  'Finalising output…',
+];
+let progTimer=null, progStep=0;
+
+function startProgress(title){
+  const wrap=document.getElementById('prog-wrap');
+  wrap.style.display='block';
+  document.getElementById('prog-title').textContent=title||'Generating document…';
+  document.getElementById('prog-fill').style.width='0%';
+  document.getElementById('prog-steps').innerHTML =
+    STEPS.map((_,i)=>`<div class="p-step" id="ps${i}"><div class="p-dot"></div><span>${STEPS[i]}</span></div>`).join('');
+  progStep=0;
+  progTimer=setInterval(()=>{
+    if(progStep>0){
+      const prev=document.getElementById(`ps${progStep-1}`);
+      if(prev){prev.classList.remove('active');prev.classList.add('done');}
+    }
+    if(progStep<STEPS.length){
+      const cur=document.getElementById(`ps${progStep}`);
+      if(cur) cur.classList.add('active');
+      document.getElementById('prog-fill').style.width=`${((progStep+1)/STEPS.length*90).toFixed(0)}%`;
+      progStep++;
+    }
+  },400);
+}
+
+function stopProgress(){
+  clearInterval(progTimer);
+  document.getElementById('prog-fill').style.width='100%';
+  document.querySelectorAll('.p-step').forEach(el=>{el.classList.remove('active');el.classList.add('done');});
+  setTimeout(()=>document.getElementById('prog-wrap').style.display='none', 800);
+}
+
+/* ── GENERATE ───────────────────────────────────────────── */
+async function generate(forcedSector){
+  const btn=document.getElementById('btn-gen');
+  btn.disabled=true;
+
+  destroyCharts();
+  document.getElementById('output-wrap').style.display='none';
+  startProgress(forcedSector?`Generating ${forcedSector} document…`:'Randomly selecting sector…');
+
+  const rows=document.getElementById('ctrl-rows').value;
+  const key =document.getElementById('ctrl-key').value.trim();
+
+  try{
+    const res = await fetch('/api/generate',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({sector:forcedSector||null, rows:parseInt(rows), api_key:key}),
+    });
+    const data = await res.json();
+    stopProgress();
+    renderOutput(data);
+    toast('success',`✓ ${data.sector} document generated`);
+  } catch(err){
+    stopProgress();
+    // Demo mode — generate offline
+    generateDemoMode(forcedSector);
+  }
+
+  btn.disabled=false;
+}
+
+/* ── DEMO MODE ──────────────────────────────────────────── */
+function generateDemoMode(forcedSector){
+  const sectorList = ['Healthcare','Banking','Retail','Education','Insurance','Telecom','Logistics','Manufacturing'];
+  const colors     = {'Healthcare':'#2563eb','Banking':'#0891b2','Retail':'#d97706',
+                      'Education':'#7c3aed','Insurance':'#059669','Telecom':'#0284c7',
+                      'Logistics':'#b45309','Manufacturing':'#6366f1'};
+  const entityMap  = {
+    'Healthcare': ['Patients','Doctors','Hospitals','Billing'],
+    'Banking':    ['Customers','Accounts','Transactions','Loans'],
+    'Retail':     ['Products','Orders','Customers','Suppliers'],
+    'Education':  ['Students','Courses','Exams','Faculty'],
+    'Insurance':  ['Customers','Policies','Claims','Agents'],
+    'Telecom':    ['Subscribers','Plans','CallRecords','Invoices'],
+    'Logistics':  ['Shipments','Drivers','Routes','Warehouses'],
+    'Manufacturing':['Products','Machines','Workers','Inventory'],
+  };
+  const fileFormats = ['CSV','TXT','CSV','CSV'];
+  const sector = forcedSector || sectorList[Math.floor(Math.random()*sectorList.length)];
+  const entities = entityMap[sector]||['Entity1','Entity2','Entity3','Entity4'];
+
+  const inc = [
+    `Missing values in ${entities[0]} key fields`,
+    `Repeated ${entities[0]} records from multiple uploads`,
+    `Irregular date formats (DD-MM-YYYY vs YYYY-MM-DD vs MM/DD/YYYY)`,
+    `Trailing/leading spaces in Name field`,
+    `Inconsistent Gender values (male/MALE/Male/M)`,
+    `Non-numeric Amount entries (e.g. 'Ten Thousand')`,
+    `Negative Amount values`,
+    `Future dates in date columns`,
+    `Age stored as text ('Thirty Four')`,
+    `Inconsistent casing in category field`,
+    `Extra column 'ExtraColumn' not in schema`,
+    `Duplicate primary key values`,
+    `Missing foreign key references (orphaned FK)`,
+    `Empty rows / rows with fewer than required fields`,
+    `Inconsistent provider/type spelling`,
+  ];
+
+  const schemas = {};
+  entities.forEach((e,i)=>{
+    schemas[e]={
+      file:`${e.toLowerCase()}.${i===1?'txt':'csv'}`,
+      format: fileFormats[i],
+      columns:[
+        {name:`${e.replace(/s$/,'')}ID`,desc:`Unique identifier`,type:'VARCHAR(10)',flag:'PK'},
+        {name:'Name',desc:'Full name',type:'VARCHAR(100)',flag:''},
+        {name:'Age',desc:'Age',type:'INT',flag:''},
+        {name:'Gender',desc:'Male/Female/Other',type:'VARCHAR(10)',flag:''},
+        {name:'Date',desc:'Primary date field',type:'DATE',flag:''},
+        {name:'SecondaryDate',desc:'Secondary date (can be null)',type:'DATE',flag:'NULLABLE'},
+        {name:'Category',desc:'Primary category field',type:'VARCHAR(100)',flag:''},
+        {name:'Description',desc:'Additional description',type:'VARCHAR(200)',flag:''},
+        {name:'ReferenceID',desc:'Foreign key reference',type:'VARCHAR(10)',flag:'FK'},
+        {name:'GroupID',desc:'Group identifier',type:'INT',flag:'FK'},
+        {name:'Provider',desc:'Provider/supplier (can be null)',type:'VARCHAR(100)',flag:'NULLABLE'},
+        {name:'Amount',desc:'Monetary amount',type:'DECIMAL(10,2)',flag:''},
+      ],
+    };
+  });
+
+  const data={
+    sector, color:colors[sector]||'#2563eb',
+    description:`A leading ${sector} organisation facing challenges managing ${entities[0]}, ${entities[1]}, and ${entities[2]} data due to outdated legacy systems.`,
+    entities, entity_schemas:schemas,
+    inconsistencies:inc,
+    files_generated:[`InputFiles/${entities[0].toLowerCase()}.csv`],
+    doc_length:12000,
+    doc_preview:'Demo mode — backend not running. Start with: python server.py'
+  };
+
+  renderOutput(data);
+  toast('info','Demo mode — start backend for full generation');
+}
+
+/* ── RENDER OUTPUT ──────────────────────────────────────── */
+let currentData = null;
+
+function renderOutput(data){
+  currentData = data;
+  activeSector = data.sector;
+
+  // sidebar highlight
+  document.querySelectorAll('.sector-item').forEach(el=>el.classList.remove('active'));
+  const navItem = document.getElementById(`nav-${data.sector}`);
+  if(navItem) navItem.classList.add('active');
+
+  // topbar pill
+  const pill = document.getElementById('sector-pill');
+  pill.textContent = data.sector;
+  pill.style.display='block';
+  pill.style.borderColor = data.color+'44';
+  pill.style.color = data.color;
+
+  // STAT ROW
+  renderStats(data);
+
+  // DATASET SOURCE
+  renderSource(data);
+
+  // SCHEMA
+  renderSchema(data);
+
+  // INCONSISTENCIES
+  renderInconsistencies(data);
+
+  // UNIX
+  renderUnix(data);
+
+  // SHELL
+  renderShell(data);
+
+  // MONGODB
+  renderMongo(data);
+
+  // PYTHON
+  renderPython(data);
+
+  // PYSPARK CORE
+  renderSparkCore(data);
+
+  // PYSPARK DF
+  renderSparkDF(data);
+
+  // MYSQL
+  renderMySQL(data);
+
+  // POWER BI
+  renderPowerBI(data);
+
+  // DOWNLOAD BAR
+  document.getElementById('dl-sector-name').textContent = data.sector;
+  document.getElementById('dl-bar').style.display='flex';
+
+  document.getElementById('output-wrap').style.display='block';
+  document.getElementById('output-wrap').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+/* ── STAT ROW ───────────────────────────────────────────── */
+function renderStats(data){
+  const stats=[
+    {label:'Sector',value:data.sector,sub:'Selected randomly',color:data.color||'#2563eb'},
+    {label:'Entities',value:data.entities.length,sub:'Data entities generated',color:'#7c3aed'},
+    {label:'Inconsistencies',value:data.inconsistencies.length,sub:'Types injected',color:'#d97706'},
+    {label:'Doc Length',value:(data.doc_length||0).toLocaleString(),sub:'Characters generated',color:'#059669'},
+  ];
+  document.getElementById('stat-row').innerHTML=stats.map(s=>`
+    <div class="stat-card">
+      <div class="stat-label">${s.label}</div>
+      <div class="stat-value" style="color:${s.color}">${s.value}</div>
+      <div class="stat-sub">${s.sub}</div>
+    </div>`).join('');
+}
+
+/* ── SOURCE TABLE ───────────────────────────────────────── */
+function renderSource(data){
+  const rows = Object.entries(data.entity_schemas).map(([e,ei])=>
+    `<tr><td>${ei.format}</td><td style="font-family:monospace">${ei.file}</td><td>${e}</td></tr>`
+  ).join('');
+  document.getElementById('body-source').innerHTML=`
+    <table class="schema-table">
+      <thead><tr><th>Source Type</th><th>File Name</th><th>Entity</th></tr></thead>
+      <tbody>
+        ${rows}
+        <tr><td>MongoDB</td><td style="font-family:monospace">mongodb_inserts.txt</td><td>All Entities</td></tr>
+        <tr><td>Advanced MySQL</td><td style="font-family:monospace">advanced_mysql.txt</td><td>All Entities</td></tr>
+        <tr><td>CSV</td><td style="font-family:monospace">powerbi_dataset.csv</td><td>Joined Dataset</td></tr>
+      </tbody>
+    </table>`;
+  document.getElementById('badge-source').textContent=`${Object.keys(data.entity_schemas).length+3} files`;
+}
+
+/* ── SCHEMA ─────────────────────────────────────────────── */
+function renderSchema(data){
+  let html='';
+  let total=0;
+  for(const [ename, einfo] of Object.entries(data.entity_schemas)){
+    total += einfo.columns.length;
+    const rows = einfo.columns.map((c,i)=>{
+      let flag='';
+      if(c.flag==='PK') flag=`<span class="badge-pk">PK</span>`;
+      else if(c.flag&&c.flag.startsWith('FK')) flag=`<span class="badge-fk">FK</span>`;
+      else if(c.flag==='NULLABLE') flag=`<span class="badge-null">nullable</span>`;
+      return `<tr><td>${i+1}</td><td><strong>${c.name}</strong></td><td>${c.desc}</td><td style="font-family:monospace;color:#7c3aed">${c.type}</td><td>${flag}</td></tr>`;
+    }).join('');
+    html+=`<div style="margin-bottom:20px">
+      <div style="font-size:13px;font-weight:700;color:#1e293b;margin-bottom:8px;
+        display:flex;align-items:center;gap:8px">
+        <span style="background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;
+          padding:3px 10px;font-family:monospace;font-size:12px">${einfo.file}</span>
+        ${ename}
+        <span style="background:#f0fdf4;color:#166534;border-radius:4px;padding:2px 7px;font-size:10px;font-weight:600">${einfo.format}</span>
+      </div>
+      <table class="schema-table">
+        <thead><tr><th>SL No</th><th>Column Name</th><th>Description</th><th>Type</th><th>Notes</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+  }
+  document.getElementById('body-schema').innerHTML=html;
+  document.getElementById('badge-schema').textContent=`${total} columns across ${Object.keys(data.entity_schemas).length} entities`;
+}
+
+/* ── INCONSISTENCIES ────────────────────────────────────── */
+function renderInconsistencies(data){
+  const items = data.inconsistencies.map((inc,i)=>
+    `<div class="inc-item">
+       <span class="inc-num">${String(i+1).padStart(2,'0')}</span>
+       <span>${inc}</span>
+     </div>`).join('');
+  document.getElementById('body-inc').innerHTML=`<div class="inc-grid">${items}</div>`;
+  document.getElementById('badge-inc').textContent=`${data.inconsistencies.length} types`;
+}
+
+/* ── UNIX ───────────────────────────────────────────────── */
+function renderUnix(data){
+  const e = data.entities[0];
+  const fname = data.entity_schemas[e]?.file || `${e.toLowerCase()}.csv`;
+  const stories=[
+    {t:'Domain Analysis',s:`The operations team suspects a rise in specific cases. Find out how many records have a particular diagnosis/category, regardless of case sensitivity.`,cmd:`grep -i 'Covid-19' InputFiles/${fname} | wc -l`},
+    {t:'High Value Audit',s:`The finance department wants to audit high-value cases. List all records where the amount exceeds 10,000, ensuring only valid numeric entries are considered.`,cmd:`awk -F',' '{if ($NF+0 > 10000) print}' InputFiles/${fname}`},
+    {t:'Top 5 Records in Group 3',s:`The administrator wants the top five oldest records in Group 3, sorted by age in descending order.`,cmd:`awk -F',' '$9=="3"' InputFiles/${fname} | sort -t',' -k3 -rn | head -5`},
+    {t:'Data Quality Check',s:`The IT team suspects incomplete records. Count how many records have missing information in any field.`,cmd:`awk -F',' '{for(i=1;i<=NF;i++) if($i=="") {print NR; break}}' InputFiles/${fname} | wc -l`},
+    {t:'Senior Citizen / High-Priority Filter',s:`Find records where age > 50 and amount < 5,000 for a targeted discount or program.`,cmd:`awk -F',' '$3>50 && $NF+0<5000 {print $2}' InputFiles/${fname}`},
+    {t:'Group Coverage Count',s:`The insurance department wants to know how many different groups have records in the file.`,cmd:`awk -F',' 'NR>1 {print $9}' InputFiles/${fname} | sort -u | wc -l`},
+    {t:'Missing Field Detection',s:`The claims team needs to identify records where both the provider and secondary date fields are missing.`,cmd:`awk -F',' '$10=="" && $11==""' InputFiles/${fname}`},
+    {t:'Duplicate ID Detection',s:`Find duplicate primary key values introduced during repeated uploads.`,cmd:`awk -F',' 'NR>1 {print $1}' InputFiles/${fname} | sort | uniq -d`},
+    {t:'Date Range Filter',s:`Extract all records admitted/registered in a specific year for time-series analysis.`,cmd:`grep '2023' InputFiles/${fname} | wc -l`},
+    {t:'Invalid Numeric Detection',s:`Find all records where the amount field is non-numeric to flag them for correction.`,cmd:`awk -F',' '$NF !~ /^[0-9.]+$/ && NR>1 {print NR": "$0}' InputFiles/${fname}`},
+    {t:'Record Count Per Category',s:`Management needs a quick count of records grouped by category to understand distribution.`,cmd:`awk -F',' 'NR>1 {print $7}' InputFiles/${fname} | sort | uniq -c | sort -rn`},
+    {t:'Case-Insensitive Extraction',s:`Extract all records matching a category value regardless of how it was entered.`,cmd:`grep -i 'diabetes' InputFiles/${fname}`},
+    {t:'Extract Key Columns',s:`Create a lightweight file with only ID and amount columns for a quick financial summary.`,cmd:`cut -d',' -f1,12 InputFiles/${fname} > OutputFiles/id_amount_summary.txt`},
+    {t:'Sort by Amount Descending',s:`Get the top 10 highest-amount records to prioritise auditing efforts.`,cmd:`sort -t',' -k12 -rn InputFiles/${fname} | head -10`},
+    {t:'File-Level Record Count',s:`Count total records in each input file before ETL processing begins.`,cmd:`wc -l InputFiles/*.csv InputFiles/*.txt`},
+  ];
+  document.getElementById('body-unix').innerHTML = stories.map((s,i)=>`
+    <div class="story-block" style="border-left-color:#0ea5e9">
+      <div class="story-num">${String(i+1).padStart(2,'0')}</div>
+      <h4>${s.t}</h4>
+      <p>${s.s}</p>
+      <div class="code-label">Unix Command</div>
+      <div class="code-block" style="position:relative">
+        <button class="btn-copy" onclick="copyText(this,'${s.cmd.replace(/'/g,"\\'")}')">Copy</button>$ ${s.cmd}</div>
+    </div>`).join('');
+}
+
+/* ── SHELL ──────────────────────────────────────────────── */
+function renderShell(data){
+  const e = data.entities[0];
+  const fname = data.entity_schemas[e]?.file || `${e.toLowerCase()}.csv`;
+  const scripts=[
+    {t:'Senior / High-Priority Count',type:'Analysis',
+     s:'The administrator is planning a wellness program. Find out how many records are above age 60 and save the count.',
+     code:`#!/bin/bash\nawk -F',' '$3>60' InputFiles/${fname} | wc -l > OutputFiles/senior_count.txt\necho "Count saved:"\ncat OutputFiles/senior_count.txt`},
+    {t:'Critical Cases Extraction',type:'Analysis',
+     s:'Extract all records diagnosed with critical conditions and amount > 7,000, saving them to critical_cases.txt for immediate review.',
+     code:`#!/bin/bash\nawk -F',' 'tolower($7)~/covid|asthma/ && $12+0>7000' \\\n    InputFiles/${fname} > OutputFiles/critical_cases.txt\necho "Critical cases: $(wc -l < OutputFiles/critical_cases.txt)"\nhead -5 OutputFiles/critical_cases.txt`},
+    {t:'Average Amount Calculation',type:'Analysis',
+     s:'Calculate the average amount of all records, rounded to two decimal places, ignoring missing or invalid entries.',
+     code:`#!/bin/bash\nawk -F',' 'NR>1 && $12~/^[0-9]+/ {sum+=$12; count++}\nEND {\n  if (count>0) printf "Average Amount: %.2f\\n", sum/count\n  else print "No valid entries"\n}' InputFiles/${fname}`},
+    {t:'Data Cleaning and Standardisation',type:'Cleaning',
+     s:'Clean the file by trimming spaces, filling missing values with Unknown, setting zero amounts to 0, and standardising date format to YYYY-MM-DD.',
+     code:`#!/bin/bash\nawk -F',' 'BEGIN{OFS=","}\nNR==1 {print; next}\n{\n  gsub(/^[ \\t]+|[ \\t]+$/, "", $2)  # trim name\n  if ($11=="") $11="Unknown"          # fill missing\n  if ($12=="" || $12+0==0) $12="0"   # fix amount\n  print\n}' InputFiles/${fname} > InputFiles/${fname.replace('.','_cleaned.')}\necho "Cleaned: InputFiles/${fname.replace('.','_cleaned.')}"\nwc -l InputFiles/${fname.replace('.','_cleaned.')}`},
+  ];
+  document.getElementById('body-shell').innerHTML=scripts.map((s,i)=>`
+    <div class="story-block" style="border-left-color:${s.type==='Cleaning'?'#dc2626':'#059669'}">
+      <div class="story-num" style="background:${s.type==='Cleaning'?'#dc2626':'#059669'}">${String(i+1).padStart(2,'0')} · ${s.type}</div>
+      <h4>${s.t}</h4>
+      <p>${s.s}</p>
+      <div class="code-label">Shell Script</div>
+      <div class="code-block" style="position:relative">
+        <button class="btn-copy" onclick="copyBlock(this)">Copy</button>${s.code}</div>
+    </div>`).join('');
+}
+
+/* ── MONGODB ────────────────────────────────────────────── */
+function renderMongo(data){
+  const e = data.entities[0];
+  const ops=[
+    {t:'Update Billing for Domain-Specific Records',s:'Update the billing amount to 25,000 for all records with a specific diagnosis/category.',
+     code:`db.${e.toLowerCase()}.updateMany(\n  { Diagnosis: { $regex: "^TB$", $options: "i" } },\n  { $set: { BillingAmount: 25000 } }\n)`},
+    {t:'Add Insurance for Uninsured Records',s:'Update the insurance provider to "LIC" for all records that currently have no insurance provider.',
+     code:`db.${e.toLowerCase()}.updateMany(\n  { $or: [{ InsuranceProvider: "" }, { InsuranceProvider: null }] },\n  { $set: { InsuranceProvider: "LIC" } }\n)`},
+    {t:'Update Missing Date Fields',s:'Update the discharge/end date to today\'s date for all records where it is missing.',
+     code:`db.${e.toLowerCase()}.updateMany(\n  { $or: [{ DischargeDate: "" }, { DischargeDate: null }] },\n  { $set: { DischargeDate: new Date().toISOString().split("T")[0] } }\n)`},
+    {t:'Find High-Risk Records',s:'List all records where age > 55 and amount > 15,000 for further study.',
+     code:`db.${e.toLowerCase()}.find(\n  { Age: { $gt: 55 }, BillingAmount: { $gt: 15000 } },\n  { _id: 0, Name: 1, Age: 1, Diagnosis: 1, BillingAmount: 1 }\n).sort({ BillingAmount: -1 })`},
+    {t:'Count Cases by Category in Group 3',s:'Count records with specific conditions in a particular group, regardless of case sensitivity.',
+     code:`db.${e.toLowerCase()}.countDocuments({\n  HospitalID: 3,\n  Diagnosis: { $regex: "Malaria|Covid-19", $options: "i" }\n})`},
+    {t:'Export Updated Records',s:'Export all updated records to CSV for integration with the reporting system.',
+     code:`// Run from terminal:\nmongoexport --db=healthcare_db --collection=${e.toLowerCase()} \\\n  --type=csv --fields=PatientID,Name,Age,Diagnosis,BillingAmount \\\n  --out=InputFiles/patients5.csv`},
+  ];
+  document.getElementById('body-mongo').innerHTML=ops.map((op,i)=>`
+    <div class="story-block" style="border-left-color:#16a34a">
+      <div class="story-num" style="background:#16a34a">${String(i+1).padStart(2,'0')}</div>
+      <h4>${op.t}</h4>
+      <p>${op.s}</p>
+      <div class="code-label">MongoDB Shell</div>
+      <div class="code-block" style="position:relative">
+        <button class="btn-copy" onclick="copyBlock(this)">Copy</button>${op.code}</div>
+    </div>`).join('');
+}
+
+/* ── PYTHON ─────────────────────────────────────────────── */
+function renderPython(data){
+  const e = data.entities[0];
+  const fname = data.entity_schemas[e]?.file||`${e.toLowerCase()}.csv`;
+  const ncols = data.entity_schemas[e]?.columns?.length||12;
+  const code=`import csv, os
+from datetime import datetime
+
+INPUT  = "InputFiles/${fname}"
+OUTPUT = "InputFiles/${fname.replace('.','3_cleaned.')}"
+
+def normalize_date(val):
+    for fmt in ["%d-%m-%Y", "%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%d"]:
+        try: return datetime.strptime(val.strip(), fmt).strftime("%Y-%m-%d")
+        except: pass
+    return val.strip()
+
+seen_rows = set()
+skipped = written = 0
+
+with open(INPUT, encoding="utf-8", errors="replace") as fin, \\
+     open(OUTPUT, "w", newline="", encoding="utf-8") as fout:
+
+    reader = csv.reader(fin)
+    writer = csv.writer(fout)
+
+    for i, row in enumerate(reader):
+        if i == 0:
+            # Remove ExtraColumn if present
+            header = [c for c in row if c.strip().lower() != "extracolumn"]
+            writer.writerow(header); continue
+
+        # Skip short rows (fewer than ${ncols} fields)
+        if len(row) < ${ncols}: skipped += 1; continue
+
+        row = row[:${ncols}]      # trim extra columns
+        row = [f.strip() for f in row]  # trim all fields
+
+        # Normalise Gender and Diagnosis
+        if len(row) > 3:  row[3] = row[3].capitalize()
+        if len(row) > 6:  row[6] = row[6].title()
+
+        # Convert dates to YYYY-MM-DD
+        if len(row) > 4 and row[4]:  row[4] = normalize_date(row[4])
+        if len(row) > 5 and row[5]:  row[5] = normalize_date(row[5])
+
+        # Fill missing InsuranceProvider
+        if len(row) > 10 and not row[10]: row[10] = "Unknown"
+
+        # Fix BillingAmount
+        if len(row) > 11:
+            try: float(row[11])
+            except: row[11] = "0"
+
+        # Remove exact duplicate rows
+        key = tuple(row)
+        if key in seen_rows: skipped += 1; continue
+        seen_rows.add(key)
+
+        writer.writerow(row)
+        written += 1
+
+print(f"Written : {written:,}")
+print(f"Skipped : {skipped:,}")
+print(f"Saved   → {OUTPUT}")`;
+  document.getElementById('body-python').innerHTML=`
+    <div class="story-block" style="border-left-color:#eab308">
+      <div class="story-num" style="background:#ca8a04">1. CIO Requirement</div>
+      <h4>End-to-End Data Cleaning Script</h4>
+      <p>The analytics rollout is blocked because <code>${fname}</code> is messy and inconsistent.
+      Write one Python program that trims spaces, normalises Gender and Diagnosis,
+      converts dates to YYYY-MM-DD, fills missing fields, skips short rows, and removes duplicates.
+      Save the cleaned file so PySpark jobs can run without manual fixes.</p>
+    </div>
+    <div class="code-label">Python Script</div>
+    <div class="code-block" style="position:relative">
+      <button class="btn-copy" onclick="copyBlock(this)">Copy</button>${code}</div>`;
+}
+
+/* ── PYSPARK CORE ───────────────────────────────────────── */
+function renderSparkCore(data){
+  const e = data.entities[0];
+  const fname = data.entity_schemas[e]?.file||`${e.toLowerCase()}.csv`;
+  const reqs=[
+    {t:'Remove Empty Lines for Data Integrity',s:'The ETL team noticed blank rows that cause schema mismatches during Spark ingestion. Remove all empty lines before processing.',
+     code:`df = spark.read.option("header","true").option("mode","DROPMALFORMED")\\\n       .csv("InputFiles/${fname}")\ndf = df.dropna(how="all")\nprint(f"Rows after removing empty lines: {df.count():,}")`},
+    {t:'Clean Up Name and Category Fields',s:'Trim all leading and trailing spaces from the Name and Diagnosis/Category columns to maintain uniformity.',
+     code:`from pyspark.sql.functions import trim, col\ndf = df.withColumn("Name", trim(col("Name"))) \\\n       .withColumn("Diagnosis", trim(col("Diagnosis")))`},
+    {t:'Normalise Gender for Consistent Grouping',s:'Standardise Gender values (male/MALE/Male/M) by capitalising properly.',
+     code:`from pyspark.sql.functions import initcap\ndf = df.withColumn("Gender", initcap(col("Gender")))`},
+    {t:'Drop Unnecessary Column',s:'The ExtraColumn is not part of the schema and is causing confusion in downstream joins. Drop it entirely.',
+     code:`if "ExtraColumn" in df.columns:\n    df = df.drop("ExtraColumn")\n    print("ExtraColumn dropped successfully")`},
+    {t:'Remove Duplicate Records',s:'Duplicate rows have been identified due to multiple uploads. Remove all exact duplicates.',
+     code:`before = df.count()\ndf = df.dropDuplicates()\nprint(f"Duplicates removed: {before - df.count():,}")`},
+    {t:'Handle Missing Insurance and Billing Values',s:'Replace missing InsuranceProvider with "LIC" and missing BillingAmount with 0.',
+     code:`from pyspark.sql.functions import when, lit\ndf = df.withColumn("InsuranceProvider",\n       when(col("InsuranceProvider").isNull()|(col("InsuranceProvider")==""),\n            lit("LIC")).otherwise(col("InsuranceProvider"))) \\\n       .withColumn("BillingAmount",\n           when(col("BillingAmount").isNull(), lit("0")).otherwise(col("BillingAmount")))`},
+  ];
+  document.getElementById('body-spark-core').innerHTML=`
+    <div class="code-label">Spark Session Setup</div>
+    <div class="code-block">from pyspark.sql import SparkSession\nspark = SparkSession.builder.appName("Capstone_${data.sector}").getOrCreate()\nspark.sparkContext.setLogLevel("WARN")</div>
+    ${reqs.map((r,i)=>`
+    <div class="story-block" style="border-left-color:#8b5cf6">
+      <div class="story-num" style="background:#8b5cf6">${String(i+1).padStart(2,'0')}</div>
+      <h4>${r.t}</h4><p>${r.s}</p>
+      <div class="code-label">PySpark</div>
+      <div class="code-block" style="position:relative">
+        <button class="btn-copy" onclick="copyBlock(this)">Copy</button>${r.code}</div>
+    </div>`).join('')}`;
+}
+
+/* ── PYSPARK DF ─────────────────────────────────────────── */
+function renderSparkDF(data){
+  const e = data.entities[0];
+  const reqs=[
+    {t:'City-wise Admissions for Capacity Planning',s:'Combine all entity files into a unified dataset, join with the location file, and count records per city.',
+     code:`df1 = spark.read.option("header","true").csv("InputFiles/patients1.csv")\ndf2 = spark.read.option("header","true").option("sep","|").csv("InputFiles/patients2.txt")\ndf_all = df1.unionByName(df2, allowMissingColumns=True)\n\nloc_df = spark.read.option("header","true").csv("InputFiles/hospital.csv")\nresult = df_all.join(loc_df, on="HospitalID", how="left")\nresult.groupBy("Location").count().orderBy("count", ascending=False).show()`},
+    {t:'Top Groups by Average Billing for Revenue Insights',s:'Calculate average billing per specialisation/group and show the top 3 with the highest average.',
+     code:`from pyspark.sql.functions import avg, round as spark_round\ndf_all.groupBy("Specialization") \\\n      .agg(spark_round(avg("BillingAmount"),2).alias("avg_billing")) \\\n      .orderBy("avg_billing", ascending=False) \\\n      .show(3)`},
+    {t:'Diabetes Cases Treated by General Medicine Specialists',s:'Count patients diagnosed with Diabetes treated by General Medicine doctors.',
+     code:`spec_df = spark.read.option("header","true").csv("InputFiles/doctors.csv")\njoined = df_all.join(spec_df, on="DoctorID", how="inner")\njoined.filter(\n    lower(joined["Diagnosis"]).contains("diabetes") &\n    lower(joined["Specialization"]).contains("general")\n).count()`},
+    {t:'Diagnosis-wise Aggregates for Disease Burden Analysis',s:'Group records by Diagnosis and compute total billing and average age across all patient sources.',
+     code:`from pyspark.sql.functions import sum as s_sum, avg, round as r\ndf_all.withColumn("BillingAmount", df_all["BillingAmount"].cast("double")) \\\n      .groupBy("Diagnosis") \\\n      .agg(r(s_sum("BillingAmount"),2).alias("total_billing"),\n           r(avg("Age"),1).alias("avg_age")) \\\n      .orderBy("total_billing", ascending=False).show()`},
+    {t:'Seasonal Admissions (Monsoon Window) in 2023',s:'Filter records admitted between July and September 2023 and count per hospital or location.',
+     code:`df_all.filter(\n    (df_all["AdmissionDate"] >= "2023-07-01") &\n    (df_all["AdmissionDate"] <= "2023-09-30")\n).join(loc_df, on="HospitalID", how="left") \\\n .groupBy("Location").count() \\\n .orderBy("count", ascending=False).show()`},
+    {t:'Top Earning Doctors for Incentive Programs',s:'Compute total billing per doctor, join with doctors.csv to show name and specialisation, and show top 5 earners.',
+     code:`from pyspark.sql.functions import sum as s_sum\nspec_billing = df_all \\\n    .withColumn("BillingAmount", df_all["BillingAmount"].cast("double")) \\\n    .groupBy("DoctorID").agg(s_sum("BillingAmount").alias("total_billing"))\nspec_billing.join(spec_df, on="DoctorID", how="inner") \\\n    .orderBy("total_billing", ascending=False) \\\n    .select("DoctorID","Name","Specialization","total_billing").show(5)`},
+    {t:'Senior Admissions Snapshot (September 2023)',s:'Among hospitals with capacity ≥ 100, count senior patients (Age ≥ 60) per city-specialisation, show top 5.',
+     code:`senior = df_all.filter(df_all["Age"].cast("int") >= 60)\nlarge_hosp = loc_df.filter(loc_df["Capacity"].cast("int") >= 100)\nsenior.join(large_hosp,"HospitalID","inner") \\\n      .join(spec_df,"DoctorID","inner") \\\n      .filter((df_all["AdmissionDate"]>="2023-09-01")&(df_all["AdmissionDate"]<="2023-09-30")) \\\n      .groupBy("Location","Specialization").count() \\\n      .orderBy("count",ascending=False).show(5)`},
+  ];
+  document.getElementById('body-spark-df').innerHTML=`
+    <p style="font-size:12.5px;color:#64748b;margin-bottom:14px;font-style:italic">
+    Note: Before solving any requirement, first combine all patient files into a unified dataset.</p>
+    ${reqs.map((r,i)=>`
+    <div class="story-block" style="border-left-color:#7c3aed">
+      <div class="story-num" style="background:#7c3aed">${String(i+1).padStart(2,'0')}</div>
+      <h4>${r.t}</h4><p>${r.s}</p>
+      <div class="code-label">PySpark DataFrame / SQL</div>
+      <div class="code-block" style="position:relative">
+        <button class="btn-copy" onclick="copyBlock(this)">Copy</button>${r.code}</div>
+    </div>`).join('')}`;
+}
+
+/* ── MYSQL ──────────────────────────────────────────────── */
+function renderMySQL(data){
+  const e = data.entities[0];
+  const reqs=[
+    {t:'Billing Category Function for Finance Review',s:'Create a stored function GetBillingCategory that accepts a BillingAmount and returns Low (<10K), Medium (10K-15K), or High (>15K).',
+     code:`DELIMITER $$\nCREATE FUNCTION GetBillingCategory(p_amount DECIMAL(10,2))\nRETURNS VARCHAR(10) DETERMINISTIC\nBEGIN\n  IF p_amount < 10000 THEN RETURN 'Low';\n  ELSEIF p_amount BETWEEN 10000 AND 15000 THEN RETURN 'Medium';\n  ELSE RETURN 'High';\n  END IF;\nEND $$\nDELIMITER ;\n-- Usage: SELECT Name, BillingAmount, GetBillingCategory(BillingAmount) FROM ${e.toLowerCase()};`},
+    {t:'Age Group Function for Program Planning',s:'Create a stored function GetAgeGroup that accepts Age and returns Young (<30), Middle-aged (30-50), or Senior (>50).',
+     code:`DELIMITER $$\nCREATE FUNCTION GetAgeGroup(p_age INT)\nRETURNS VARCHAR(15) DETERMINISTIC\nBEGIN\n  IF p_age < 30 THEN RETURN 'Young';\n  ELSEIF p_age BETWEEN 30 AND 50 THEN RETURN 'Middle-aged';\n  ELSE RETURN 'Senior';\n  END IF;\nEND $$\nDELIMITER ;`},
+    {t:'Procedure to List Records by Billing Category',s:'Build stored procedure ListPatientsByBillingCategory that accepts a category (Low/Medium/High) and displays matching records.',
+     code:`DELIMITER $$\nCREATE PROCEDURE ListPatientsByBillingCategory(IN p_category VARCHAR(10))\nBEGIN\n  SELECT PatientID, Name, BillingAmount,\n         GetBillingCategory(BillingAmount) AS BillingCategory\n  FROM ${e.toLowerCase()}\n  WHERE GetBillingCategory(BillingAmount) = p_category;\nEND $$\nDELIMITER ;\n-- Usage: CALL ListPatientsByBillingCategory('High');`},
+    {t:'Summary by Age and Billing Category',s:'Create stored procedure SummaryByAgeAndBilling that groups by AgeGroup and BillingCategory, showing TotalPatients and AverageBillingAmount.',
+     code:`DELIMITER $$\nCREATE PROCEDURE SummaryByAgeAndBilling()\nBEGIN\n  SELECT GetAgeGroup(Age) AS AgeGroup,\n         GetBillingCategory(BillingAmount) AS BillingCategory,\n         COUNT(*) AS TotalPatients,\n         ROUND(AVG(BillingAmount),2) AS AverageBillingAmount\n  FROM ${e.toLowerCase()}\n  GROUP BY AgeGroup, BillingCategory\n  ORDER BY AgeGroup, AverageBillingAmount DESC;\nEND $$\nDELIMITER ;\n-- Usage: CALL SummaryByAgeAndBilling();`},
+    {t:'Billing by Doctor Specialisation',s:'Create stored procedure BillingBySpecialisation that calculates total billing per specialisation across all hospitals, sorted descending.',
+     code:`DELIMITER $$\nCREATE PROCEDURE BillingBySpecialisation()\nBEGIN\n  SELECT d.Specialization,\n         ROUND(SUM(p.BillingAmount),2) AS TotalBillingAmount\n  FROM ${e.toLowerCase()} p\n  JOIN doctors d ON p.DoctorID = d.DoctorID\n  GROUP BY d.Specialization\n  ORDER BY TotalBillingAmount DESC;\nEND $$\nDELIMITER ;\n-- Usage: CALL BillingBySpecialisation();`},
+    {t:'Dynamic Group Statistics',s:'Create stored procedure GroupStats that iterates through all groups, calculating total patient count and average billing for each.',
+     code:`DELIMITER $$\nCREATE PROCEDURE GroupStats()\nBEGIN\n  DECLARE v_id INT DEFAULT 1;\n  DECLARE v_max INT;\n  SELECT MAX(HospitalID) INTO v_max FROM ${e.toLowerCase()};\n  WHILE v_id <= v_max DO\n    SELECT HospitalID,\n           COUNT(*) AS PatientCount,\n           ROUND(AVG(BillingAmount),2) AS AvgBilling\n    FROM ${e.toLowerCase()} WHERE HospitalID = v_id;\n    SET v_id = v_id + 1;\n  END WHILE;\nEND $$\nDELIMITER ;\n-- Usage: CALL GroupStats();`},
+  ];
+  document.getElementById('body-mysql').innerHTML=reqs.map((r,i)=>`
+    <div class="story-block" style="border-left-color:#dc2626">
+      <div class="story-num" style="background:#dc2626">${String(i+1).padStart(2,'0')}</div>
+      <h4>${r.t}</h4><p>${r.s}</p>
+      <div class="code-label">MySQL</div>
+      <div class="code-block" style="position:relative">
+        <button class="btn-copy" onclick="copyBlock(this)">Copy</button>${r.code}</div>
+    </div>`).join('');
+}
+
+/* ── POWER BI ───────────────────────────────────────────── */
+let pbiCharts={};
+function destroyCharts(){
+  Object.values(pbiCharts).forEach(c=>{try{c.destroy()}catch{}});
+  pbiCharts={};
+}
+
+function renderPowerBI(data){
+  const e = data.entities[0];
+  const pages = [
+    'Operations & Capacity Planning',
+    'Finance & Revenue Insights',
+    'Clinical & Quality Overview'
+  ];
+
+  const transformations = [
+    {t:'Clean Up Text Fields',d:'Remove leading and trailing spaces from Name, Location, and Specialization fields.'},
+    {t:'Handle Missing Diagnosis Values',d:'Replace blank or null Diagnosis with "NA" to maintain data integrity.'},
+    {t:'Remove Duplicate Records',d:'Remove all duplicate rows from the dataset to ensure accurate counts.'},
+    {t:'Standardise Insurance Provider',d:'If InsuranceProvider is "Unknown", replace with "LIC".'},
+    {t:'Convert BillingAmount to Numeric',d:'Convert text amounts like "Ten Thousand" to numeric Decimal Number type.'},
+    {t:'Fix Non-Numeric Age Entries',d:'Replace text age values like "Thirty Four" with numeric equivalents.'},
+    {t:'Flag Invalid Discharge Dates (DAX)',d:'Create IsInvalidDate column: TRUE where DischargeDate < AdmissionDate.'},
+    {t:'Calculate Average Billing Excl. Zero (DAX)',d:'Use DAX to compute Average BillingAmount where BillingAmount > 0.'},
+    {t:'Validate Gender Column (DAX)',d:'Map M→Male, F→Female with a CleanGender calculated column.'},
+    {t:'Create Age Bucket Column',d:'Segment: 0-18 Child, 19-40 Adult, 41-60 Middle-aged, 60+ Senior.'},
+  ];
+
+  const daxMeasures=[
+    {name:'Total Records',   formula:`COUNTROWS('${e}')`,                                  result:'~500'},
+    {name:'Total Billing',   formula:`SUM('${e}'[BillingAmount])`,                         result:'₹8.4M'},
+    {name:'Avg Billing',     formula:`AVERAGEX(FILTER('${e}',[BillingAmount]>0),[BillingAmount])`, result:'₹17.8K'},
+    {name:'Active Count',    formula:`CALCULATE(COUNTROWS('${e}'),[Status]="Active")`,     result:'342'},
+    {name:'MoM Growth',      formula:`DIVIDE([Total Billing]-CALCULATE([Total Billing],DATEADD('Calendar'[Date],-1,MONTH)),...)`, result:'+12.3%'},
+    {name:'YTD Billing',     formula:`TOTALYTD([Total Billing],'Calendar'[Date])`,         result:'₹62.1M'},
+    {name:'Rank by Location',formula:`RANKX(ALL('${e}'[Location]),[Total Billing],,DESC,DENSE)`, result:'1-5'},
+    {name:'% Share',         formula:`DIVIDE([Total Records],CALCULATE([Total Records],ALL('${e}')))`, result:'100%'},
+    {name:'KPI Status',      formula:`IF([Avg Billing]>20000,"High",IF([Avg Billing]>10000,"Medium","Low"))`, result:'High'},
+    {name:'Rolling 30d Avg', formula:`CALCULATE(AVERAGE([BillingAmount]),DATESINPERIOD('Calendar'[Date],LASTDATE(...),-30,DAY))`, result:'₹18.2K'},
+  ];
+
+  document.getElementById('body-pbi').innerHTML=`
+    <!-- Schema -->
+    <div style="margin-bottom:16px">
+      <div style="font-size:13px;font-weight:600;color:#1e293b;margin-bottom:8px">powerbi_dataset.csv — Schema</div>
+      <table class="schema-table">
+        <thead><tr><th>SL No</th><th>Column</th><th>Description</th></tr></thead>
+        <tbody>
+          ${data.entity_schemas[e]?.columns?.map((c,i)=>`<tr><td>${i+1}</td><td><strong>${c.name}</strong></td><td>${c.desc}</td></tr>`).join('')||''}
+          <tr><td>${(data.entity_schemas[e]?.columns?.length||12)+1}</td><td><strong>Location</strong></td><td>City of hospital (from hospital file)</td></tr>
+          <tr><td>${(data.entity_schemas[e]?.columns?.length||12)+2}</td><td><strong>Specialization</strong></td><td>Doctor's specialization (from doctor file)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Transformations -->
+    <div style="margin-bottom:16px">
+      <div style="font-size:13px;font-weight:600;color:#1e293b;margin-bottom:10px">Transformations (10)</div>
+      ${transformations.map((tr,i)=>`
+        <div style="display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #f1f5f9">
+          <div style="background:#2563eb;color:#fff;border-radius:4px;padding:1px 7px;font-size:10px;font-weight:700;flex-shrink:0;height:fit-content;margin-top:2px">${String(i+1).padStart(2,'0')}</div>
+          <div>
+            <div style="font-size:12.5px;font-weight:600;color:#1e293b">${tr.t}</div>
+            <div style="font-size:12px;color:#475569;margin-top:2px">${tr.d}</div>
+          </div>
+        </div>`).join('')}
+    </div>
+
+    <!-- DAX TABLE -->
+    <div style="margin-bottom:16px">
+      <div style="font-size:13px;font-weight:600;color:#1e293b;margin-bottom:10px">DAX Measures (10)</div>
+      <table class="dax-table">
+        <thead><tr><th>Measure Name</th><th>DAX Formula</th><th>Sample Result</th></tr></thead>
+        <tbody>
+          ${daxMeasures.map(m=>`
+            <tr>
+              <td><span class="dax-name">${m.name}</span></td>
+              <td><code class="dax-formula">${m.formula}</code></td>
+              <td><span class="dax-result">${m.result}</span></td>
+            </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="pbi-wrap">
+      <div class="pbi-topbar">
+        <div class="pbi-logo">PBI</div>
+        <div class="pbi-report-title">${data.sector} Data Engineering Dashboard</div>
+      </div>
+      <div class="pbi-page-nav">
+        ${pages.map((p,i)=>`<button class="pbi-page-btn ${i===0?'active':''}" onclick="switchPBIPage(${i},'${p.replace(/'/g,"\\'")}',this)">${p}</button>`).join('')}
+      </div>
+      <div id="pbi-pages">
+        ${pages.map((p,pi)=>`
+          <div class="pbi-page ${pi===0?'active':''}" id="pbi-page-${pi}">
+            <div class="pbi-page-head">${p}</div>
+            ${buildPBIPage(p,pi,data)}
+          </div>`).join('')}
+      </div>
+    </div>`;
+
+  // Render charts after DOM is ready
+  setTimeout(()=>renderPBICharts(data), 100);
+}
+
+function buildPBIPage(page, pi, data){
+  const e = data.entities[0];
+  if(pi===0) return `
+    <div class="pbi-chart-grid">
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Count of Records by Category (Age > 35)</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c0"></canvas></div>
+      </div>
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Count of Records by Month</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c1"></canvas></div>
+      </div>
+    </div>
+    <div class="pbi-chart-grid">
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Count by Specialisation (Treemap style)</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c2"></canvas></div>
+      </div>
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Average Billing by Specialisation</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c3"></canvas></div>
+      </div>
+    </div>`;
+
+  if(pi===1) return `
+    <div class="pbi-chart-grid">
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Average Billing by Specialisation</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c4"></canvas></div>
+      </div>
+      <div class="pbi-chart-card" style="display:flex;flex-direction:column;gap:10px;justify-content:center;align-items:center">
+        <div class="pbi-kpi-card" style="width:100%">
+          <div class="pbi-kpi-val">₹17.78K</div>
+          <div class="pbi-kpi-lbl">Average Billing</div>
+        </div>
+        <div class="pbi-kpi-card" style="width:100%">
+          <div class="pbi-kpi-val" style="color:#059669">₹8.4M</div>
+          <div class="pbi-kpi-lbl">Total Billing</div>
+        </div>
+      </div>
+    </div>
+    <div class="pbi-chart-grid">
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Sum of Billing by Insurance Provider</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c5"></canvas></div>
+      </div>
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Sum of Billing by Location</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c6"></canvas></div>
+      </div>
+    </div>`;
+
+  return `
+    <div class="pbi-chart-grid">
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Count by Diagnosis (Age > 55)</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c7"></canvas></div>
+      </div>
+      <div class="pbi-chart-card" style="display:flex;align-items:center;justify-content:center">
+        <div class="pbi-kpi-card">
+          <div class="pbi-kpi-val">2</div>
+          <div class="pbi-kpi-lbl">Distinct Diagnosis Count</div>
+        </div>
+      </div>
+    </div>
+    <div class="pbi-chart-grid">
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Count by Gender (Donut)</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c8"></canvas></div>
+      </div>
+      <div class="pbi-chart-card">
+        <div class="pbi-chart-title">Count by Diagnosis (Horizontal Bar)</div>
+        <div class="pbi-chart-wrap"><canvas id="pbi-c9"></canvas></div>
+      </div>
+    </div>`;
+}
+
+function renderPBICharts(data){
+  const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const DIAG=['Covid-19','Malaria','TB','Diabetes','Asthma','Hypertension','Dengue','Typhoid','Pneumonia'];
+  const SPECS=['General Med','Cardiology','Orthopedics','Neurology','Pediatrics','Oncology'];
+  const CITIES=['Mumbai','Delhi','Chennai','Bangalore','Hyderabad'];
+  const INS=['LIC','Star Health','Bajaj Allianz','HDFC Ergo','Unknown'];
+  const COLORS=['#3b82f6','#8b5cf6','#10b981','#f59e0b','#ef4444','#06b6d4','#f97316','#84cc16','#ec4899'];
+
+  const r=(lo,hi)=>Math.floor(Math.random()*(hi-lo+1))+lo;
+  const arr=(n,lo,hi)=>Array.from({length:n},()=>r(lo,hi));
+
+  const cfgs={
+    'pbi-c0':{type:'bar',data:{labels:DIAG.slice(0,5),datasets:[{data:arr(5,20,80),backgroundColor:COLORS,borderRadius:4,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{color:'#f1f5f9'}}}}},
+    'pbi-c1':{type:'line',data:{labels:MONTHS,datasets:[{data:arr(12,15,60),borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,.08)',fill:true,tension:.4,pointRadius:3,borderWidth:2}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{color:'#f1f5f9'}}}}},
+    'pbi-c2':{type:'doughnut',data:{labels:SPECS,datasets:[{data:arr(6,20,80),backgroundColor:COLORS}]},options:{plugins:{legend:{position:'right',labels:{font:{size:10}}}},cutout:'55%'}},
+    'pbi-c3':{type:'bar',data:{labels:SPECS,datasets:[{data:arr(6,12000,35000),backgroundColor:COLORS,borderRadius:4,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{callback:v=>'₹'+v.toLocaleString()},grid:{color:'#f1f5f9'}},y:{grid:{display:false}}}}},
+    'pbi-c4':{type:'bar',data:{labels:SPECS,datasets:[{data:arr(6,12000,30000),backgroundColor:COLORS,borderRadius:4,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{ticks:{callback:v=>'₹'+v.toLocaleString()},grid:{color:'#f1f5f9'}}}}},
+    'pbi-c5':{type:'doughnut',data:{labels:INS,datasets:[{data:arr(5,50,200),backgroundColor:COLORS}]},options:{plugins:{legend:{position:'right',labels:{font:{size:10}}}},cutout:'50%'}},
+    'pbi-c6':{type:'bar',data:{labels:CITIES,datasets:[{data:arr(5,500000,2000000),backgroundColor:COLORS,borderRadius:4,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{ticks:{callback:v=>'₹'+(v/1000).toFixed(0)+'K'},grid:{color:'#f1f5f9'}}}}},
+    'pbi-c7':{type:'bar',data:{labels:DIAG.slice(0,5),datasets:[{data:arr(5,5,30),backgroundColor:COLORS,borderRadius:4,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{color:'#f1f5f9'}}}}},
+    'pbi-c8':{type:'doughnut',data:{labels:['Male','Female','Other'],datasets:[{data:[r(45,55),r(35,45),r(2,8)],backgroundColor:['#3b82f6','#ec4899','#10b981']}]},options:{plugins:{legend:{position:'right'}},cutout:'60%'}},
+    'pbi-c9':{type:'bar',data:{labels:DIAG,datasets:[{data:arr(DIAG.length,10,80),backgroundColor:'#3b82f6',borderRadius:4,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{grid:{color:'#f1f5f9'}},y:{grid:{display:false}}}}},
+  };
+
+  const baseOpts={responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{font:{size:11},boxWidth:12}}}};
+
+  Object.entries(cfgs).forEach(([id,cfg])=>{
+    const el=document.getElementById(id);
+    if(!el) return;
+    cfg.options={...baseOpts,...cfg.options,plugins:{...baseOpts.plugins,...cfg.options?.plugins}};
+    if(pbiCharts[id]) try{pbiCharts[id].destroy()}catch{}
+    pbiCharts[id]=new Chart(el.getContext('2d'),cfg);
+  });
+}
+
+function switchPBIPage(idx, name, btn){
+  document.querySelectorAll('.pbi-page-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.pbi-page').forEach((p,i)=>p.classList.toggle('active',i===idx));
+  setTimeout(()=>{
+    Object.values(pbiCharts).forEach(c=>{try{c.resize()}catch{}});
+  }, 50);
+}
+
+/* ── HELPERS ────────────────────────────────────────────── */
+function toggleSec(id){
+  document.getElementById(id).classList.toggle('open');
+}
+
+function copyText(btn, text){
+  navigator.clipboard.writeText(text).then(()=>{
+    btn.textContent='✓'; setTimeout(()=>btn.textContent='Copy',2000);
+  });
+}
+
+function copyBlock(btn){
+  const code = btn.parentElement.textContent.replace(/^Copy/,'').trim();
+  navigator.clipboard.writeText(code).then(()=>{
+    btn.textContent='✓ Copied'; setTimeout(()=>btn.textContent='Copy',2000);
+  });
+}
+
+async function dlFile(type){
+  if(!currentData){ toast('error','Generate first'); return; }
+  try{
+    const res=await fetch(`/api/download/${type}`);
+    if(!res.ok) throw new Error();
+    const blob=await res.blob();
+    const ext=type==='both'?'.zip':'.txt';
+    const fname=`${currentData.sector.replace(/ /g,'_')}_${type}${ext}`;
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob); a.download=fname; a.click();
+    URL.revokeObjectURL(a.href);
+    toast('success',`⬇ ${fname}`);
+  } catch {
+    // offline — download preview
+    const content = document.getElementById('prog-title').textContent;
+    const blob=new Blob([`${currentData.sector} capstone document\nStart backend (python server.py) for full download.`],{type:'text/plain'});
+    const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+    a.download=`${currentData.sector}_${type}.txt`; a.click();
+    toast('info','Demo download — start backend for full document');
+  }
+}
+
+let toastT=null;
+function toast(type,msg){
+  const el=document.getElementById('toast');
+  el.textContent=msg; el.className=`toast ${type} show`;
+  if(toastT) clearTimeout(toastT);
+  toastT=setTimeout(()=>el.classList.remove('show'),3500);
+}
+</script>
+</body>
+</html>
