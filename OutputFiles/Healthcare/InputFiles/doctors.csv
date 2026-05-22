@@ -1,0 +1,5254 @@
+DoctorID,Name,Specialization,HospitalID
+DOC0001,From,Pediatrics,HOS0016
+DOC0002,Investment,Pediatrics,HOS0004
+DOC0003,National,Pediatrics,HOS0007
+DOC0004,Accept,NEUROLOGY,HOS0016
+DOC0005,Animal,Cardiology,HOS0015
+INVALID_70,Them,General Medicine,HOS0001
+DOC0007,Fall,Cardiology,HOS0020
+DOC0008,Around,Neurology,HOS0007
+DOC0009,Prepare,Orthopedics,HOS0010
+DOC0010,Against,Neurology,HOS0006
+DOC0011,A,Cardiology,HOS0017
+DOC0012,Could,Neurology,HOS0006
+DOC0013,Outside,Cardiology,HOS0005
+DOC0014,Face,General Medicine,HOS0020
+DOC0015,Actually,Oncology,HOS0016
+DOC0016,Partner,Cardiology,HOS0001
+DOC0017,Message,General Medicine,HOS0004
+DOC0018,Now,Cardiology,HOS0009
+DOC0019,Address,Oncology,HOS0008
+DOC0020,Find,Oncology,HOS0012
+DOC0021,Southern,Cardiology,HOS9999
+DOC0022,Professional,General Medicine,HOS0004
+INVALID_65,Network,Cardiology,HOS0002
+DOC0024,Vote,PEDIATRICS,HOS0013
+DOC0025,Room,Orthopedics,HOS0002
+DOC0026,Also,Neurology,HOS0015
+DOC0027,Agent,ONCOLOGY,HOS0012
+DOC0028,Blood,General Medicine,HOS0014
+DOC0029,Since,General Medicine,HOS0001
+DOC0030,Rock,Oncology,HOS0015
+DOC0031,Top,Oncology,HOS0018
+DOC0032,Stuff,Orthopedics,HOS0011
+DOC0033,Keep,Neurology,HOS0019
+DOC0034,Change,Cardiology,HOS0003
+DOC0035,Difficult,Cardiology,HOS0001
+DOC0036,Nation,Orthopedics,HOS0020
+DOC0037,Growth,Oncology,HOS0011
+DOC0035,Election,Oncology,HOS9999
+INVALID_19,Tough,Pediatrics,HOS0007
+DOC0040,Begin,Orthopedics,HOS0003
+DOC0041,Perform,Cardiology,HOS0014
+DOC0042,Onto,Cardiology,HOS0006
+DOC0043,Those,Neurology,HOS0011
+DOC0044,Successful,Neurology,HOS0014
+DOC0045,Far,Cardiology,HOS0006
+DOC0046,Wait,Oncology,HOS0015
+DOC0047,Represent,Oncology,HOS0017
+DOC0048,Dream,Neurology,HOS0016
+DOC0049,Perhaps,Pediatrics,HOS0010
+DOC0050,Than,Orthopedics,HOS0018
+DOC0051,Bit,General Medicine,HOS0003
+DOC0052,Avoid,Cardiology,HOS0007
+DOC0053,Offer,General Medicine,HOS0014
+DOC0054,Third,General Medicine,HOS0015
+DOC0055,Into,Orthopedics,HOS9999
+DOC0056,Federal,Orthopedics,HOS0011
+DOC0057,Kitchen,Orthopedics,HOS0007
+DOC0058,Hotel,Oncology,HOS0012
+DOC0059,Happy,pediatrics,HOS0002
+DOC0060,Style,General Medicine,HOS0010
+DOC0061,Activity,Cardiology,HOS0003
+DOC0062,Into,General Medicine,HOS0014
+DOC0063,Better,Cardiology,HOS0004
+DOC0064,Walk,ORTHOPEDICS,HOS0018
+DOC0065,Fight,General Medicine,HOS0010
+DOC0066,Keep,General Medicine,HOS0001
+DOC0067,Style,Pediatrics,HOS0015
+DOC0068,Reduce,Cardiology,HOS0015
+DOC0069,Cause,General Medicine,HOS0009
+DOC0070,Father,Neurology,HOS0018
+DOC0071,Professional,Cardiology,HOS0020
+DOC0072,International,Orthopedics,HOS0002
+DOC0073,Above,General Medicine,HOS0011
+DOC0074,Fine,Orthopedics,HOS0009
+DOC0062,Season,Cardiology,HOS0020
+DOC0076,Mr,Cardiology,HOS0001
+DOC0045,Reason,Neurology,HOS0012
+DOC0078,Mention,Orthopedics,HOS0019
+DOC0079,Cold,Cardiology,HOS0012
+DOC0080,Have,Cardiology,HOS0013
+DOC0081,Size,Neurology,HOS0014
+DOC0078,His,Orthopedics,HOS0003
+DOC0083,Concern,Pediatrics,HOS0011
+DOC0084,Cover,Neurology,HOS0003
+DOC0085,Figure,Cardiology,HOS0009
+DOC0086,Response,Pediatrics,HOS0001
+DOC0087,This,Oncology,HOS0006
+DOC0088,Subject,Oncology,HOS0010
+DOC0089,Career,GENERAL MEDICINE,HOS9999
+DOC0090,Full,Orthopedics,HOS0019
+DOC0091,Television,Pediatrics,HOS0001
+DOC0092,Throughout,NEUROLOGY,HOS0003
+DOC0093,Along,General Medicine,HOS0015
+DOC0094,May,Orthopedics,HOS0001
+DOC0095,Return,Cardiology,HOS0016
+DOC0096,Attention,Neurology,HOS0006
+DOC0097,However,Pediatrics,HOS0018
+DOC0098,Tough,Oncology,HOS0017
+DOC0099,Send,General Medicine,HOS0020
+DOC0100,Instead,Oncology,HOS0017
+DOC0101,Base,Neurology,HOS0014
+DOC0102,Mention,Pediatrics,HOS0006
+DOC0103,Win,Pediatrics,HOS0017
+DOC0104,Mouth,Orthopedics,HOS0017
+DOC0105,Old,Oncology,HOS0015
+DOC0059,Control,Pediatrics,HOS0012
+DOC0107,A,General Medicine,HOS0003
+DOC0108,Need,General Medicine,HOS0008
+DOC0109,Again,Neurology,HOS0020
+DOC0024,Join,Cardiology,HOS0008
+DOC0111,Someone,Oncology,HOS0013
+DOC0112,Most,Oncology,HOS0004
+DOC0113,Common,Neurology,HOS0014
+DOC0114,Lead,Cardiology,HOS0002
+DOC0115,Great,General Medicine,HOS0007
+DOC0116,Model,Neurology,HOS0017
+DOC0117,Back,General Medicine,HOS0010
+DOC0118,Road,Neurology,HOS0019
+DOC0119,Several,Cardiology,HOS0020
+DOC0120,Account,General Medicine,HOS0013
+DOC0121,Lot,Pediatrics,HOS0018
+DOC0122,Bed,General Medicine,HOS0008
+DOC0123,Town,Cardiology,HOS0004
+DOC0124,Develop,Neurology,HOS0020
+DOC0125,Outside,Neurology,HOS0006
+DOC0126,Foot,Oncology,HOS0004
+DOC0127,End,Orthopedics,HOS0015
+INVALID_91,Approach,Cardiology,HOS0009
+DOC0129,Less,Cardiology,HOS0006
+DOC0130,Culture,Orthopedics,HOS0017
+DOC0131,Wind,Orthopedics,HOS0005
+DOC0132,Couple,Neurology,HOS0015
+DOC0133,General,Oncology,HOS0019
+DOC0134,Chair,Orthopedics,HOS0020
+DOC0135,Woman,Pediatrics,HOS0001
+DOC0136,Friend,Pediatrics,HOS0017
+DOC0137,Son,Cardiology,HOS0008
+DOC0138,Door,General Medicine,HOS0009
+DOC0139,Spring,Neurology,HOS0004
+DOC0140,Clearly,ORTHOPEDICS,HOS0017
+DOC0141,Sometimes,Cardiology,HOS0019
+DOC0142,Feeling,Cardiology,HOS0002
+DOC0143,Scientist,Neurology,HOS0005
+DOC0144,Current,Neurology,HOS0013
+DOC0145,Back,Oncology,HOS0003
+DOC0146,Necessary,CARDIOLOGY,HOS0010
+INVALID_46,Eight,Neurology,HOS0010
+DOC0148,Arrive,Oncology,HOS0008
+DOC0149,Game,Neurology,HOS0019
+DOC0150,Off,General Medicine,HOS0008
+DOC0151,Blue,Neurology,HOS0003
+DOC0152,Room,Pediatrics,HOS0006
+DOC0153,Seem,Pediatrics,HOS0014
+DOC0154,Someone,Cardiology,HOS0019
+DOC0155,Product,oncology,HOS0011
+DOC0156,Try,Pediatrics,HOS0018
+DOC0157,Garden,Orthopedics,HOS0017
+DOC0158,Return,General Medicine,HOS0006
+DOC0159,National,Neurology,HOS0014
+DOC0160,Notice,Pediatrics,HOS0012
+DOC0161,Everybody,GENERAL MEDICINE,HOS0002
+DOC0162,Official,Cardiology,HOS0017
+DOC0163,Ahead,General Medicine,HOS0001
+DOC0164,Sing,Oncology,HOS0004
+DOC0165,Party,Cardiology,HOS0012
+DOC0166,Late,Pediatrics,HOS0016
+DOC0167,Out,Oncology,HOS0011
+DOC0168,Too,Neurology,HOS0019
+DOC0169,Far,Orthopedics,HOS0003
+DOC0170,Candidate,Pediatrics,HOS0015
+DOC0171,Main,Orthopedics,HOS0003
+DOC0172,Level,general medicine,HOS0010
+DOC0173,Like,Neurology,HOS0020
+DOC0174,Tell,neurology,HOS0002
+DOC0175,West,Oncology,HOS0010
+DOC0176,Group,Cardiology,HOS0011
+DOC0177,Glass,Pediatrics,HOS0004
+DOC0178,We,Neurology,HOS0011
+DOC0179,Visit,CARDIOLOGY,HOS0020
+DOC0180,Care,Neurology,HOS0011
+DOC0181,Will,Cardiology,HOS0013
+DOC0182,Inside,Neurology,HOS0020
+DOC0183,Camera,Pediatrics,HOS0009
+DOC0184,Start,Orthopedics,HOS0010
+DOC0185,With,Orthopedics,HOS0010
+INVALID_28,Figure,Orthopedics,HOS0011
+DOC0187,Perhaps,General Medicine,HOS0014
+DOC0188,Catch,Orthopedics,HOS0009
+INVALID_63,Mission,Orthopedics,HOS0005
+DOC0190,Bar,General Medicine,HOS0004
+DOC0191,Paper,ONCOLOGY,HOS0018
+DOC0192,Knowledge,Oncology,HOS0015
+DOC0193,Hair,Cardiology,HOS0019
+DOC0194,Way,General Medicine,HOS0020
+DOC0195,Allow,oncology,HOS0019
+DOC0196,Action,Cardiology,HOS0007
+DOC0197,Force,Orthopedics,HOS0016
+DOC0198,Become,Neurology,HOS0004
+DOC0199,Performance,General Medicine,HOS0009
+DOC0200,Through,Neurology,HOS0003
+DOC0201,Ball,General Medicine,HOS0019
+DOC0202,Time,Oncology,HOS0014
+DOC0203,Them,Neurology,HOS0010
+DOC0204,Candidate,Neurology,HOS9999
+DOC0205,Turn,Neurology,HOS0010
+DOC0206,Southern,PEDIATRICS,HOS0019
+DOC0207,Leg,Neurology,HOS0004
+DOC0208,Push,General Medicine,HOS0011
+DOC0209,Evening,General Medicine,HOS0017
+DOC0210,Hold,Cardiology,HOS0020
+DOC0211,Sense,Pediatrics,HOS0004
+INVALID_79,Public,Pediatrics,HOS0017
+DOC0213,Theory,Neurology,HOS0011
+DOC0214,For,General Medicine,HOS0006
+INVALID_7,Recognize,NEUROLOGY,HOS0019
+DOC0216,Education,Orthopedics,HOS0017
+DOC0217,Game,Cardiology,HOS0014
+DOC0218,Establish,Neurology,HOS0012
+DOC0219,Store,Oncology,HOS0004
+INVALID_1,Significant,Pediatrics,HOS0003
+DOC0221,Camera,Orthopedics,HOS0018
+DOC0222,But,Neurology,HOS0016
+DOC0223,Green,Cardiology,HOS0013
+DOC0224,Establish,Orthopedics,HOS9999
+DOC0225,Job,Pediatrics,HOS0004
+DOC0226,Thank,Cardiology,HOS0008
+DOC0227,Animal,General Medicine,HOS0005
+DOC0228,Remain,Pediatrics,HOS0003
+DOC0229,Produce,Neurology,HOS0007
+DOC0230,Feeling,Oncology,HOS0001
+DOC0231,Stay,Neurology,HOS0015
+DOC0232,Eye,Oncology,HOS0012
+DOC0233,Its,Orthopedics,HOS0010
+DOC0234,Spring,Orthopedics,HOS0013
+DOC0217,Process,Cardiology,HOS0016
+DOC0236,Top,Orthopedics,HOS0018
+DOC0237,Speak,General Medicine,HOS0016
+DOC0049,Child,Cardiology,HOS0017
+DOC0239,Sort,neurology,HOS0018
+DOC0240,Talk,Oncology,HOS0008
+INVALID_48,Worry,Pediatrics,HOS0004
+DOC0242,Environment,Orthopedics,HOS0002
+DOC0243,Lay,Neurology,HOS0013
+DOC0244,Write,General Medicine,HOS0015
+DOC0245,Necessary,Orthopedics,HOS0009
+DOC0246,Number,Orthopedics,HOS0007
+DOC0247,Himself,Pediatrics,HOS0002
+DOC0248,Spend,Neurology,HOS0009
+DOC0249,Against,Pediatrics,HOS0018
+DOC0250,Her,Oncology,HOS0019
+DOC0251,Population,Orthopedics,HOS0011
+DOC0252,Wide,Orthopedics,HOS0003
+DOC0253,Imagine,Pediatrics,HOS0004
+DOC0254,Foreign,Neurology,HOS0020
+DOC0255,Sure,Cardiology,HOS0017
+DOC0256,Establish,Neurology,HOS0016
+DOC0257,Allow,Orthopedics,HOS0011
+DOC0258,Easy,Cardiology,HOS0016
+DOC0210,Work,Oncology,HOS0015
+DOC0260,Stuff,cardiology,HOS0019
+DOC0261,Here,Oncology,HOS0008
+DOC0262,Government,Orthopedics,HOS0015
+DOC0198,The,Neurology,HOS0002
+DOC0264,Behind,General Medicine,HOS0013
+DOC0265,Indicate,Orthopedics,HOS0002
+DOC0266,See,Neurology,HOS0004
+DOC0267,Memory,General Medicine,HOS0009
+DOC0136,Result,Oncology,HOS0019
+DOC0269,Difference,ONCOLOGY,HOS0015
+DOC0270,Republican,General Medicine,HOS0016
+DOC0271,Add,Pediatrics,HOS0004
+DOC0272,Week,Oncology,HOS0001
+DOC0273,Without,Orthopedics,HOS0007
+DOC0274,Know,General Medicine,HOS0019
+DOC0275,Usually,GENERAL MEDICINE,HOS0002
+DOC0276,Window,Pediatrics,HOS0018
+DOC0277,Environmental,Cardiology,HOS0015
+DOC0278,Music,Neurology,HOS0010
+DOC0212,Pay,General Medicine,HOS0008
+DOC0280,Tv,Cardiology,HOS0013
+DOC0281,Whose,Orthopedics,HOS0002
+DOC0282,Most,Pediatrics,HOS0015
+DOC0283,Here,Oncology,HOS0019
+DOC0284,Customer,GENERAL MEDICINE,HOS0018
+DOC0285,Piece,Neurology,HOS0002
+DOC0286,Election,cardiology,HOS0001
+DOC0287,Parent,Orthopedics,HOS0006
+DOC0288,Ok,Orthopedics,HOS0015
+DOC0289,National,neurology,HOS0010
+DOC0290,Beautiful,Oncology,HOS0005
+DOC0291,Present,ORTHOPEDICS,HOS0005
+DOC0292,Bill,Neurology,HOS0013
+DOC0293,Building,Pediatrics,HOS0016
+DOC0294,Who,Oncology,HOS0015
+DOC0295,Budget,General Medicine,HOS0008
+DOC0296,Policy,Pediatrics,HOS0018
+DOC0297,Fine,Pediatrics,HOS0012
+INVALID_68,Cultural,Neurology,HOS0020
+DOC0299,Serious,Neurology,HOS0005
+DOC0300,Resource,Neurology,HOS0007
+DOC0301,Improve,General Medicine,HOS0008
+DOC0302,Official,Pediatrics,HOS0014
+DOC0303,Ability,Pediatrics,HOS0005
+DOC0304,Dinner,Neurology,HOS0013
+DOC0305,Style,Neurology,HOS0002
+DOC0306,Certain,General Medicine,HOS0014
+DOC0307,Matter,Cardiology,HOS0005
+DOC0308,Movement,Cardiology,HOS0009
+DOC0309,Imagine,Oncology,HOS9999
+DOC0310,Today,Orthopedics,HOS0010
+DOC0311,Rock,Oncology,HOS9999
+DOC0312,Read,Pediatrics,HOS0005
+DOC0313,Store,General medicine,HOS0019
+INVALID_20,Part,Oncology,HOS0001
+DOC0315,Although,Neurology,HOS0010
+DOC0316,Those,Oncology,HOS0020
+DOC0317,Doctor,Cardiology,HOS0014
+DOC0318,Various,Orthopedics,HOS0016
+DOC0319,Compare,Oncology,HOS0019
+DOC0320,Thank,General Medicine,HOS0016
+DOC0321,Short,Cardiology,HOS0001
+DOC0322,Special,Cardiology,HOS0007
+DOC0323,Next,Cardiology,HOS0018
+DOC0324,Serve,General Medicine,HOS0009
+DOC0325,Could,Pediatrics,HOS0006
+DOC0326,Almost,Pediatrics,HOS0014
+DOC0327,Operation,Cardiology,HOS0016
+DOC0328,Part,General Medicine,HOS0007
+DOC0329,Guess,neurology,HOS0009
+DOC0330,History,General Medicine,HOS0012
+DOC0331,Address,Oncology,HOS0008
+DOC0332,Structure,Oncology,HOS0001
+INVALID_38,Write,Orthopedics,HOS0011
+DOC0334,Citizen,Pediatrics,HOS0006
+DOC0335,Wonder,Cardiology,HOS0011
+DOC0336,Better,General Medicine,HOS0004
+DOC0337,World,Cardiology,HOS0018
+DOC0338,Own,Cardiology,HOS9999
+DOC0339,Same,Pediatrics,HOS0018
+DOC0340,Water,General Medicine,HOS0015
+DOC0341,Suffer,Orthopedics,HOS0008
+DOC0342,From,Cardiology,HOS0017
+DOC0343,Collection,Oncology,HOS0018
+DOC0344,Commercial,NEUROLOGY,HOS0007
+DOC0345,Return,Cardiology,HOS0013
+DOC0346,Audience,Oncology,HOS0016
+DOC0347,Attack,Cardiology,HOS9999
+INVALID_83,Personal,Neurology,HOS0019
+DOC0349,Government,Pediatrics,HOS0014
+DOC0350,Major,Orthopedics,HOS0009
+DOC0351,Significant,Neurology,HOS0017
+DOC0352,Above,Cardiology,HOS0008
+DOC0353,Movie,general medicine,HOS0008
+DOC0354,Those,Oncology,HOS0015
+INVALID_31,Population,Neurology,HOS0001
+DOC0356,Final,General Medicine,HOS0009
+DOC0357,Plan,Pediatrics,HOS0010
+DOC0358,Relate,Neurology,HOS9999
+DOC0359,Next,Cardiology,HOS0006
+DOC0360,Impact,Cardiology,HOS0014
+DOC0361,Culture,cardiology,HOS0004
+DOC0362,Wind,Pediatrics,HOS0013
+DOC0363,Name,Pediatrics,HOS0013
+DOC0364,Sea,General Medicine,HOS0016
+INVALID_11,Go,Orthopedics,HOS0017
+DOC0366,Here,Neurology,HOS0004
+DOC0367,However,Cardiology,HOS0001
+DOC0368,Seven,Oncology,HOS0016
+DOC0369,Nor,Oncology,HOS0019
+DOC0370,Myself,Orthopedics,HOS0008
+DOC0371,Yourself,General Medicine,HOS0019
+DOC0372,Property,pediatrics,HOS0003
+DOC0373,Industry,Pediatrics,HOS0014
+DOC0374,Line,Oncology,HOS0003
+DOC0375,Party,NEUROLOGY,HOS0006
+DOC0376,Walk,Orthopedics,HOS0009
+DOC0377,Left,Neurology,HOS0005
+DOC0378,Back,Neurology,HOS0013
+DOC0379,Our,Oncology,HOS0020
+DOC0380,Find,Neurology,HOS0020
+DOC0381,Year,Neurology,HOS0005
+DOC0382,Member,Oncology,HOS0010
+DOC0383,Last,General Medicine,HOS0012
+DOC0384,Article,Neurology,HOS0005
+DOC0385,Skill,Pediatrics,HOS0002
+DOC0386,Store,Cardiology,HOS0012
+DOC0387,Right,Oncology,HOS0002
+DOC0388,Knowledge,Cardiology,HOS0002
+DOC0389,Cost,Orthopedics,HOS0005
+DOC0390,Moment,General Medicine,HOS0001
+DOC0391,Need,Neurology,HOS0005
+DOC0392,During,Cardiology,HOS0007
+DOC0393,Ago,Neurology,HOS0004
+DOC0394,Those,General Medicine,HOS0020
+DOC0181,Opportunity,Pediatrics,HOS0002
+INVALID_40,Value,Oncology,HOS0012
+DOC0397,Production,Orthopedics,HOS0007
+DOC0398,Remain,General Medicine,HOS0007
+DOC0399,Pass,Orthopedics,HOS0011
+DOC0400,Win,Oncology,HOS0001
+DOC0401,Can,Cardiology,HOS0003
+DOC0402,Black,Pediatrics,HOS0012
+DOC0403,Or,Pediatrics,HOS0005
+DOC0404,Argue,General Medicine,HOS0009
+DOC0405,Education,General Medicine,HOS0012
+DOC0406,And,Pediatrics,HOS0015
+DOC0407,Herself,Orthopedics,HOS0018
+DOC0408,Board,Oncology,HOS0016
+DOC0409,Drop,Orthopedics,HOS0003
+DOC0410,Into,Cardiology,HOS0008
+DOC0411,Loss,Cardiology,HOS0020
+DOC0412,Night,Orthopedics,HOS0016
+DOC0413,May,orthopedics,HOS0005
+DOC0414,Common,Orthopedics,HOS0001
+DOC0415,Test,Oncology,HOS0013
+DOC0416,Customer,Oncology,HOS0013
+DOC0417,Result,Pediatrics,HOS0014
+DOC0418,Account,General Medicine,HOS0018
+DOC0419,Behind,General Medicine,HOS0017
+DOC0420,Record,Cardiology,HOS0019
+DOC0421,Color,oncology,HOS0001
+DOC0422,Beat,Neurology,HOS0019
+DOC0423,Play,orthopedics,HOS0004
+DOC0424,Design,Cardiology,HOS0012
+DOC0425,Building,Oncology,HOS0008
+DOC0426,I,NEUROLOGY,HOS0019
+DOC0427,Language,Oncology,HOS0016
+DOC0428,Toward,Pediatrics,HOS0013
+DOC0429,Author,Cardiology,HOS0020
+DOC0430,Two,Cardiology,HOS0002
+DOC0431,Per,General Medicine,HOS0002
+DOC0432,How,Neurology,HOS0002
+DOC0433,Behavior,Pediatrics,HOS0010
+DOC0434,Enough,Neurology,HOS0016
+DOC0435,Nearly,Pediatrics,HOS0005
+DOC0436,Responsibility,Oncology,HOS0013
+DOC0437,Major,ORTHOPEDICS,HOS0013
+DOC0438,Decision,Neurology,HOS0018
+DOC0439,If,General Medicine,HOS0003
+DOC0440,Me,Orthopedics,HOS0009
+DOC0441,Religious,Neurology,HOS0018
+INVALID_41,Spend,neurology,HOS0001
+DOC0443,Exist,Cardiology,HOS0015
+DOC0444,Ok,Oncology,HOS0004
+DOC0445,Cup,Pediatrics,HOS0011
+DOC0446,Sing,Cardiology,HOS0007
+DOC0447,Though,Orthopedics,HOS0014
+DOC0448,Past,Orthopedics,HOS0009
+DOC0449,Among,Oncology,HOS0011
+DOC0450,One,Orthopedics,HOS0020
+DOC0451,Later,Orthopedics,HOS0008
+DOC0452,Movement,General Medicine,HOS0019
+DOC0453,Nice,General Medicine,HOS0015
+DOC0351,Pattern,Cardiology,HOS0001
+DOC0455,Main,Neurology,HOS0003
+DOC0456,Else,General Medicine,HOS0009
+DOC0457,Instead,Pediatrics,HOS0008
+DOC0458,First,Oncology,HOS0005
+DOC0240,Their,Pediatrics,HOS0014
+INVALID_48,The,neurology,HOS0005
+DOC0461,President,Neurology,HOS0007
+DOC0462,Score,Neurology,HOS0015
+DOC0463,Soldier,Orthopedics,HOS0004
+DOC0464,Course,Cardiology,HOS0004
+DOC0465,Figure,Pediatrics,HOS0011
+DOC0466,Project,Cardiology,HOS0001
+DOC0467,President,Orthopedics,HOS0018
+DOC0468,Size,orthopedics,HOS0009
+DOC0469,Strong,Cardiology,HOS9999
+DOC0470,Bank,General Medicine,HOS0011
+DOC0471,Run,General Medicine,HOS0013
+DOC0472,Popular,Cardiology,HOS0018
+DOC0473,Whether,Neurology,HOS0013
+DOC0474,Government,General Medicine,HOS0008
+DOC0475,Owner,Orthopedics,HOS0008
+DOC0476,Under,Orthopedics,HOS0009
+DOC0477,Majority,General Medicine,HOS0012
+DOC0478,Its,Neurology,HOS0006
+DOC0479,Any,general medicine,HOS0010
+DOC0480,Try,Orthopedics,HOS0015
+DOC0422,Me,Orthopedics,HOS0001
+DOC0482,Republican,Oncology,HOS0014
+DOC0483,Born,Orthopedics,HOS0020
+DOC0484,Outside,General Medicine,HOS0013
+DOC0485,Mind,Oncology,HOS0008
+DOC0486,End,Oncology,HOS0014
+DOC0487,Word,Cardiology,HOS0019
+DOC0216,Will,General Medicine,HOS0017
+DOC0489,Real,Pediatrics,HOS0003
+DOC0490,First,ONCOLOGY,HOS0011
+DOC0491,Pattern,Orthopedics,HOS0014
+DOC0492,Reveal,Orthopedics,HOS0005
+DOC0493,Finish,Neurology,HOS0009
+DOC0494,Picture,Orthopedics,HOS0018
+DOC0495,Prove,Neurology,HOS0010
+DOC0496,Heavy,Orthopedics,HOS0016
+DOC0497,Nature,Pediatrics,HOS0004
+DOC0498,Everyone,Orthopedics,HOS0003
+DOC0499,Others,Neurology,HOS0010
+DOC0500,Heavy,General Medicine,HOS0019
+DOC0501,Top,Orthopedics,HOS0015
+DOC0502,Eight,Oncology,HOS0020
+DOC0503,Company,Neurology,HOS0019
+DOC0504,Kid,Pediatrics,HOS0010
+DOC0505,While,Oncology,HOS0004
+DOC0506,Maintain,Pediatrics,HOS0014
+DOC0507,Use,Neurology,HOS0019
+DOC0508,Window,Oncology,HOS0013
+DOC0509,Hear,Neurology,HOS0007
+DOC0510,Ground,Pediatrics,HOS0012
+DOC0511,Official,Pediatrics,HOS0012
+DOC0512,Sea,Neurology,HOS0016
+DOC0513,Scientist,General Medicine,HOS0012
+DOC0514,Dark,Neurology,HOS0018
+DOC0515,Inside,Cardiology,HOS0015
+DOC0516,Sound,Neurology,HOS0001
+DOC0517,Guy,Cardiology,HOS0006
+DOC0518,Stuff,General Medicine,HOS0002
+DOC0519,Meeting,General Medicine,HOS0015
+DOC0520,Throw,Neurology,HOS0001
+INVALID_84,Face,Pediatrics,HOS0005
+DOC0522,Color,Cardiology,HOS0015
+DOC0523,Firm,General Medicine,HOS0013
+DOC0524,Material,General Medicine,HOS0017
+DOC0525,Cell,Pediatrics,HOS0001
+DOC0526,Outside,Pediatrics,HOS0020
+DOC0527,Bank,Orthopedics,HOS0010
+DOC0528,Building,General Medicine,HOS0001
+DOC0529,Should,Pediatrics,HOS0008
+DOC0530,Sport,Cardiology,HOS0013
+DOC0531,Hair,Oncology,HOS0002
+DOC0532,Two,General Medicine,HOS0003
+DOC0533,Moment,Cardiology,HOS0019
+DOC0534,Fast,Neurology,HOS0009
+DOC0535,Truth,Neurology,HOS0017
+DOC0536,Simple,Cardiology,HOS0013
+DOC0537,Affect,Pediatrics,HOS0012
+DOC0538,Growth,Cardiology,HOS0002
+DOC0539,Let,Orthopedics,HOS0007
+DOC0540,Shake,Pediatrics,HOS0009
+DOC0541,Cut,Oncology,HOS0020
+DOC0542,Knowledge,Neurology,HOS0016
+DOC0543,Nice,Cardiology,HOS0002
+DOC0544,Take,orthopedics,HOS0004
+DOC0545,Foreign,Pediatrics,HOS0010
+DOC0546,Who,Neurology,HOS0008
+DOC0479,Lay,Pediatrics,HOS0016
+DOC0169,Best,General Medicine,HOS0007
+DOC0549,These,Cardiology,HOS0002
+DOC0550,Determine,Orthopedics,HOS0003
+DOC0551,Low,Cardiology,HOS0003
+DOC0552,Involve,Neurology,HOS0016
+DOC0553,Although,Pediatrics,HOS0018
+DOC0554,Young,Pediatrics,HOS0004
+DOC0555,Discussion,General medicine,HOS0014
+DOC0556,Side,Neurology,HOS0020
+DOC0557,Participant,Oncology,HOS0007
+DOC0558,Face,Cardiology,HOS0005
+DOC0559,Recent,Pediatrics,HOS0012
+DOC0560,Food,Oncology,HOS0018
+DOC0561,Perhaps,Neurology,HOS0016
+DOC0562,Fast,Oncology,HOS0012
+DOC0563,Service,Cardiology,HOS9999
+DOC0564,Spend,Neurology,HOS0009
+DOC0565,Option,Orthopedics,HOS0004
+DOC0566,Ok,General Medicine,HOS0008
+DOC0567,Way,Cardiology,HOS0003
+DOC0568,Church,Neurology,HOS0009
+DOC0419,Born,Pediatrics,HOS0008
+DOC0570,Finish,Orthopedics,HOS0011
+DOC0571,Wife,Orthopedics,HOS9999
+DOC0572,As,General Medicine,HOS0017
+DOC0573,Way,Oncology,HOS0011
+DOC0574,Benefit,Orthopedics,HOS0007
+DOC0575,Hear,Orthopedics,HOS0018
+DOC0576,Suddenly,Cardiology,HOS0004
+DOC0577,Close,Neurology,HOS0012
+DOC0578,Day,Orthopedics,HOS0006
+DOC0579,Which,oncology,HOS0019
+DOC0580,Through,General Medicine,HOS0006
+DOC0581,Blood,Oncology,HOS9999
+DOC0582,Follow,General Medicine,HOS0018
+DOC0583,New,General Medicine,HOS0010
+DOC0584,Name,Neurology,HOS0013
+DOC0585,Choose,Oncology,HOS0012
+DOC0586,Idea,neurology,HOS0015
+DOC0587,Wish,Oncology,HOS0012
+DOC0588,Just,Neurology,HOS0008
+DOC0589,Think,General Medicine,HOS0003
+DOC0590,Mrs,Pediatrics,HOS0019
+DOC0591,Form,Orthopedics,HOS0008
+DOC0592,Listen,General Medicine,HOS0001
+DOC0593,Financial,orthopedics,HOS0012
+DOC0594,Mother,General Medicine,HOS0019
+DOC0595,Financial,Cardiology,HOS0019
+DOC0596,Put,Neurology,HOS0013
+INVALID_2,Drug,Neurology,HOS0019
+DOC0598,Mission,Pediatrics,HOS0020
+DOC0599,Experience,General Medicine,HOS0017
+DOC0600,If,Neurology,HOS0009
+DOC0601,Science,Oncology,HOS0012
+DOC0602,State,Cardiology,HOS0018
+DOC0603,Agent,Neurology,HOS0005
+DOC0604,Through,Pediatrics,HOS0010
+DOC0605,Generation,cardiology,HOS0011
+DOC0606,Onto,General Medicine,HOS0006
+DOC0607,Low,Cardiology,HOS0015
+DOC0608,Food,Pediatrics,HOS0012
+DOC0609,Market,General Medicine,HOS0009
+DOC0610,Available,General Medicine,HOS0012
+DOC0611,For,Oncology,HOS0001
+DOC0612,Break,Oncology,HOS0013
+DOC0613,Various,Orthopedics,HOS0016
+DOC0614,Sit,Neurology,HOS0008
+DOC0615,Moment,Pediatrics,HOS0016
+DOC0616,Approach,Cardiology,HOS0009
+DOC0617,Defense,General Medicine,HOS0003
+DOC0618,Born,Oncology,HOS0007
+DOC0619,Serious,Oncology,HOS0014
+DOC0620,Culture,Neurology,HOS0006
+DOC0621,Particularly,Neurology,HOS0009
+DOC0622,Cultural,Neurology,HOS0005
+DOC0623,Any,Cardiology,HOS0020
+DOC0624,Outside,General Medicine,HOS0001
+DOC0625,Standard,General Medicine,HOS9999
+INVALID_71,Morning,General Medicine,HOS0009
+DOC0627,Exactly,Neurology,HOS0011
+INVALID_29,Page,Cardiology,HOS0011
+DOC0629,Surface,General Medicine,HOS0013
+DOC0630,Area,Neurology,HOS0011
+DOC0631,Catch,Cardiology,HOS0018
+DOC0632,Wish,Cardiology,HOS9999
+DOC0395,Plan,Orthopedics,HOS0002
+DOC0634,Back,Cardiology,HOS0003
+DOC0635,Program,General Medicine,HOS0012
+DOC0636,Lot,Pediatrics,HOS0011
+DOC0637,During,Neurology,HOS0002
+DOC0638,She,General Medicine,HOS0010
+DOC0639,Hear,Cardiology,HOS0013
+DOC0640,Pressure,Pediatrics,HOS0016
+DOC0641,The,Cardiology,HOS0007
+DOC0642,Interest,Pediatrics,HOS0010
+DOC0643,International,Orthopedics,HOS0014
+DOC0644,Remain,Oncology,HOS0006
+DOC0645,Remain,Neurology,HOS0003
+DOC0646,Strong,Neurology,HOS0007
+DOC0544,Cause,Neurology,HOS0018
+DOC0648,Memory,Cardiology,HOS0003
+DOC0649,Poor,Neurology,HOS0007
+DOC0650,Doctor,General Medicine,HOS0012
+DOC0651,Become,General Medicine,HOS0010
+DOC0652,News,Cardiology,HOS0019
+DOC0653,Laugh,Cardiology,HOS0012
+DOC0654,Manager,Neurology,HOS0004
+DOC0655,Wait,Neurology,HOS0005
+DOC0656,Interest,Oncology,HOS0012
+DOC0657,Each,ORTHOPEDICS,HOS0015
+DOC0658,Hospital,Neurology,HOS0020
+DOC0659,Figure,Neurology,HOS0004
+DOC0013,Step,General Medicine,HOS0015
+DOC0661,Conference,Cardiology,HOS0012
+DOC0662,Laugh,Neurology,HOS0015
+DOC0663,East,General Medicine,HOS0013
+DOC0664,Interest,Pediatrics,HOS0002
+DOC0665,Happen,general medicine,HOS0009
+DOC0666,Seek,Oncology,HOS0012
+DOC0667,Fish,Orthopedics,HOS0009
+DOC0668,Could,General Medicine,HOS0008
+DOC0669,Need,Pediatrics,HOS0018
+DOC0670,Teach,ORTHOPEDICS,HOS0010
+DOC0671,Picture,Neurology,HOS0003
+DOC0672,Country,General Medicine,HOS0008
+DOC0673,Training,Neurology,HOS0004
+DOC0674,Strategy,General Medicine,HOS0003
+DOC0675,Threat,Orthopedics,HOS0005
+DOC0676,Lot,Pediatrics,HOS0009
+DOC0677,Nor,Neurology,HOS0012
+DOC0204,Hit,General medicine,HOS0014
+DOC0679,Discover,Oncology,HOS0012
+DOC0680,Knowledge,Cardiology,HOS0017
+DOC0681,Gun,Cardiology,HOS0018
+DOC0682,Institution,General Medicine,HOS0008
+DOC0683,Defense,Pediatrics,HOS0009
+DOC0684,Thank,General Medicine,HOS0020
+INVALID_69,Result,General Medicine,HOS0013
+DOC0686,Floor,Cardiology,HOS0017
+DOC0687,Economic,Oncology,HOS0002
+DOC0688,Phone,Orthopedics,HOS0005
+DOC0689,Up,Orthopedics,HOS9999
+DOC0690,Either,General Medicine,HOS0017
+INVALID_60,Understand,Oncology,HOS9999
+DOC0692,Six,Pediatrics,HOS0008
+DOC0693,Fast,Orthopedics,HOS0010
+DOC0694,Inside,Oncology,HOS0017
+DOC0695,Know,Cardiology,HOS0016
+DOC0696,Culture,Cardiology,HOS0003
+DOC0697,Build,Oncology,HOS0012
+DOC0698,System,Neurology,HOS0011
+DOC0699,Idea,Cardiology,HOS0019
+DOC0325,Investment,Oncology,HOS0014
+DOC0701,Her,General Medicine,HOS0020
+DOC0702,Himself,Neurology,HOS0003
+DOC0703,Bar,General medicine,HOS0008
+DOC0704,Popular,Neurology,HOS0015
+DOC0705,Establish,Pediatrics,HOS0005
+DOC0706,President,Pediatrics,HOS0010
+DOC0707,Value,Neurology,HOS0005
+DOC0708,Entire,Cardiology,HOS0015
+DOC0709,Senior,Neurology,HOS0008
+DOC0710,Child,General Medicine,HOS0003
+DOC0711,Same,Oncology,HOS0020
+DOC0712,Activity,Cardiology,HOS0011
+DOC0713,Spend,Pediatrics,HOS0020
+DOC0714,Cold,Cardiology,HOS0008
+DOC0715,Young,Pediatrics,HOS0015
+INVALID_1,Music,General medicine,HOS0009
+DOC0717,Guess,Oncology,HOS0005
+DOC0718,Form,ORTHOPEDICS,HOS0005
+DOC0719,Color,Oncology,HOS0013
+DOC0720,Stage,General Medicine,HOS0003
+DOC0721,Blue,neurology,HOS0003
+DOC0722,Picture,General Medicine,HOS0016
+DOC0723,Wonder,Orthopedics,HOS0004
+DOC0724,Point,Neurology,HOS0013
+DOC0725,Life,Orthopedics,HOS0009
+DOC0726,Clearly,Orthopedics,HOS0013
+DOC0727,Main,Pediatrics,HOS0016
+DOC0728,Standard,Pediatrics,HOS0014
+DOC0729,Us,Oncology,HOS0001
+DOC0730,Provide,General Medicine,HOS0016
+DOC0731,Environmental,neurology,HOS0001
+DOC0732,Store,Neurology,HOS0003
+DOC0733,Law,Oncology,HOS0012
+DOC0734,Owner,Pediatrics,HOS0017
+DOC0735,Fine,Cardiology,HOS0013
+DOC0736,Land,Pediatrics,HOS0014
+DOC0737,Describe,Oncology,HOS0002
+DOC0738,Happen,Pediatrics,HOS9999
+DOC0739,Teach,Orthopedics,HOS0003
+DOC0740,Agreement,Orthopedics,HOS0018
+DOC0296,Thank,ONCOLOGY,HOS0002
+DOC0742,Voice,Neurology,HOS0014
+DOC0743,Sure,Oncology,HOS0010
+DOC0744,Democratic,Oncology,HOS0012
+DOC0745,Body,Oncology,HOS0010
+DOC0746,Evidence,Oncology,HOS0002
+DOC0747,Range,ORTHOPEDICS,HOS0014
+DOC0748,Spring,Cardiology,HOS0007
+DOC0749,Consider,Cardiology,HOS0002
+DOC0750,Pretty,Pediatrics,HOS0018
+DOC0751,Without,Cardiology,HOS0020
+DOC0752,Two,General medicine,HOS0019
+DOC0753,However,Neurology,HOS0001
+DOC0754,Into,Neurology,HOS0005
+DOC0755,Thing,Orthopedics,HOS0009
+DOC0756,Morning,Neurology,HOS0011
+DOC0757,Consumer,Pediatrics,HOS0017
+DOC0758,Agreement,Pediatrics,HOS0020
+DOC0759,Medical,Neurology,HOS0012
+DOC0760,Determine,General Medicine,HOS0009
+DOC0761,Difficult,Orthopedics,HOS0011
+DOC0762,Because,Orthopedics,HOS0015
+DOC0763,How,Cardiology,HOS0013
+DOC0764,Player,Orthopedics,HOS0012
+DOC0765,Dog,Orthopedics,HOS0011
+DOC0766,Likely,Cardiology,HOS0009
+DOC0767,Father,Orthopedics,HOS0020
+DOC0768,Face,Pediatrics,HOS0020
+DOC0769,Resource,Cardiology,HOS0005
+DOC0770,Present,Oncology,HOS0014
+DOC0771,Effort,Neurology,HOS0006
+DOC0772,Most,Oncology,HOS0005
+DOC0367,Offer,Neurology,HOS0010
+DOC0774,Central,General Medicine,HOS0017
+DOC0775,His,Cardiology,HOS0016
+DOC0776,View,Orthopedics,HOS0017
+DOC0777,Over,Oncology,HOS0010
+DOC0778,Property,Cardiology,HOS0013
+DOC0779,Market,Neurology,HOS0018
+DOC0780,Tv,Neurology,HOS0009
+DOC0781,American,Oncology,HOS0003
+DOC0782,Small,cardiology,HOS0008
+DOC0783,Discover,Orthopedics,HOS0013
+DOC0784,Operation,Neurology,HOS0019
+DOC0785,Face,General Medicine,HOS0003
+DOC0786,Its,General Medicine,HOS0010
+DOC0787,Lay,Cardiology,HOS0004
+DOC0788,Image,Orthopedics,HOS9999
+DOC0789,Task,General Medicine,HOS0011
+DOC0790,Tough,Oncology,HOS0009
+DOC0791,Family,Neurology,HOS0016
+INVALID_82,Including,Orthopedics,HOS0001
+DOC0793,Main,Oncology,HOS0008
+DOC0794,Mouth,Pediatrics,HOS0001
+DOC0795,Remain,Pediatrics,HOS0019
+DOC0796,Method,General Medicine,HOS9999
+DOC0797,Sign,Cardiology,HOS0007
+DOC0798,Pm,Cardiology,HOS0017
+DOC0799,Million,orthopedics,HOS0015
+DOC0800,Leader,General Medicine,HOS0019
+DOC0801,Song,Neurology,HOS0018
+DOC0802,Sit,Oncology,HOS0015
+DOC0803,Line,Pediatrics,HOS0002
+DOC0804,Goal,general medicine,HOS0008
+DOC0805,Toward,Pediatrics,HOS0002
+DOC0806,Industry,Pediatrics,HOS0015
+DOC0807,How,Pediatrics,HOS0013
+DOC0808,Moment,Orthopedics,HOS0010
+DOC0809,East,General Medicine,HOS0012
+DOC0156,Behavior,Neurology,HOS0003
+DOC0811,Trip,Orthopedics,HOS0016
+DOC0812,Room,Orthopedics,HOS0015
+DOC0813,First,Oncology,HOS0013
+DOC0814,Rock,General medicine,HOS0004
+DOC0815,Region,Pediatrics,HOS0003
+DOC0816,Probably,Neurology,HOS0015
+DOC0817,Walk,Orthopedics,HOS0009
+DOC0818,Half,Pediatrics,HOS0018
+DOC0819,Describe,Oncology,HOS0011
+DOC0820,Enjoy,General Medicine,HOS9999
+DOC0821,Light,Cardiology,HOS0005
+DOC0822,Break,Neurology,HOS9999
+DOC0823,Opportunity,Oncology,HOS0014
+DOC0824,Should,NEUROLOGY,HOS0017
+DOC0825,Plant,Pediatrics,HOS0008
+DOC0826,True,Pediatrics,HOS0018
+DOC0827,Who,Orthopedics,HOS0009
+DOC0828,Television,Oncology,HOS0009
+DOC0829,Probably,General Medicine,HOS0008
+DOC0830,Cut,Oncology,HOS0013
+DOC0831,Book,Orthopedics,HOS0016
+DOC0832,State,Neurology,HOS0006
+DOC0833,Heavy,GENERAL MEDICINE,HOS0018
+DOC0834,Central,Oncology,HOS0008
+DOC0835,Lead,Orthopedics,HOS0004
+INVALID_12,Down,Pediatrics,HOS0006
+DOC0837,Parent,Cardiology,HOS0007
+DOC0684,Produce,Oncology,HOS0012
+DOC0839,Writer,Oncology,HOS0003
+DOC0840,Century,Orthopedics,HOS0006
+DOC0841,Structure,Orthopedics,HOS0018
+DOC0842,Event,Orthopedics,HOS0018
+DOC0843,Month,Cardiology,HOS0012
+DOC0844,Them,Cardiology,HOS0018
+DOC0845,Executive,Pediatrics,HOS0002
+INVALID_49,Television,Orthopedics,HOS0017
+DOC0847,Argue,Cardiology,HOS0015
+DOC0848,Financial,Cardiology,HOS0018
+DOC0849,Reason,Cardiology,HOS0011
+DOC0850,End,Pediatrics,HOS0011
+DOC0851,Mrs,ORTHOPEDICS,HOS0001
+DOC0852,Detail,General Medicine,HOS0009
+DOC0853,Offer,General medicine,HOS0016
+DOC0854,Art,General Medicine,HOS0009
+DOC0855,Perform,Orthopedics,HOS0004
+DOC0856,Rock,Orthopedics,HOS0014
+DOC0857,Worker,General Medicine,HOS0015
+DOC0858,Yard,Orthopedics,HOS0007
+DOC0859,Language,Oncology,HOS0008
+DOC0860,Little,Orthopedics,HOS0006
+DOC0861,Each,General Medicine,HOS0019
+DOC0862,Get,Oncology,HOS0016
+DOC0863,Partner,Pediatrics,HOS0007
+DOC0864,Another,Oncology,HOS0008
+DOC0865,All,Orthopedics,HOS0004
+DOC0195,World,Orthopedics,HOS0019
+INVALID_37,Carry,Cardiology,HOS9999
+DOC0868,Increase,Cardiology,HOS0007
+DOC0869,Care,Orthopedics,HOS0008
+DOC0870,Maintain,Orthopedics,HOS0005
+DOC0291,Site,Pediatrics,HOS0004
+DOC0872,Cover,Cardiology,HOS0014
+DOC0873,Then,Oncology,HOS0016
+DOC0874,Back,Orthopedics,HOS0011
+DOC0875,Then,General Medicine,HOS0011
+DOC0876,Poor,Neurology,HOS0014
+DOC0877,Response,Cardiology,HOS0013
+DOC0878,Prevent,Pediatrics,HOS0009
+DOC0879,Able,Pediatrics,HOS0004
+DOC0880,Guy,General Medicine,HOS0006
+DOC0881,Central,Oncology,HOS0005
+DOC0882,Wait,Neurology,HOS0001
+DOC0883,Science,Neurology,HOS0016
+DOC0884,Throw,Neurology,HOS0001
+DOC0885,Gas,Oncology,HOS0012
+DOC0886,Usually,Pediatrics,HOS0012
+DOC0887,Watch,Pediatrics,HOS0004
+INVALID_33,Goal,Orthopedics,HOS0020
+INVALID_64,Upon,Orthopedics,HOS0013
+DOC0890,Stock,Pediatrics,HOS0015
+INVALID_14,Scientist,Cardiology,HOS9999
+DOC0892,Describe,Cardiology,HOS0012
+DOC0893,Evidence,Oncology,HOS0011
+DOC0894,Already,Neurology,HOS0010
+DOC0895,Four,Orthopedics,HOS0017
+DOC0896,Player,Orthopedics,HOS0015
+DOC0897,Now,Neurology,HOS0020
+DOC0628,Truth,Neurology,HOS0007
+DOC0899,New,Pediatrics,HOS0007
+DOC0900,Here,General Medicine,HOS0013
+DOC0901,Recent,Orthopedics,HOS9999
+DOC0902,For,Neurology,HOS0007
+DOC0903,Democrat,General Medicine,HOS0016
+DOC0904,Serve,Pediatrics,HOS0002
+DOC0905,Change,Pediatrics,HOS0018
+DOC0906,Democratic,Orthopedics,HOS0015
+DOC0907,Lose,Neurology,HOS0001
+DOC0908,Health,General Medicine,HOS0019
+DOC0909,Hundred,Neurology,HOS0014
+DOC0910,Stuff,General Medicine,HOS0007
+DOC0911,Money,Cardiology,HOS0008
+DOC0912,Even,General Medicine,HOS0006
+DOC0913,Fast,Orthopedics,HOS0009
+DOC0914,Doctor,Neurology,HOS0012
+DOC0915,Him,Orthopedics,HOS0011
+INVALID_27,Off,Neurology,HOS0005
+DOC0917,Know,General Medicine,HOS0002
+DOC0918,Stock,Pediatrics,HOS0013
+DOC0919,National,Cardiology,HOS0011
+DOC0920,Necessary,Cardiology,HOS0012
+DOC0921,Hit,Neurology,HOS0004
+DOC0922,On,Pediatrics,HOS0013
+DOC0923,Size,Neurology,HOS0009
+DOC0924,Grow,Oncology,HOS0018
+DOC0925,Contain,Orthopedics,HOS0002
+DOC0926,Explain,Orthopedics,HOS0008
+DOC0927,Argue,Neurology,HOS0015
+DOC0928,Research,Neurology,HOS0016
+DOC0929,Citizen,Orthopedics,HOS0015
+DOC0930,Then,Oncology,HOS9999
+DOC0931,Center,pediatrics,HOS0020
+DOC0932,Reach,Oncology,HOS0013
+DOC0933,Knowledge,Pediatrics,HOS0001
+DOC0934,Life,Cardiology,HOS0008
+DOC0935,Single,General Medicine,HOS0002
+DOC0936,Interesting,Pediatrics,HOS0005
+DOC0937,Government,Oncology,HOS0013
+DOC0080,Example,Neurology,HOS0020
+DOC0939,Once,Neurology,HOS0006
+DOC0940,Only,General Medicine,HOS0004
+DOC0941,Military,Orthopedics,HOS0003
+DOC0942,Deal,Orthopedics,HOS0001
+DOC0943,Large,Orthopedics,HOS0019
+DOC0944,Why,Neurology,HOS0015
+DOC0945,Cut,ORTHOPEDICS,HOS0011
+DOC0946,Cost,General Medicine,HOS0012
+DOC0947,Else,PEDIATRICS,HOS0009
+DOC0948,International,General Medicine,HOS0019
+DOC0949,Build,Oncology,HOS0001
+DOC0950,Something,Oncology,HOS0009
+DOC0951,Their,Oncology,HOS0012
+DOC0952,Bank,Pediatrics,HOS0003
+DOC0953,Health,Oncology,HOS0010
+DOC0954,Front,Oncology,HOS0012
+DOC0955,Talk,Cardiology,HOS0014
+DOC0956,Mission,General Medicine,HOS0015
+DOC0957,Cover,Pediatrics,HOS0012
+DOC0958,From,Oncology,HOS0012
+DOC0959,Herself,Cardiology,HOS0009
+DOC0960,Part,Orthopedics,HOS0005
+DOC0961,Suffer,Cardiology,HOS0012
+DOC0962,Four,Oncology,HOS0012
+DOC0963,And,Oncology,HOS0009
+DOC0964,Daughter,Oncology,HOS0020
+DOC0965,Town,General Medicine,HOS0010
+DOC0966,Yard,General Medicine,HOS0008
+DOC0967,Would,Pediatrics,HOS0005
+DOC0968,Age,Cardiology,HOS0018
+DOC0969,Very,Oncology,HOS0001
+DOC0970,Drop,Oncology,HOS0013
+DOC0971,Budget,General Medicine,HOS0001
+DOC0972,Week,Cardiology,HOS0008
+DOC0973,Other,Orthopedics,HOS0005
+DOC0905,I,Orthopedics,HOS0020
+DOC0975,Full,Orthopedics,HOS0019
+DOC0976,Million,Cardiology,HOS0004
+DOC0977,Several,Orthopedics,HOS0018
+DOC0978,Young,Oncology,HOS0010
+DOC0979,Cup,Orthopedics,HOS0014
+DOC0980,Usually,Neurology,HOS0020
+DOC0981,World,Cardiology,HOS0020
+DOC0982,Common,General Medicine,HOS0001
+DOC0983,Mission,Orthopedics,HOS0019
+DOC0984,Teach,neurology,HOS9999
+DOC0985,Skin,General Medicine,HOS0001
+DOC0986,Already,Oncology,HOS0015
+DOC0987,Painting,General Medicine,HOS0011
+DOC0988,Attention,Orthopedics,HOS0015
+DOC0989,Body,Orthopedics,HOS0007
+DOC0990,Point,Oncology,HOS0013
+DOC0991,President,Cardiology,HOS0020
+DOC0992,Prepare,Cardiology,HOS0011
+DOC0993,Song,Orthopedics,HOS0002
+DOC0994,All,General Medicine,HOS0011
+DOC0995,Apply,Pediatrics,HOS0015
+DOC0996,Base,CARDIOLOGY,HOS0008
+DOC0997,Among,Pediatrics,HOS0005
+DOC0998,Interest,Cardiology,HOS0001
+DOC0999,Experience,General Medicine,HOS0003
+DOC1000,Need,Orthopedics,HOS0002
+DOC1001,Into,Cardiology,HOS0006
+DOC1002,Water,Orthopedics,HOS0005
+DOC1003,Physical,Neurology,HOS0006
+DOC1004,Blood,Cardiology,HOS0012
+DOC1005,Then,Orthopedics,HOS0016
+DOC1006,Yet,General Medicine,HOS0007
+DOC1007,Spring,general medicine,HOS0001
+DOC1008,Goal,General Medicine,HOS0005
+DOC1009,Strong,General Medicine,HOS0020
+DOC1010,Clearly,Cardiology,HOS0009
+DOC1011,North,Neurology,HOS0006
+DOC1012,New,Orthopedics,HOS0008
+DOC1013,Detail,Neurology,HOS0020
+DOC1014,Position,Orthopedics,HOS0008
+DOC1015,As,ORTHOPEDICS,HOS0018
+DOC1016,Recognize,Orthopedics,HOS0014
+DOC1017,Nor,orthopedics,HOS0005
+DOC1018,Possible,General Medicine,HOS0017
+DOC1019,Condition,Orthopedics,HOS0002
+DOC1020,State,Pediatrics,HOS0018
+DOC1021,Represent,Orthopedics,HOS0012
+DOC1022,Soldier,Oncology,HOS0014
+DOC1023,Nearly,Cardiology,HOS0004
+DOC1024,Sense,Pediatrics,HOS0013
+DOC1025,Room,General Medicine,HOS0004
+DOC1026,Piece,General Medicine,HOS0001
+DOC1027,Everything,Neurology,HOS0012
+DOC1028,Nothing,Cardiology,HOS0001
+DOC1029,Keep,Orthopedics,HOS0018
+DOC1030,Dinner,Cardiology,HOS0003
+DOC1031,Cause,Neurology,HOS0011
+DOC1032,Floor,Cardiology,HOS0013
+DOC1033,Front,Pediatrics,HOS0001
+DOC1034,New,Cardiology,HOS0009
+DOC1035,Dog,Cardiology,HOS0019
+DOC1036,Final,Neurology,HOS0011
+DOC1037,Eye,Oncology,HOS0015
+DOC1038,Board,Cardiology,HOS0015
+DOC1039,Free,Orthopedics,HOS0014
+DOC1040,Plan,NEUROLOGY,HOS0020
+DOC1041,Thing,Pediatrics,HOS0002
+DOC1042,Great,Oncology,HOS0011
+DOC1043,Thus,Orthopedics,HOS0020
+DOC1044,Mr,Orthopedics,HOS0015
+DOC1045,Along,Pediatrics,HOS0019
+DOC1046,Each,Oncology,HOS0008
+DOC1047,Film,Pediatrics,HOS0008
+DOC1048,Return,Orthopedics,HOS0012
+DOC1049,Spend,Cardiology,HOS0013
+DOC1050,Relate,Oncology,HOS0006
+DOC1051,Know,General Medicine,HOS0015
+DOC1052,Wear,Orthopedics,HOS9999
+DOC1053,Lead,Neurology,HOS0009
+DOC1054,Rise,Neurology,HOS0003
+DOC0135,House,Pediatrics,HOS0018
+DOC0570,Office,Oncology,HOS0009
+DOC1057,Alone,General Medicine,HOS0001
+DOC1058,Me,Neurology,HOS0006
+DOC0311,Allow,Orthopedics,HOS0009
+DOC1060,Really,Oncology,HOS9999
+DOC0836,Trade,Neurology,HOS0019
+DOC1062,Beautiful,Pediatrics,HOS0013
+DOC1063,Weight,oncology,HOS0016
+DOC1064,Deal,cardiology,HOS0013
+DOC1065,Item,Cardiology,HOS0020
+DOC1066,Civil,Cardiology,HOS0009
+DOC1067,Smile,Neurology,HOS0007
+DOC1068,Stand,Orthopedics,HOS0008
+DOC1069,Effort,General Medicine,HOS0008
+DOC1070,Important,Pediatrics,HOS0008
+DOC1071,Fly,Oncology,HOS0003
+DOC1072,Else,Neurology,HOS0020
+DOC1073,Win,Orthopedics,HOS0006
+DOC1074,Successful,Oncology,HOS0009
+DOC0350,Meeting,Neurology,HOS0001
+DOC1076,Game,Cardiology,HOS0013
+DOC1077,Hard,Neurology,HOS0019
+DOC1078,Evening,Neurology,HOS0019
+DOC1079,Five,Orthopedics,HOS0010
+DOC1080,Fish,General Medicine,HOS0012
+DOC1081,Party,General Medicine,HOS0019
+DOC1082,Create,General Medicine,HOS0012
+DOC1083,View,Oncology,HOS0006
+DOC1084,Into,Neurology,HOS0015
+DOC1085,Energy,Pediatrics,HOS0018
+DOC1086,Film,Cardiology,HOS0018
+DOC1087,Different,Neurology,HOS0016
+DOC1088,Cell,General Medicine,HOS0002
+INVALID_86,Various,Oncology,HOS0002
+DOC1090,It,Cardiology,HOS0013
+DOC1091,Happy,Cardiology,HOS0015
+DOC1092,Apply,Orthopedics,HOS0015
+DOC1093,Hit,General Medicine,HOS0009
+DOC1094,Walk,Cardiology,HOS0013
+DOC1095,Major,Pediatrics,HOS0011
+DOC1096,Raise,Oncology,HOS0017
+DOC1097,Box,Cardiology,HOS9999
+DOC1098,Case,Neurology,HOS0007
+DOC1099,Choose,Oncology,HOS0007
+DOC1100,Prepare,ONCOLOGY,HOS0020
+DOC1101,Choose,cardiology,HOS0007
+DOC1102,Difficult,Neurology,HOS0007
+DOC1103,Stop,General Medicine,HOS0014
+DOC1104,Help,Orthopedics,HOS0013
+DOC1105,Why,Neurology,HOS0016
+DOC0426,Alone,Orthopedics,HOS0017
+DOC1107,Above,Orthopedics,HOS0009
+DOC1108,Cultural,Oncology,HOS0006
+DOC1109,To,Cardiology,HOS0017
+DOC1110,Ability,Neurology,HOS0011
+DOC1111,Assume,Cardiology,HOS0011
+DOC1112,Practice,Neurology,HOS0011
+DOC1113,Station,Pediatrics,HOS0005
+DOC1114,Part,Oncology,HOS0004
+DOC1115,Away,Oncology,HOS0003
+DOC1116,Interesting,Neurology,HOS0015
+DOC1117,Outside,Pediatrics,HOS0020
+DOC1091,Should,Oncology,HOS0001
+DOC1119,Suggest,Oncology,HOS0020
+INVALID_73,Happen,Oncology,HOS0011
+DOC1121,Explain,Neurology,HOS0006
+DOC1122,Campaign,Oncology,HOS9999
+DOC0347,Tax,Cardiology,HOS0017
+DOC1124,Sing,CARDIOLOGY,HOS0018
+DOC1125,Of,Cardiology,HOS0012
+DOC1126,Election,Cardiology,HOS0010
+DOC1127,Important,oncology,HOS0002
+DOC1128,See,Neurology,HOS0010
+DOC1129,Direction,Orthopedics,HOS0019
+DOC1130,Significant,Cardiology,HOS0013
+DOC1131,Operation,Neurology,HOS0018
+DOC1132,Development,Oncology,HOS0020
+DOC1133,Region,Cardiology,HOS0008
+INVALID_72,Similar,Orthopedics,HOS0014
+DOC0516,Father,Oncology,HOS0003
+DOC1136,Drug,Orthopedics,HOS0020
+INVALID_8,Ground,General Medicine,HOS0008
+DOC1138,Sign,General Medicine,HOS0015
+DOC1139,Candidate,Oncology,HOS0020
+DOC1140,Food,Oncology,HOS0012
+DOC1141,Day,Pediatrics,HOS0003
+DOC1142,Never,Oncology,HOS0014
+DOC1143,Suffer,General Medicine,HOS0013
+DOC1144,Act,Oncology,HOS0010
+DOC1145,Ready,Orthopedics,HOS0004
+DOC1146,During,General Medicine,HOS0002
+DOC1147,Attack,Cardiology,HOS0012
+DOC1148,Edge,Pediatrics,HOS0014
+DOC1149,Pm,Orthopedics,HOS0018
+DOC1150,Us,General Medicine,HOS0009
+DOC1151,With,Cardiology,HOS0018
+DOC1152,Concern,Neurology,HOS0006
+DOC1153,Chance,Neurology,HOS0014
+DOC1154,Four,Neurology,HOS0009
+DOC1155,Despite,Oncology,HOS0003
+DOC1156,Trial,Pediatrics,HOS0014
+DOC1157,Boy,Cardiology,HOS0002
+DOC1158,Nor,General Medicine,HOS0007
+DOC1159,Drive,Cardiology,HOS0015
+DOC1160,Style,General Medicine,HOS0008
+DOC1161,Think,Cardiology,HOS0010
+DOC1162,Its,General Medicine,HOS0015
+DOC1163,Her,Oncology,HOS9999
+DOC1164,Clear,Oncology,HOS0009
+DOC1165,Reduce,General Medicine,HOS0011
+DOC1166,Rise,General Medicine,HOS0018
+DOC1167,From,Pediatrics,HOS0010
+DOC1168,Public,Neurology,HOS0014
+DOC1169,Run,General Medicine,HOS0011
+DOC1170,Debate,Orthopedics,HOS0006
+DOC1171,Data,Neurology,HOS0013
+DOC1172,Series,Neurology,HOS0005
+DOC1173,Go,Pediatrics,HOS9999
+DOC0756,Reveal,Orthopedics,HOS0015
+DOC1175,Seek,Orthopedics,HOS0009
+DOC1176,International,Oncology,HOS0017
+DOC1177,Drug,Pediatrics,HOS9999
+DOC1178,Eye,General Medicine,HOS0013
+DOC1179,Relate,Orthopedics,HOS0012
+DOC1180,Write,Oncology,HOS0014
+DOC1181,Analysis,General Medicine,HOS0007
+DOC1182,Drop,Pediatrics,HOS0014
+DOC1183,Professor,Pediatrics,HOS0014
+DOC1184,Woman,Orthopedics,HOS0017
+DOC1185,Economic,Neurology,HOS0006
+DOC1186,Onto,Orthopedics,HOS0006
+DOC1187,Form,Pediatrics,HOS0018
+DOC1188,Hospital,Cardiology,HOS0004
+DOC1189,Lay,cardiology,HOS0002
+DOC1190,Able,Oncology,HOS0013
+DOC1191,Certain,Cardiology,HOS0002
+DOC1192,Relate,Neurology,HOS0006
+DOC1193,Order,Pediatrics,HOS0017
+DOC1194,Individual,Cardiology,HOS0004
+DOC1195,Former,General Medicine,HOS0003
+INVALID_72,Bill,general medicine,HOS0020
+DOC1197,Approach,General Medicine,HOS0018
+DOC1198,Animal,Oncology,HOS0015
+DOC1199,Assume,Oncology,HOS0002
+INVALID_62,Management,neurology,HOS0015
+INVALID_65,Would,General Medicine,HOS0006
+DOC1202,Expert,oncology,HOS0012
+DOC1203,Important,General Medicine,HOS0007
+DOC0529,Source,Oncology,HOS0013
+DOC1205,Save,Cardiology,HOS0008
+DOC1206,Opportunity,General Medicine,HOS0011
+DOC1207,Company,Oncology,HOS0012
+DOC1208,Wide,Oncology,HOS0007
+DOC1209,Particularly,Pediatrics,HOS0005
+DOC1210,Past,Cardiology,HOS0014
+DOC1211,Operation,Cardiology,HOS0008
+DOC1212,Congress,Orthopedics,HOS0006
+DOC1213,Production,Orthopedics,HOS0009
+DOC1214,Place,Cardiology,HOS0013
+DOC1215,Mr,Oncology,HOS0010
+DOC1216,Program,pediatrics,HOS9999
+DOC1217,Middle,Pediatrics,HOS0017
+DOC1218,Though,Pediatrics,HOS0010
+DOC1219,Page,Oncology,HOS0018
+DOC1220,Show,General Medicine,HOS0017
+DOC1221,Direction,Orthopedics,HOS0012
+DOC1222,Recent,Pediatrics,HOS0008
+DOC1223,Catch,Oncology,HOS0003
+DOC1224,Night,Orthopedics,HOS0018
+DOC1225,Leave,Neurology,HOS0013
+DOC1226,Reason,Pediatrics,HOS0015
+DOC1227,Indicate,General Medicine,HOS0016
+DOC1228,Stop,Cardiology,HOS0019
+INVALID_27,President,Orthopedics,HOS9999
+DOC1230,Road,Pediatrics,HOS0014
+DOC1231,Any,Cardiology,HOS0006
+DOC1232,Pressure,Cardiology,HOS0002
+DOC1233,Help,Oncology,HOS0010
+DOC1234,Put,Cardiology,HOS0002
+DOC1235,Continue,Pediatrics,HOS0002
+DOC1236,Foreign,Orthopedics,HOS0009
+DOC1237,Laugh,Pediatrics,HOS0006
+DOC1238,Tv,Oncology,HOS0015
+DOC1239,Model,Oncology,HOS0007
+DOC1240,Collection,pediatrics,HOS0011
+DOC1241,War,General Medicine,HOS0016
+DOC1242,Father,general medicine,HOS0003
+DOC1243,Oil,Orthopedics,HOS0004
+DOC1244,Us,Oncology,HOS0004
+DOC1245,Window,Oncology,HOS0003
+DOC1246,Task,Orthopedics,HOS0013
+DOC1247,Exactly,Neurology,HOS0001
+DOC1248,Yeah,Neurology,HOS0013
+DOC1249,Him,Oncology,HOS0019
+DOC1250,Machine,Cardiology,HOS0008
+DOC1251,Must,General Medicine,HOS0010
+DOC1252,Claim,Orthopedics,HOS0008
+DOC1253,Green,Neurology,HOS0015
+DOC1254,Simple,General Medicine,HOS0010
+DOC1255,Enough,Pediatrics,HOS0020
+DOC1256,Between,Oncology,HOS0003
+DOC1257,While,pediatrics,HOS0010
+DOC0919,Deal,Cardiology,HOS0013
+DOC1259,If,General Medicine,HOS0013
+DOC1260,Spend,Neurology,HOS0009
+DOC1261,Character,Cardiology,HOS0017
+DOC1262,Issue,Pediatrics,HOS0005
+DOC1263,Need,Neurology,HOS0020
+DOC1264,Heart,pediatrics,HOS0014
+DOC1265,Provide,General Medicine,HOS0015
+DOC1266,Decade,Orthopedics,HOS0002
+DOC1267,Degree,Neurology,HOS0009
+DOC1268,Manage,General Medicine,HOS0002
+DOC1269,Note,Pediatrics,HOS0014
+DOC1270,Such,General Medicine,HOS0006
+DOC1271,Foot,General Medicine,HOS0016
+DOC1272,Week,Oncology,HOS0014
+DOC1273,Movement,Pediatrics,HOS0018
+DOC1274,Couple,Neurology,HOS0003
+DOC1275,Never,Neurology,HOS0008
+DOC1276,Act,Cardiology,HOS0004
+DOC1277,Talk,General Medicine,HOS0010
+INVALID_32,Left,Cardiology,HOS0017
+DOC1279,Thank,Cardiology,HOS0006
+DOC1280,Possible,Neurology,HOS0019
+DOC1281,Food,Neurology,HOS0011
+DOC1282,Sometimes,Orthopedics,HOS0018
+INVALID_91,Hot,Oncology,HOS0002
+DOC1284,Chair,Orthopedics,HOS0007
+DOC0074,Pretty,Pediatrics,HOS0013
+DOC1286,Yourself,Neurology,HOS0017
+DOC1287,Shake,Orthopedics,HOS0013
+DOC1288,Position,Oncology,HOS0013
+DOC1289,Drug,Oncology,HOS0008
+DOC1290,Floor,Cardiology,HOS0014
+DOC1291,Dinner,Neurology,HOS0015
+DOC1292,Reach,Oncology,HOS0011
+DOC1293,Between,Neurology,HOS0006
+DOC1294,Each,Neurology,HOS0003
+DOC1295,Stop,Oncology,HOS0005
+DOC1296,Ground,Oncology,HOS0008
+DOC1297,Song,Pediatrics,HOS0019
+DOC1298,Tonight,Orthopedics,HOS0009
+DOC1299,Box,Pediatrics,HOS0006
+DOC1300,Street,Neurology,HOS0010
+DOC1301,Try,Oncology,HOS0019
+DOC1302,Partner,orthopedics,HOS0017
+DOC1303,Five,Cardiology,HOS0018
+DOC1304,Television,Cardiology,HOS0001
+DOC1305,Condition,Oncology,HOS0007
+DOC1306,Money,General Medicine,HOS0004
+DOC1307,Interest,Oncology,HOS0013
+DOC1308,When,Neurology,HOS0005
+DOC1309,Card,Neurology,HOS0014
+DOC1310,Stage,Pediatrics,HOS0001
+DOC0782,Bag,Pediatrics,HOS0005
+DOC1312,Suggest,Pediatrics,HOS0008
+DOC1313,Campaign,Pediatrics,HOS9999
+DOC1314,We,Pediatrics,HOS0013
+DOC1315,Level,Orthopedics,HOS0003
+DOC1316,Else,Neurology,HOS0008
+DOC1317,Beyond,Neurology,HOS0010
+DOC1318,Computer,Cardiology,HOS0011
+DOC1319,Near,Neurology,HOS0011
+DOC1320,After,Oncology,HOS9999
+DOC0337,Tell,Oncology,HOS0009
+DOC1322,Short,Neurology,HOS0017
+DOC1323,Popular,Oncology,HOS0008
+DOC1324,Few,Oncology,HOS0012
+DOC1325,Baby,Pediatrics,HOS0005
+DOC1326,Other,Pediatrics,HOS0004
+DOC1327,Born,Cardiology,HOS9999
+DOC1328,Better,Neurology,HOS0006
+DOC1329,Mention,Pediatrics,HOS0018
+DOC1330,Similar,Pediatrics,HOS0018
+DOC1331,Tend,General Medicine,HOS0008
+DOC1332,Themselves,Cardiology,HOS0016
+DOC1333,Computer,Neurology,HOS0009
+DOC1334,Here,NEUROLOGY,HOS0016
+DOC1335,Floor,Oncology,HOS0005
+DOC1336,Decision,General Medicine,HOS0015
+DOC1337,Character,Orthopedics,HOS0015
+DOC1338,Care,Neurology,HOS0020
+DOC1339,Store,Neurology,HOS0006
+DOC1340,Foot,Oncology,HOS0005
+DOC1341,Eat,Orthopedics,HOS9999
+DOC1342,Difficult,Neurology,HOS0015
+DOC1343,Candidate,cardiology,HOS0015
+DOC1344,Company,Orthopedics,HOS0015
+DOC1345,Career,Oncology,HOS0014
+DOC1346,About,Cardiology,HOS0013
+DOC1347,Run,Cardiology,HOS0016
+DOC1348,Fight,Neurology,HOS0019
+DOC1349,Once,Oncology,HOS0016
+DOC1350,Professor,Orthopedics,HOS0008
+DOC1351,Follow,Pediatrics,HOS0007
+DOC1352,Weight,Orthopedics,HOS0014
+DOC1353,Should,Oncology,HOS0019
+DOC1354,Create,Oncology,HOS0017
+DOC1355,Ago,Cardiology,HOS0006
+DOC1356,Check,Pediatrics,HOS0005
+DOC1357,Result,Pediatrics,HOS0009
+DOC1358,Various,Pediatrics,HOS0016
+DOC1359,Trouble,Neurology,HOS0002
+DOC1360,Break,Oncology,HOS0004
+DOC1361,Economic,Oncology,HOS0005
+DOC0369,During,Cardiology,HOS0019
+DOC1363,Myself,Oncology,HOS0018
+DOC1364,He,General Medicine,HOS0015
+DOC1365,Finish,Orthopedics,HOS0009
+DOC1366,Role,pediatrics,HOS0007
+DOC1367,Remain,Pediatrics,HOS0004
+DOC1368,Grow,Orthopedics,HOS0018
+DOC1369,Now,Orthopedics,HOS0019
+DOC1370,Talk,Pediatrics,HOS9999
+DOC1371,Statement,Orthopedics,HOS0017
+DOC1372,Well,Pediatrics,HOS0012
+DOC1373,Method,Cardiology,HOS0017
+DOC1374,Performance,Orthopedics,HOS9999
+DOC0396,First,Neurology,HOS0010
+INVALID_65,Occur,Cardiology,HOS0013
+DOC0234,National,General Medicine,HOS0010
+DOC1378,Attorney,Neurology,HOS0015
+DOC1379,Action,Oncology,HOS0005
+DOC1380,Despite,General Medicine,HOS0011
+DOC1381,Million,General Medicine,HOS9999
+DOC1382,You,Pediatrics,HOS0018
+DOC1383,Home,General Medicine,HOS0013
+DOC1384,Cell,Cardiology,HOS0007
+DOC1385,Opportunity,General Medicine,HOS0013
+DOC1386,Member,Pediatrics,HOS0002
+DOC1387,They,general medicine,HOS0006
+DOC1388,Safe,Orthopedics,HOS0002
+DOC1389,Strategy,Neurology,HOS0014
+DOC1390,Law,Neurology,HOS0003
+DOC1391,Every,Orthopedics,HOS0017
+DOC1392,Crime,Orthopedics,HOS0020
+DOC1393,Yet,Neurology,HOS0009
+DOC1394,Culture,Neurology,HOS0020
+DOC1395,Anyone,Pediatrics,HOS0020
+DOC1396,Ok,Orthopedics,HOS0001
+DOC1397,Charge,Oncology,HOS0018
+DOC1398,Science,Cardiology,HOS0005
+DOC1399,Soldier,Cardiology,HOS0015
+DOC1400,Ability,Orthopedics,HOS0020
+DOC1401,Top,Orthopedics,HOS0011
+DOC1402,Learn,General Medicine,HOS9999
+DOC1403,Impact,neurology,HOS0014
+DOC1404,Religious,Cardiology,HOS0003
+DOC1405,Image,General Medicine,HOS0020
+DOC1406,Experience,Cardiology,HOS0014
+DOC1407,Word,Orthopedics,HOS0019
+DOC1408,Plan,Neurology,HOS0006
+DOC1409,Issue,General Medicine,HOS0002
+DOC1410,Top,Oncology,HOS0017
+DOC1411,Vote,Oncology,HOS0010
+DOC1412,Know,cardiology,HOS0005
+DOC1413,Rock,Neurology,HOS0008
+DOC1414,Send,Orthopedics,HOS0014
+DOC1415,Lot,Oncology,HOS0011
+DOC1416,Human,Pediatrics,HOS0011
+DOC1417,Skill,Pediatrics,HOS0013
+DOC1418,Author,General Medicine,HOS0013
+DOC1419,Morning,General Medicine,HOS0012
+DOC1420,One,Cardiology,HOS0017
+DOC1421,Let,Oncology,HOS0005
+DOC1422,Smile,General Medicine,HOS0019
+DOC1423,Consider,CARDIOLOGY,HOS0018
+DOC1424,Pretty,Orthopedics,HOS0002
+DOC1425,Customer,orthopedics,HOS0019
+DOC1426,Matter,Cardiology,HOS0004
+DOC1427,Program,Orthopedics,HOS0006
+DOC1428,Still,Orthopedics,HOS0012
+DOC1429,Exist,General Medicine,HOS0002
+DOC1430,Senior,Pediatrics,HOS0017
+DOC1431,Treat,Pediatrics,HOS9999
+DOC1432,Scene,General medicine,HOS0004
+DOC1433,Return,General Medicine,HOS0015
+DOC0800,Call,Orthopedics,HOS0006
+DOC1435,Laugh,Oncology,HOS0007
+DOC1436,Across,General Medicine,HOS0011
+DOC1437,Security,Pediatrics,HOS0008
+DOC1438,Call,Pediatrics,HOS0006
+DOC1439,Month,ONCOLOGY,HOS0006
+DOC1440,Similar,Oncology,HOS0016
+DOC1441,Like,Orthopedics,HOS0014
+DOC1442,Lose,oncology,HOS0013
+DOC1443,Local,Orthopedics,HOS0009
+DOC1444,Hour,Orthopedics,HOS0003
+DOC1445,Other,General Medicine,HOS0015
+DOC0160,Choice,Cardiology,HOS0015
+DOC1447,Firm,Orthopedics,HOS0004
+DOC1448,Next,Oncology,HOS0012
+DOC1449,Experience,Cardiology,HOS0011
+DOC1450,Impact,Neurology,HOS0010
+DOC1451,Technology,Oncology,HOS0004
+DOC1452,Matter,Neurology,HOS0005
+DOC1453,Affect,General Medicine,HOS0001
+DOC1454,If,Neurology,HOS0013
+DOC1455,Letter,Neurology,HOS0012
+DOC1456,Move,Neurology,HOS0004
+DOC1457,Never,Oncology,HOS0001
+DOC1458,Difficult,Oncology,HOS0005
+DOC1459,Type,Orthopedics,HOS9999
+DOC1460,Agency,Cardiology,HOS0019
+DOC1461,Last,Oncology,HOS0003
+DOC1462,Always,Neurology,HOS0005
+DOC1463,Tonight,Pediatrics,HOS0016
+DOC1464,Term,Pediatrics,HOS0009
+DOC1465,Military,Oncology,HOS0016
+DOC1466,Moment,General Medicine,HOS0006
+DOC1467,Public,Pediatrics,HOS0015
+DOC1468,Year,General Medicine,HOS0018
+DOC1469,Sea,Orthopedics,HOS0006
+DOC1470,Hour,general medicine,HOS0008
+DOC1471,Perhaps,NEUROLOGY,HOS0001
+DOC1472,Where,Neurology,HOS0016
+DOC1473,Age,Oncology,HOS0001
+DOC1474,Minute,General Medicine,HOS0012
+DOC1475,Easy,General Medicine,HOS0001
+DOC1476,Mother,Cardiology,HOS0016
+DOC1360,Tend,Cardiology,HOS0009
+DOC1478,Blood,Orthopedics,HOS0019
+DOC1479,Yard,General Medicine,HOS0005
+DOC1480,Yes,Orthopedics,HOS0007
+DOC1481,Stand,Cardiology,HOS0009
+DOC1482,Thing,Oncology,HOS0011
+DOC1483,Place,Neurology,HOS0009
+DOC1484,West,General Medicine,HOS0014
+DOC1485,Sense,Oncology,HOS0002
+DOC1486,Herself,Neurology,HOS0016
+DOC1487,Where,Pediatrics,HOS0020
+DOC1488,Offer,General Medicine,HOS0001
+DOC1489,Often,General Medicine,HOS0018
+INVALID_9,These,Neurology,HOS0015
+DOC1491,Effort,General Medicine,HOS0011
+DOC1492,School,General Medicine,HOS0011
+DOC1493,Teach,Pediatrics,HOS0002
+DOC1494,Can,Neurology,HOS0002
+DOC1495,Rule,Orthopedics,HOS0018
+DOC1496,Knowledge,Neurology,HOS0009
+DOC1497,Himself,Pediatrics,HOS0007
+DOC1498,Bank,Oncology,HOS0012
+DOC1499,Thus,Oncology,HOS0003
+DOC1500,Yeah,Cardiology,HOS9999
+DOC1501,Himself,Oncology,HOS0011
+DOC1502,Property,Oncology,HOS0004
+DOC1503,Grow,Pediatrics,HOS0019
+DOC1504,Two,Orthopedics,HOS0001
+INVALID_24,Leave,Neurology,HOS0006
+DOC1506,Interesting,Orthopedics,HOS0003
+DOC1507,Low,Orthopedics,HOS0016
+DOC0825,Suffer,Orthopedics,HOS0020
+DOC1509,Enter,Oncology,HOS0007
+DOC1510,Admit,General Medicine,HOS0008
+DOC1511,Break,Orthopedics,HOS0008
+DOC1512,Often,Pediatrics,HOS0007
+DOC1513,Land,Orthopedics,HOS0003
+DOC1514,Rule,Neurology,HOS0010
+DOC1515,Particularly,Cardiology,HOS0017
+DOC1516,Movement,General Medicine,HOS0010
+DOC1517,Until,Orthopedics,HOS0017
+DOC1518,Sport,Pediatrics,HOS0008
+DOC1519,Themselves,Oncology,HOS0020
+DOC1520,The,Cardiology,HOS0001
+DOC1521,Black,Neurology,HOS0014
+DOC1522,A,Oncology,HOS0010
+DOC1523,Glass,Cardiology,HOS0012
+DOC1524,Position,Oncology,HOS0015
+DOC1525,Heavy,Oncology,HOS0008
+DOC1526,Exactly,Cardiology,HOS0001
+DOC1527,Change,General medicine,HOS0005
+DOC1528,Value,Pediatrics,HOS0003
+DOC1529,Over,Orthopedics,HOS0008
+DOC1530,Play,Pediatrics,HOS0019
+DOC1531,White,General Medicine,HOS0016
+DOC1532,Glass,Oncology,HOS0007
+DOC1533,Total,General Medicine,HOS0002
+DOC1534,Business,Cardiology,HOS9999
+DOC1535,Whose,General Medicine,HOS0014
+DOC1536,Community,ORTHOPEDICS,HOS0011
+DOC1537,Manager,Oncology,HOS0018
+DOC1538,Final,General Medicine,HOS0012
+DOC0692,Grow,Neurology,HOS0015
+DOC1540,Hair,Neurology,HOS0012
+DOC0363,Yard,Oncology,HOS0001
+DOC1542,Risk,Cardiology,HOS0014
+DOC1543,Defense,Oncology,HOS0007
+DOC1544,President,Orthopedics,HOS0001
+DOC1545,Country,Orthopedics,HOS0019
+DOC1546,First,General medicine,HOS0009
+DOC1547,Bag,General Medicine,HOS0008
+DOC1548,Address,Oncology,HOS0002
+DOC1549,Military,Neurology,HOS0017
+DOC1550,Through,Oncology,HOS0017
+DOC1551,Development,General Medicine,HOS0008
+DOC1552,Painting,Oncology,HOS0015
+DOC1553,Finish,Neurology,HOS0014
+DOC1554,Three,General Medicine,HOS0002
+DOC1555,Modern,Neurology,HOS0015
+DOC1556,Wide,Oncology,HOS0010
+DOC1557,Hit,General Medicine,HOS0019
+DOC1558,One,Neurology,HOS0014
+INVALID_51,Tough,Oncology,HOS0013
+DOC1560,These,Cardiology,HOS0020
+DOC0671,Body,General Medicine,HOS0013
+DOC1562,Marriage,Oncology,HOS0009
+DOC1563,Paper,Oncology,HOS0008
+DOC1564,Worker,Neurology,HOS0015
+DOC1565,Country,Orthopedics,HOS0017
+DOC1566,Within,Cardiology,HOS0014
+DOC1567,Above,Orthopedics,HOS0020
+DOC1568,Impact,Oncology,HOS0009
+DOC1569,According,Orthopedics,HOS0003
+DOC1570,With,Orthopedics,HOS0001
+DOC1571,Minute,Neurology,HOS0007
+DOC1151,Stop,Cardiology,HOS0012
+DOC1573,Nothing,general medicine,HOS0011
+INVALID_81,Find,Pediatrics,HOS0008
+DOC1575,Attorney,Oncology,HOS0007
+DOC1576,Speech,Pediatrics,HOS0005
+DOC1577,Animal,Neurology,HOS0015
+DOC1578,Fact,General Medicine,HOS0014
+DOC1579,Change,General Medicine,HOS0009
+DOC1580,Join,Orthopedics,HOS0005
+DOC1581,Clearly,Neurology,HOS0005
+DOC1582,Account,Neurology,HOS0005
+DOC1583,Language,Oncology,HOS0018
+DOC1584,Eight,Cardiology,HOS0006
+DOC1585,Forget,Neurology,HOS0005
+DOC1586,Gas,Oncology,HOS0011
+DOC1587,As,Neurology,HOS0008
+DOC1588,Must,General Medicine,HOS0009
+DOC1589,Director,Orthopedics,HOS0010
+DOC0279,Control,Cardiology,HOS0003
+DOC1591,Month,Neurology,HOS0008
+DOC1592,Consider,NEUROLOGY,HOS0019
+DOC1593,Wish,Neurology,HOS0020
+DOC1594,Value,Cardiology,HOS0005
+DOC1595,Stay,GENERAL MEDICINE,HOS0009
+DOC1596,Strong,Pediatrics,HOS0015
+DOC1597,Answer,Pediatrics,HOS0019
+DOC1598,Different,General Medicine,HOS0005
+DOC1599,Scene,Orthopedics,HOS0008
+DOC1600,Us,Pediatrics,HOS0002
+DOC1601,Bad,General Medicine,HOS0011
+DOC1602,He,Orthopedics,HOS0005
+DOC1603,Imagine,Cardiology,HOS0009
+DOC1604,Church,General medicine,HOS0004
+DOC1605,Want,Neurology,HOS0015
+DOC1606,Than,Oncology,HOS0007
+DOC1607,Probably,Neurology,HOS0002
+DOC1608,Value,Orthopedics,HOS0003
+DOC1609,List,Cardiology,HOS0019
+DOC1610,Field,Pediatrics,HOS0014
+DOC1611,Again,neurology,HOS0008
+DOC1612,Follow,General Medicine,HOS0002
+DOC1613,Run,General Medicine,HOS0011
+DOC1614,We,Pediatrics,HOS0015
+DOC1615,Six,Pediatrics,HOS0017
+DOC1616,Society,Cardiology,HOS0018
+DOC1617,True,Neurology,HOS0007
+INVALID_79,Happy,Orthopedics,HOS0007
+DOC1619,Ready,Neurology,HOS0014
+DOC1620,Car,General Medicine,HOS0008
+INVALID_73,Protect,Cardiology,HOS0002
+DOC1622,Other,Pediatrics,HOS0001
+DOC1623,Home,oncology,HOS0007
+DOC1624,Very,Pediatrics,HOS0009
+DOC1625,Cup,General Medicine,HOS0017
+DOC1626,State,Pediatrics,HOS0012
+DOC1627,In,Cardiology,HOS0003
+DOC1628,Song,Cardiology,HOS0009
+DOC0063,Become,Oncology,HOS0007
+DOC1630,Visit,Neurology,HOS0020
+DOC1631,Laugh,Orthopedics,HOS0008
+DOC1632,But,Cardiology,HOS0003
+DOC1633,How,General Medicine,HOS0011
+DOC1634,Point,Oncology,HOS0020
+DOC1635,Wear,Cardiology,HOS0016
+DOC1636,By,orthopedics,HOS0002
+DOC1637,Oil,General Medicine,HOS0009
+DOC1638,Couple,Neurology,HOS0018
+DOC1639,Same,Neurology,HOS0013
+DOC1640,Center,Oncology,HOS0009
+DOC1641,Choice,Neurology,HOS0008
+DOC1642,Movement,Oncology,HOS0003
+DOC1643,Actually,neurology,HOS0001
+DOC1644,Current,General Medicine,HOS0011
+DOC1645,Drug,Cardiology,HOS0011
+DOC1646,Edge,General Medicine,HOS0004
+DOC1647,Line,Orthopedics,HOS0001
+DOC1648,Forward,Orthopedics,HOS9999
+DOC1649,Born,Oncology,HOS0005
+DOC1650,Various,Pediatrics,HOS0014
+DOC1651,That,Oncology,HOS0010
+DOC1652,Similar,Oncology,HOS0009
+DOC1653,Hit,Neurology,HOS0015
+DOC1654,Word,Orthopedics,HOS0005
+DOC1655,Data,General Medicine,HOS0013
+DOC1656,Program,General Medicine,HOS0003
+DOC1657,Cell,Pediatrics,HOS0002
+DOC1658,Site,Cardiology,HOS9999
+DOC1659,Reach,Neurology,HOS0001
+DOC1660,Life,Orthopedics,HOS0007
+DOC1661,Investment,Cardiology,HOS0002
+INVALID_95,Democratic,Oncology,HOS0014
+DOC1663,Amount,Cardiology,HOS0012
+DOC1664,Low,Pediatrics,HOS0007
+DOC1665,Yes,Oncology,HOS0018
+DOC1666,Group,Oncology,HOS0004
+DOC1667,Strong,Oncology,HOS0012
+DOC1668,Red,General Medicine,HOS0016
+DOC1669,Third,Cardiology,HOS0005
+DOC1670,Race,General Medicine,HOS0005
+DOC1671,Seat,Pediatrics,HOS0011
+DOC1672,Method,Neurology,HOS0015
+DOC1673,Anyone,Neurology,HOS0010
+DOC1674,Inside,general medicine,HOS0009
+DOC1675,Key,Cardiology,HOS0001
+DOC1676,Product,Oncology,HOS0003
+DOC1677,Page,Orthopedics,HOS0010
+DOC1678,Case,Cardiology,HOS0007
+DOC1679,Technology,Neurology,HOS0012
+DOC1680,Skill,Cardiology,HOS0006
+DOC1681,Rather,Neurology,HOS0008
+INVALID_20,Social,Cardiology,HOS0010
+DOC1683,Court,neurology,HOS0009
+DOC1684,Which,Orthopedics,HOS0011
+DOC1685,Production,Neurology,HOS9999
+DOC1686,Traditional,Oncology,HOS0014
+DOC1687,Anything,Oncology,HOS0001
+DOC1688,Third,Pediatrics,HOS0005
+DOC1689,Commercial,Orthopedics,HOS0015
+DOC1690,Listen,Orthopedics,HOS0014
+DOC1691,Themselves,cardiology,HOS0004
+DOC1692,Child,Pediatrics,HOS0013
+DOC1693,Model,Pediatrics,HOS0007
+DOC1694,Learn,Neurology,HOS0001
+DOC1695,Officer,Pediatrics,HOS0010
+DOC1696,Bit,Oncology,HOS0012
+DOC1697,Let,Pediatrics,HOS9999
+DOC1698,Local,General Medicine,HOS0006
+DOC1699,Memory,Pediatrics,HOS0009
+DOC1700,Face,Pediatrics,HOS0001
+DOC1701,Political,Orthopedics,HOS0017
+DOC1702,Food,Pediatrics,HOS0019
+DOC1703,Yourself,Pediatrics,HOS0003
+DOC1704,Body,Oncology,HOS0019
+DOC1705,With,orthopedics,HOS0007
+DOC1706,Mean,General Medicine,HOS0002
+DOC1707,Trip,Orthopedics,HOS0012
+DOC1708,Vote,Pediatrics,HOS0015
+DOC1709,One,Cardiology,HOS0020
+DOC1710,Those,Pediatrics,HOS0003
+DOC1711,Star,General Medicine,HOS0018
+DOC1712,Notice,Neurology,HOS0008
+DOC1713,Stock,Cardiology,HOS0020
+DOC1714,Radio,Oncology,HOS0019
+DOC1715,Check,Cardiology,HOS0018
+DOC1716,Stage,pediatrics,HOS0006
+DOC1717,Step,Cardiology,HOS0014
+DOC1718,Weight,Cardiology,HOS0012
+DOC1719,Industry,Oncology,HOS0017
+DOC1720,Year,Neurology,HOS0003
+DOC1721,Night,General Medicine,HOS0006
+DOC1722,Authority,Pediatrics,HOS0004
+DOC1723,Best,Neurology,HOS0009
+DOC1724,Feel,Oncology,HOS0005
+DOC1725,Sit,Cardiology,HOS0018
+DOC1726,Staff,Cardiology,HOS0009
+DOC1727,Health,Orthopedics,HOS0016
+DOC1728,Number,Oncology,HOS0005
+DOC1729,Guy,Neurology,HOS0002
+DOC1730,Happy,Neurology,HOS0018
+DOC1731,About,Cardiology,HOS0009
+DOC1732,Series,Neurology,HOS0010
+DOC0553,Pull,Cardiology,HOS0010
+DOC1734,Course,Orthopedics,HOS0012
+DOC1735,Piece,Pediatrics,HOS0014
+DOC1736,True,General Medicine,HOS0015
+DOC1737,Small,Oncology,HOS0020
+DOC1738,Present,Pediatrics,HOS0011
+DOC1739,Over,Neurology,HOS0008
+DOC1740,Author,Oncology,HOS0010
+DOC1741,Teacher,Orthopedics,HOS0014
+DOC1742,Face,Oncology,HOS0018
+DOC1743,Well,Orthopedics,HOS0011
+DOC1744,Carry,General medicine,HOS0006
+DOC1745,Nearly,Pediatrics,HOS0002
+DOC1746,Remain,Neurology,HOS0018
+DOC1747,System,Orthopedics,HOS0004
+DOC1748,Try,Pediatrics,HOS0004
+DOC1749,Soldier,Pediatrics,HOS0003
+DOC0973,Case,neurology,HOS0015
+DOC1002,Key,Neurology,HOS0019
+DOC1752,Manager,Neurology,HOS0017
+DOC1753,Environmental,Oncology,HOS0017
+DOC1754,Discover,Orthopedics,HOS0017
+DOC1755,Foreign,Orthopedics,HOS0001
+DOC1756,Talk,Neurology,HOS0001
+INVALID_52,Deal,Orthopedics,HOS0005
+DOC1758,Line,General Medicine,HOS0009
+DOC1759,First,Pediatrics,HOS0001
+DOC1760,Wife,Oncology,HOS0006
+DOC1761,Civil,Oncology,HOS0017
+DOC1762,Born,Oncology,HOS0006
+DOC1763,Agency,Neurology,HOS0017
+DOC1764,Various,General Medicine,HOS0001
+DOC1765,Prevent,Neurology,HOS0008
+DOC1766,Shake,Neurology,HOS0004
+DOC1767,Purpose,General Medicine,HOS0006
+DOC1768,Mind,Orthopedics,HOS0004
+DOC1769,Eat,Orthopedics,HOS0014
+DOC1770,Bring,Orthopedics,HOS0009
+INVALID_80,Beyond,Oncology,HOS0009
+DOC1772,Chair,Oncology,HOS0006
+DOC1773,Fast,General Medicine,HOS0002
+DOC1774,Southern,Cardiology,HOS0005
+DOC1775,Nature,NEUROLOGY,HOS0006
+DOC1776,Similar,Oncology,HOS0018
+DOC1777,Agency,General Medicine,HOS0019
+DOC1778,Conference,Orthopedics,HOS0010
+DOC1779,Everyone,orthopedics,HOS0019
+DOC1780,Clearly,Neurology,HOS0018
+DOC1781,Arm,Neurology,HOS0017
+DOC1782,Thus,Cardiology,HOS0004
+DOC1783,Increase,Pediatrics,HOS0010
+DOC1784,Activity,Cardiology,HOS0016
+DOC1785,Toward,Orthopedics,HOS0001
+DOC1786,Ahead,Orthopedics,HOS0015
+DOC1787,Sit,Oncology,HOS0011
+DOC1788,Admit,Oncology,HOS0001
+DOC1789,Identify,Oncology,HOS0004
+DOC1790,Mean,Orthopedics,HOS0004
+DOC1791,My,Orthopedics,HOS0017
+DOC1792,Morning,Orthopedics,HOS0015
+DOC1793,Government,Cardiology,HOS0004
+DOC1794,Owner,Neurology,HOS0015
+DOC1795,Force,CARDIOLOGY,HOS0013
+DOC1796,Us,Oncology,HOS0010
+DOC1797,Fear,Oncology,HOS0010
+DOC1798,He,Oncology,HOS0004
+DOC1799,Nearly,General medicine,HOS0013
+DOC1800,Rest,Orthopedics,HOS0004
+DOC1801,Strong,Oncology,HOS0020
+DOC1802,Walk,Neurology,HOS0018
+DOC1803,Sense,Cardiology,HOS0011
+DOC1804,Race,Neurology,HOS0015
+DOC1805,Clear,Neurology,HOS0017
+DOC1806,Born,General Medicine,HOS0015
+DOC1807,Probably,Oncology,HOS0019
+DOC1808,See,Oncology,HOS0013
+DOC1809,Community,Neurology,HOS0014
+DOC1810,Yes,Neurology,HOS0017
+DOC1811,Look,Cardiology,HOS0014
+DOC1812,Forward,Oncology,HOS0006
+DOC1813,Team,Cardiology,HOS0018
+DOC1814,Serve,GENERAL MEDICINE,HOS0012
+DOC1815,Thank,Oncology,HOS0012
+DOC1816,Candidate,Pediatrics,HOS0020
+DOC1817,Father,Pediatrics,HOS0014
+DOC1818,Its,Orthopedics,HOS0018
+DOC1819,Maybe,Cardiology,HOS0014
+DOC1820,Travel,CARDIOLOGY,HOS0009
+DOC1821,Various,Oncology,HOS0014
+DOC1822,Notice,General Medicine,HOS0017
+DOC1823,Once,Pediatrics,HOS0005
+DOC1824,Head,Orthopedics,HOS0015
+DOC1825,Nor,ORTHOPEDICS,HOS0016
+DOC1826,He,Cardiology,HOS0001
+DOC1827,Responsibility,orthopedics,HOS0005
+DOC1828,Lay,Pediatrics,HOS0020
+DOC1829,May,Cardiology,HOS0013
+DOC1830,Catch,Orthopedics,HOS0011
+DOC1831,Reflect,ORTHOPEDICS,HOS0004
+DOC1832,Serious,General Medicine,HOS0017
+DOC1833,Place,Neurology,HOS0007
+DOC1834,Suddenly,Neurology,HOS0019
+DOC1835,Better,Oncology,HOS0001
+DOC1836,Phone,Neurology,HOS0018
+DOC1837,If,Orthopedics,HOS0010
+DOC1838,Cause,General Medicine,HOS0014
+DOC1839,Short,Neurology,HOS0017
+DOC1840,Wait,ONCOLOGY,HOS0015
+DOC1841,Wear,CARDIOLOGY,HOS0012
+DOC1842,History,Cardiology,HOS0007
+DOC1843,First,Cardiology,HOS0007
+DOC1844,Family,Pediatrics,HOS0020
+DOC1845,Here,Orthopedics,HOS0011
+DOC1846,Cut,Cardiology,HOS0020
+DOC1847,Risk,Cardiology,HOS0017
+DOC1848,Same,Cardiology,HOS9999
+DOC1849,Unit,Pediatrics,HOS0008
+DOC1850,Continue,Pediatrics,HOS0001
+DOC1851,Tell,Orthopedics,HOS0010
+DOC1852,Positive,Neurology,HOS0017
+DOC1853,Crime,Cardiology,HOS0017
+DOC1854,Under,General Medicine,HOS0017
+DOC0608,Own,Neurology,HOS0019
+DOC1856,Think,Orthopedics,HOS9999
+DOC1857,Student,Neurology,HOS0001
+DOC1858,Themselves,Orthopedics,HOS0011
+DOC1859,Middle,ORTHOPEDICS,HOS0002
+DOC1860,Argue,Cardiology,HOS0018
+DOC1677,Buy,Oncology,HOS0002
+DOC1862,Human,Oncology,HOS0019
+DOC0319,Machine,General Medicine,HOS0013
+DOC1864,Race,Neurology,HOS0018
+DOC1865,Food,Cardiology,HOS0012
+DOC1866,Popular,General Medicine,HOS0020
+DOC0704,Population,General Medicine,HOS0004
+INVALID_49,Book,Cardiology,HOS0010
+DOC1869,Data,Neurology,HOS0003
+DOC1870,Blue,Orthopedics,HOS0020
+INVALID_15,Skin,Orthopedics,HOS0011
+DOC1872,Wife,Cardiology,HOS0019
+DOC1873,Yourself,Cardiology,HOS0007
+DOC1874,Tonight,Neurology,HOS0014
+DOC1875,Especially,Cardiology,HOS0004
+DOC1876,Seem,Pediatrics,HOS0017
+DOC1877,Central,Neurology,HOS0015
+DOC1878,Manage,Oncology,HOS0017
+DOC1879,Career,Orthopedics,HOS0010
+DOC1880,Size,ORTHOPEDICS,HOS0017
+DOC1881,Wish,General Medicine,HOS0001
+DOC1882,Lose,General Medicine,HOS0017
+DOC1883,Minute,Pediatrics,HOS0007
+DOC1884,Body,Cardiology,HOS0009
+DOC1885,South,Orthopedics,HOS0007
+DOC1886,Growth,Cardiology,HOS0014
+DOC1887,World,Oncology,HOS0018
+DOC1888,He,Pediatrics,HOS0016
+DOC1889,Age,Cardiology,HOS0019
+DOC1890,International,Orthopedics,HOS0015
+DOC1891,Or,Cardiology,HOS0004
+DOC1892,Relate,cardiology,HOS0002
+DOC1893,Reach,Cardiology,HOS0001
+DOC1894,Color,Oncology,HOS0006
+DOC1895,Party,Pediatrics,HOS0014
+DOC1896,Never,General Medicine,HOS0009
+DOC1897,Country,Oncology,HOS0013
+DOC1898,Role,Cardiology,HOS0020
+DOC1899,Year,Cardiology,HOS0010
+DOC1900,Paper,Orthopedics,HOS0014
+DOC1901,Should,Pediatrics,HOS0005
+DOC1902,Win,Neurology,HOS0005
+DOC1903,Card,Oncology,HOS0006
+DOC1904,Else,Pediatrics,HOS0017
+DOC1905,Lay,General Medicine,HOS0007
+DOC1906,Everybody,Oncology,HOS0018
+DOC1907,Send,Pediatrics,HOS0014
+DOC1908,Production,Cardiology,HOS0002
+DOC1909,Political,Pediatrics,HOS0009
+DOC1910,Seven,Cardiology,HOS0001
+DOC1911,Establish,General Medicine,HOS0009
+DOC1912,College,Orthopedics,HOS0014
+DOC1913,Dream,Pediatrics,HOS0017
+DOC1914,Sign,Oncology,HOS0011
+DOC0555,East,Oncology,HOS0010
+DOC1916,Along,Neurology,HOS0005
+DOC0197,Wind,Cardiology,HOS0017
+DOC1918,Of,General Medicine,HOS0017
+DOC1919,Throughout,Orthopedics,HOS0003
+DOC1920,Reduce,General Medicine,HOS0014
+DOC1921,Husband,Cardiology,HOS0004
+DOC1922,Fly,Cardiology,HOS0012
+DOC1923,Yes,Pediatrics,HOS0016
+DOC1924,Traditional,Pediatrics,HOS0015
+DOC1925,Speak,Cardiology,HOS0014
+DOC1926,Eye,Cardiology,HOS0005
+INVALID_12,Project,Neurology,HOS0012
+DOC1928,Should,Cardiology,HOS0004
+DOC1929,Write,Pediatrics,HOS0015
+DOC1930,Front,Cardiology,HOS9999
+DOC1931,Day,General Medicine,HOS0008
+DOC1932,Near,Neurology,HOS0016
+DOC1933,Husband,Neurology,HOS0010
+DOC1934,Mouth,Pediatrics,HOS0006
+DOC1935,Per,Orthopedics,HOS9999
+DOC1936,Sign,Pediatrics,HOS0001
+DOC1937,Behind,Orthopedics,HOS0013
+DOC1938,Lay,Cardiology,HOS0018
+DOC0170,Face,Orthopedics,HOS0005
+DOC1940,During,Neurology,HOS0004
+DOC1941,American,Orthopedics,HOS0013
+DOC1942,Set,Cardiology,HOS0013
+DOC1943,Imagine,Pediatrics,HOS0016
+DOC1944,However,Orthopedics,HOS0015
+DOC1945,Leader,General Medicine,HOS0019
+DOC1946,Can,Neurology,HOS0011
+DOC1947,Move,Orthopedics,HOS0015
+DOC1948,Develop,General Medicine,HOS0013
+DOC0303,Let,Pediatrics,HOS0016
+DOC1950,All,Orthopedics,HOS0012
+DOC1951,Machine,Neurology,HOS0008
+DOC1952,Allow,Pediatrics,HOS0016
+DOC1953,Prevent,Cardiology,HOS0012
+DOC1954,There,Oncology,HOS0008
+DOC1955,Religious,Pediatrics,HOS0018
+DOC1956,Against,General Medicine,HOS0004
+DOC1957,Baby,Neurology,HOS0013
+DOC1958,Plant,Pediatrics,HOS0015
+DOC1959,Care,Pediatrics,HOS0005
+DOC1960,Better,Cardiology,HOS0014
+DOC1961,Try,Pediatrics,HOS0016
+DOC1962,Expert,orthopedics,HOS0020
+DOC1963,Under,Neurology,HOS0020
+DOC1964,Spring,Oncology,HOS0017
+DOC1965,Child,General Medicine,HOS0002
+DOC1966,Nor,General Medicine,HOS0001
+DOC1967,Fire,NEUROLOGY,HOS0009
+DOC1968,Start,Oncology,HOS0001
+DOC1969,Between,Oncology,HOS0020
+DOC1970,Most,Orthopedics,HOS0002
+DOC1971,Oil,General Medicine,HOS0001
+DOC1972,Industry,General Medicine,HOS0002
+DOC1973,Approach,Neurology,HOS0010
+DOC1974,Part,General Medicine,HOS0001
+DOC1975,Catch,Neurology,HOS0017
+DOC1976,Product,Cardiology,HOS0007
+DOC1977,Worry,Orthopedics,HOS0005
+DOC1978,From,Oncology,HOS0012
+DOC1979,Paper,Pediatrics,HOS0017
+DOC1980,Program,Neurology,HOS0011
+DOC1981,Table,Cardiology,HOS0019
+DOC1982,Such,GENERAL MEDICINE,HOS0003
+DOC1983,Human,General Medicine,HOS0018
+DOC1984,Where,Cardiology,HOS0020
+DOC1985,Inside,Neurology,HOS9999
+DOC1986,Cell,Pediatrics,HOS0020
+DOC1987,Yet,General Medicine,HOS0001
+DOC1988,Spring,Oncology,HOS0017
+DOC1989,Training,Pediatrics,HOS0011
+DOC1990,Fish,Orthopedics,HOS0007
+DOC1991,Together,Pediatrics,HOS0007
+DOC1992,Development,Oncology,HOS0011
+DOC1993,Law,NEUROLOGY,HOS0001
+DOC1994,Few,Oncology,HOS0003
+DOC1995,Trouble,Neurology,HOS9999
+DOC1996,Car,Pediatrics,HOS0008
+DOC1997,If,Cardiology,HOS0018
+DOC1998,Which,Cardiology,HOS0005
+DOC1999,Scientist,Oncology,HOS0002
+DOC2000,Education,Cardiology,HOS0011
+DOC2001,Ask,Cardiology,HOS0016
+DOC2002,Very,Pediatrics,HOS0006
+DOC2003,Shake,Cardiology,HOS0016
+DOC2004,Say,Orthopedics,HOS0014
+DOC2005,Particularly,General Medicine,HOS0013
+DOC2006,Stock,General Medicine,HOS0012
+DOC2007,Experience,Neurology,HOS0016
+DOC2008,Director,Cardiology,HOS0019
+DOC2009,Standard,Orthopedics,HOS0020
+DOC2010,Drive,Cardiology,HOS0012
+DOC2011,Maybe,Neurology,HOS0010
+DOC2012,Media,Cardiology,HOS0012
+DOC2013,Kid,Neurology,HOS0012
+DOC2014,Create,Oncology,HOS0001
+DOC2015,House,Neurology,HOS0006
+DOC2016,Show,Orthopedics,HOS0013
+DOC2017,Write,Neurology,HOS0001
+DOC2018,Within,General Medicine,HOS0018
+DOC2019,Language,Neurology,HOS0011
+DOC2020,Whose,Pediatrics,HOS0020
+DOC2021,Fall,Cardiology,HOS0006
+DOC2022,Exist,General Medicine,HOS0005
+DOC2023,Protect,Pediatrics,HOS0012
+DOC2024,Explain,Oncology,HOS0008
+DOC2025,Today,Oncology,HOS0001
+DOC2026,News,Neurology,HOS0006
+DOC1347,Add,Orthopedics,HOS0003
+DOC2028,Art,General Medicine,HOS0020
+DOC2029,Agency,General medicine,HOS0010
+DOC2030,Entire,Neurology,HOS0019
+DOC2031,Because,Neurology,HOS0007
+DOC2032,Seat,Neurology,HOS0003
+DOC2033,Compare,Neurology,HOS0020
+DOC2034,Course,Cardiology,HOS0008
+DOC2035,Cultural,Oncology,HOS0008
+DOC2036,Heavy,Neurology,HOS0005
+DOC2037,Garden,Neurology,HOS0008
+DOC2038,Game,Neurology,HOS0015
+DOC2039,Read,General Medicine,HOS0019
+INVALID_28,World,Pediatrics,HOS0002
+DOC2041,New,General Medicine,HOS0005
+DOC2042,Several,GENERAL MEDICINE,HOS0017
+DOC2043,Stock,Pediatrics,HOS0010
+DOC2044,Most,Neurology,HOS0010
+DOC2045,Item,Cardiology,HOS0009
+DOC2046,Goal,Orthopedics,HOS0014
+DOC2047,Our,Pediatrics,HOS0005
+DOC2048,Economy,Oncology,HOS0003
+INVALID_50,Picture,Neurology,HOS0013
+DOC2050,Pressure,Pediatrics,HOS0004
+DOC2051,Such,Neurology,HOS0011
+DOC2052,Focus,Oncology,HOS0003
+DOC2053,Staff,Cardiology,HOS0020
+DOC2054,Shoulder,Neurology,HOS0014
+DOC2055,Brother,Orthopedics,HOS0009
+DOC2056,Present,General Medicine,HOS0001
+DOC2057,Bill,Oncology,HOS0009
+DOC2058,Yard,Oncology,HOS0017
+DOC2059,Each,Pediatrics,HOS0001
+DOC2060,Account,Cardiology,HOS0014
+DOC2061,Finish,Pediatrics,HOS0019
+DOC2062,Case,cardiology,HOS0011
+DOC2063,Time,Pediatrics,HOS0012
+DOC2064,Week,General Medicine,HOS0009
+DOC2065,Kind,Neurology,HOS0004
+INVALID_33,Her,Pediatrics,HOS0019
+DOC2067,Boy,Oncology,HOS0008
+DOC2068,Sing,Orthopedics,HOS0001
+DOC2069,Assume,General Medicine,HOS0019
+DOC2070,Include,pediatrics,HOS0008
+DOC2071,Cold,Pediatrics,HOS0018
+DOC2072,Ready,Pediatrics,HOS0013
+DOC2073,Experience,Cardiology,HOS0011
+DOC2074,Shoulder,Cardiology,HOS0015
+DOC2075,Arrive,Neurology,HOS0008
+DOC2076,Whole,Neurology,HOS0002
+DOC2077,Travel,General medicine,HOS0020
+DOC2078,Court,Neurology,HOS0011
+DOC2079,Personal,Orthopedics,HOS0003
+DOC2080,Stuff,Oncology,HOS0020
+DOC2081,Seem,Oncology,HOS0013
+DOC2082,Institution,General Medicine,HOS0008
+DOC2083,Follow,Orthopedics,HOS0009
+DOC2084,Easy,Pediatrics,HOS0013
+DOC2085,Speak,Orthopedics,HOS0009
+DOC2086,Full,Neurology,HOS0020
+DOC2087,Author,Oncology,HOS0002
+DOC2088,Size,Cardiology,HOS0011
+DOC2089,Oil,Oncology,HOS0001
+DOC2090,Song,General Medicine,HOS0011
+DOC2091,Dinner,Neurology,HOS0016
+DOC2092,Also,General Medicine,HOS0017
+DOC2093,Almost,Oncology,HOS0016
+DOC2094,Again,Oncology,HOS0008
+INVALID_35,Want,Oncology,HOS0005
+DOC2096,Blood,Orthopedics,HOS0007
+DOC2097,Increase,General Medicine,HOS0010
+DOC2098,Left,Neurology,HOS0018
+DOC2099,Produce,Oncology,HOS0016
+DOC2100,Need,Neurology,HOS0014
+DOC2101,Model,Neurology,HOS0013
+DOC2102,Work,Pediatrics,HOS0006
+DOC2103,Minute,General Medicine,HOS0007
+DOC2104,Look,Pediatrics,HOS0004
+DOC2105,Analysis,Oncology,HOS0004
+DOC2106,Right,General medicine,HOS0012
+DOC2107,Similar,Cardiology,HOS0009
+DOC2108,Live,Oncology,HOS0012
+DOC2109,Ready,Cardiology,HOS0015
+DOC2110,Today,Cardiology,HOS0008
+DOC2111,Manage,Pediatrics,HOS0002
+DOC2112,Land,Pediatrics,HOS0002
+DOC2113,Pay,Orthopedics,HOS0011
+DOC2114,Difficult,Cardiology,HOS0013
+DOC2115,News,General Medicine,HOS0019
+DOC2116,The,Orthopedics,HOS0004
+DOC2117,Security,Oncology,HOS0006
+DOC2118,Improve,general medicine,HOS0017
+DOC2119,Size,Pediatrics,HOS9999
+DOC2120,Increase,Pediatrics,HOS0017
+DOC2121,Right,Neurology,HOS0003
+DOC2122,Require,PEDIATRICS,HOS0010
+DOC2123,Hundred,General Medicine,HOS0014
+DOC2124,Fall,Orthopedics,HOS0003
+DOC2125,Anything,Neurology,HOS0010
+DOC2126,Especially,General Medicine,HOS0015
+DOC2127,Order,Oncology,HOS0006
+DOC2128,Better,Cardiology,HOS0013
+DOC2129,Gas,Pediatrics,HOS0004
+DOC2130,My,General Medicine,HOS0010
+DOC2131,After,Orthopedics,HOS0003
+DOC2132,Experience,Oncology,HOS0013
+DOC2133,Lawyer,Orthopedics,HOS0015
+DOC2134,Career,Orthopedics,HOS0012
+DOC2135,Develop,Oncology,HOS0014
+DOC2136,Pay,Orthopedics,HOS0017
+DOC1866,Executive,Pediatrics,HOS0010
+DOC2138,Lot,Pediatrics,HOS0015
+DOC2139,Language,Cardiology,HOS0014
+DOC2140,System,General Medicine,HOS0003
+DOC2141,Pattern,Orthopedics,HOS0005
+DOC2142,Today,neurology,HOS0005
+DOC2143,Kid,Neurology,HOS0006
+DOC2144,Remain,Cardiology,HOS0017
+DOC2145,Which,Cardiology,HOS0008
+DOC2146,Financial,Oncology,HOS0009
+DOC1519,Mr,General Medicine,HOS0009
+DOC2148,Much,General medicine,HOS0017
+DOC2149,Mission,General Medicine,HOS0009
+DOC2150,His,Orthopedics,HOS0012
+DOC2151,Several,Orthopedics,HOS0012
+DOC2152,Notice,Orthopedics,HOS0001
+DOC2153,Pretty,Cardiology,HOS0003
+DOC2154,Other,Pediatrics,HOS0020
+DOC2155,Direction,Neurology,HOS0008
+DOC2156,Special,General Medicine,HOS0005
+DOC2157,Grow,Pediatrics,HOS0017
+DOC2158,Behavior,Orthopedics,HOS0002
+DOC2159,Ago,CARDIOLOGY,HOS0016
+DOC2160,Stop,Cardiology,HOS0012
+DOC2161,Water,Oncology,HOS0012
+DOC2162,Soldier,Cardiology,HOS0004
+DOC2163,Message,Orthopedics,HOS0004
+DOC2164,By,Orthopedics,HOS0002
+DOC2165,Church,Oncology,HOS0003
+DOC2166,Area,Oncology,HOS0016
+DOC2167,Though,Oncology,HOS0006
+DOC2168,Nearly,GENERAL MEDICINE,HOS0015
+INVALID_37,Might,Pediatrics,HOS0016
+DOC2170,Finish,Oncology,HOS0006
+DOC2171,Successful,General Medicine,HOS0002
+DOC2172,Even,Pediatrics,HOS0005
+DOC2173,Collection,Pediatrics,HOS0003
+DOC2174,Century,pediatrics,HOS0008
+DOC2175,Food,Oncology,HOS0013
+DOC2176,Artist,Pediatrics,HOS0010
+DOC2177,Over,Cardiology,HOS0004
+DOC2178,Road,Orthopedics,HOS0010
+DOC2179,Stop,Pediatrics,HOS0008
+DOC2180,Outside,general medicine,HOS0010
+DOC2181,Future,Cardiology,HOS0008
+DOC2182,Huge,Cardiology,HOS0005
+DOC2183,Entire,Cardiology,HOS0003
+DOC2184,Officer,General Medicine,HOS0013
+DOC2185,Community,Cardiology,HOS0005
+DOC2186,One,Neurology,HOS0005
+DOC2187,Second,Pediatrics,HOS0010
+DOC2188,Boy,Neurology,HOS0003
+DOC2189,Reflect,ORTHOPEDICS,HOS0002
+DOC2190,Court,Pediatrics,HOS0011
+DOC2191,Share,Cardiology,HOS0013
+DOC2192,Base,Orthopedics,HOS0013
+DOC2193,Myself,Pediatrics,HOS0013
+DOC2194,Only,Pediatrics,HOS0010
+DOC2195,Indicate,General Medicine,HOS0009
+DOC0506,Gas,orthopedics,HOS0018
+DOC2197,Model,ONCOLOGY,HOS0015
+DOC2198,President,Oncology,HOS0005
+DOC2199,Change,Cardiology,HOS0015
+DOC1087,Station,Pediatrics,HOS0020
+DOC2201,Me,NEUROLOGY,HOS0020
+DOC2202,Task,Pediatrics,HOS0006
+DOC2203,East,Oncology,HOS0013
+DOC2204,Quite,General Medicine,HOS0005
+DOC2205,Small,General Medicine,HOS0014
+DOC2206,Answer,Pediatrics,HOS0019
+DOC2207,Feeling,Neurology,HOS0011
+DOC2208,Article,PEDIATRICS,HOS0006
+DOC2209,Ago,Neurology,HOS0018
+DOC2210,Thus,Pediatrics,HOS0013
+DOC2211,Reality,Neurology,HOS0017
+DOC2212,Whole,general medicine,HOS0003
+DOC2213,Mouth,Pediatrics,HOS0016
+DOC2214,Soldier,Oncology,HOS0009
+DOC2215,Have,Oncology,HOS0008
+DOC2216,Brother,Oncology,HOS0011
+DOC2217,Represent,Cardiology,HOS0005
+DOC2218,Southern,General Medicine,HOS0013
+DOC2219,Trade,neurology,HOS0013
+DOC2220,Early,Oncology,HOS0010
+DOC1161,Audience,Cardiology,HOS0008
+DOC2222,Natural,Orthopedics,HOS0002
+DOC2223,Town,cardiology,HOS0011
+DOC2224,Once,Cardiology,HOS0002
+DOC2225,Language,Oncology,HOS0008
+DOC2226,In,Pediatrics,HOS0015
+DOC2227,Hundred,Neurology,HOS0016
+DOC2228,Gun,Neurology,HOS0010
+DOC2229,Discussion,Orthopedics,HOS0008
+DOC2230,Again,Neurology,HOS0006
+DOC2231,Type,Cardiology,HOS0012
+DOC2232,Such,General Medicine,HOS0017
+DOC2233,To,Orthopedics,HOS0017
+DOC2234,Itself,Orthopedics,HOS0020
+DOC2235,Responsibility,General Medicine,HOS0001
+DOC0786,Gas,Pediatrics,HOS9999
+DOC2237,Conference,Orthopedics,HOS0011
+DOC2238,Purpose,Oncology,HOS0010
+DOC2239,Design,Neurology,HOS0017
+DOC2240,Western,Oncology,HOS0010
+DOC2241,Military,Cardiology,HOS0010
+DOC2242,Him,Neurology,HOS0018
+DOC2243,Leg,Pediatrics,HOS0008
+DOC2244,Two,General Medicine,HOS0005
+DOC2245,Identify,Oncology,HOS0018
+DOC2246,Down,Neurology,HOS0009
+INVALID_71,Position,General Medicine,HOS0016
+DOC2248,Education,Cardiology,HOS0007
+DOC2249,Soldier,General Medicine,HOS0017
+DOC2250,Within,Neurology,HOS0005
+DOC2251,Want,Neurology,HOS0001
+DOC2252,Democrat,Pediatrics,HOS0020
+DOC2253,Make,Oncology,HOS0013
+DOC2254,Outside,General Medicine,HOS0008
+DOC2255,Ball,General Medicine,HOS0013
+DOC0037,Direction,Cardiology,HOS0010
+DOC2257,Build,Orthopedics,HOS0020
+DOC2258,Space,CARDIOLOGY,HOS0012
+DOC2259,School,Pediatrics,HOS9999
+DOC2260,Old,General Medicine,HOS0006
+DOC2261,Direction,Oncology,HOS0010
+DOC2262,Growth,General Medicine,HOS0005
+DOC2263,Bit,NEUROLOGY,HOS0014
+DOC2264,Medical,General Medicine,HOS0018
+DOC2265,Affect,Neurology,HOS0016
+DOC2266,Have,Orthopedics,HOS0014
+DOC2267,Wall,Pediatrics,HOS0008
+DOC0527,Six,General Medicine,HOS0010
+DOC2269,Simply,Oncology,HOS0015
+DOC2270,Society,neurology,HOS0004
+DOC2271,Age,Cardiology,HOS9999
+DOC2272,Seem,General Medicine,HOS0018
+DOC2273,Card,General Medicine,HOS0003
+DOC2274,Who,Oncology,HOS0005
+DOC2275,Dog,Oncology,HOS0002
+DOC2276,Who,Pediatrics,HOS0019
+DOC2277,Important,Pediatrics,HOS0005
+DOC2278,Surface,Pediatrics,HOS0009
+DOC2279,Bag,Neurology,HOS0002
+DOC2280,Dinner,Cardiology,HOS0009
+DOC2281,Imagine,Cardiology,HOS0018
+DOC1232,Example,Cardiology,HOS0016
+DOC2283,Too,General Medicine,HOS0006
+DOC2284,Program,General Medicine,HOS0005
+DOC2285,Pretty,Cardiology,HOS0002
+DOC2286,Determine,Cardiology,HOS0009
+INVALID_63,Interesting,Orthopedics,HOS0007
+DOC2288,Stage,ONCOLOGY,HOS0015
+DOC2289,Firm,Pediatrics,HOS0006
+DOC2290,Source,Cardiology,HOS0005
+DOC2291,Prepare,Cardiology,HOS0011
+DOC2292,Example,Oncology,HOS0014
+INVALID_69,Network,Orthopedics,HOS0002
+DOC2294,Television,Oncology,HOS0012
+DOC2295,Cup,General Medicine,HOS0001
+DOC2296,Speech,Neurology,HOS0012
+INVALID_25,Director,Pediatrics,HOS0011
+DOC2298,Dinner,Oncology,HOS0012
+DOC2299,Give,Oncology,HOS0006
+DOC2300,Seem,Neurology,HOS0004
+DOC0201,Little,PEDIATRICS,HOS0012
+DOC2302,Know,Pediatrics,HOS0009
+DOC2303,Body,Orthopedics,HOS0011
+DOC2304,Crime,Pediatrics,HOS0010
+DOC2305,Really,Neurology,HOS0010
+DOC2306,Business,Neurology,HOS0011
+DOC2307,Both,General Medicine,HOS0008
+DOC2308,Agree,GENERAL MEDICINE,HOS0008
+DOC2309,Month,Cardiology,HOS0010
+DOC2310,Among,General Medicine,HOS0020
+DOC2311,Here,General Medicine,HOS0012
+DOC2312,Best,Orthopedics,HOS0006
+DOC2313,Response,Orthopedics,HOS0005
+DOC2314,Movie,Cardiology,HOS0009
+DOC2315,Well,Cardiology,HOS0012
+DOC2316,Couple,General Medicine,HOS0015
+DOC2317,Hard,Neurology,HOS0016
+DOC0435,Plant,Pediatrics,HOS0012
+DOC2319,Day,General Medicine,HOS0009
+DOC2320,Always,PEDIATRICS,HOS0013
+DOC2321,Pattern,Neurology,HOS0018
+DOC2322,Civil,Oncology,HOS0008
+DOC2323,Spend,Oncology,HOS0002
+DOC2324,Major,Orthopedics,HOS0016
+DOC2325,Answer,General Medicine,HOS0002
+DOC2326,Local,General Medicine,HOS0007
+DOC2327,Could,General Medicine,HOS0004
+DOC2328,Room,general medicine,HOS0007
+DOC2329,Me,Orthopedics,HOS9999
+DOC2330,Born,Neurology,HOS0003
+DOC2331,Quite,Cardiology,HOS0012
+DOC2332,Very,Neurology,HOS0020
+DOC2333,Foot,Neurology,HOS0006
+DOC2334,By,General Medicine,HOS0007
+DOC2335,Staff,Cardiology,HOS0009
+DOC2336,Trial,General Medicine,HOS0019
+DOC2337,Claim,Orthopedics,HOS0009
+DOC2338,Radio,pediatrics,HOS0013
+DOC2339,Collection,general medicine,HOS9999
+DOC2340,Perhaps,Cardiology,HOS0011
+DOC2341,Happy,cardiology,HOS0005
+DOC2342,Sometimes,Neurology,HOS0011
+DOC2343,Meeting,Cardiology,HOS0016
+DOC2344,Nature,General Medicine,HOS0007
+DOC2345,Window,General Medicine,HOS0010
+DOC2346,Ready,Orthopedics,HOS0020
+DOC2347,Positive,NEUROLOGY,HOS0015
+DOC2348,Standard,General Medicine,HOS0006
+DOC2349,Pretty,Orthopedics,HOS0002
+DOC2350,Situation,Oncology,HOS0006
+DOC2351,Material,Oncology,HOS0015
+DOC2352,Phone,Orthopedics,HOS0010
+DOC2353,Interest,Orthopedics,HOS0017
+DOC2354,Military,General Medicine,HOS0018
+DOC2355,Teacher,Pediatrics,HOS0018
+DOC2105,Maintain,Pediatrics,HOS0016
+DOC2357,Night,Neurology,HOS0005
+DOC2358,Carry,Oncology,HOS0014
+DOC2359,Economy,Cardiology,HOS0004
+DOC2360,Respond,Cardiology,HOS0014
+DOC2361,Teacher,Oncology,HOS0007
+DOC2362,Recently,GENERAL MEDICINE,HOS0011
+DOC2363,Certain,general medicine,HOS0011
+DOC2364,Today,Orthopedics,HOS0006
+DOC2365,Will,Orthopedics,HOS0017
+DOC2366,Ready,Neurology,HOS0018
+DOC2367,Growth,Orthopedics,HOS0002
+INVALID_25,Anything,Cardiology,HOS0019
+DOC0190,Pick,Cardiology,HOS0010
+DOC2370,Close,Cardiology,HOS0007
+DOC2371,Leave,ORTHOPEDICS,HOS0006
+DOC2372,House,Pediatrics,HOS0012
+DOC1478,Could,neurology,HOS0004
+DOC2374,Hand,Cardiology,HOS0002
+DOC2375,Fish,Cardiology,HOS0013
+DOC2376,Charge,Oncology,HOS0020
+DOC1188,Author,Pediatrics,HOS0009
+DOC2378,Treatment,Oncology,HOS0006
+DOC2379,One,Neurology,HOS0016
+INVALID_8,Sometimes,Pediatrics,HOS0003
+DOC2381,Wide,Orthopedics,HOS0001
+DOC2382,World,Pediatrics,HOS0002
+DOC2383,Record,Cardiology,HOS0005
+DOC2384,Vote,Cardiology,HOS0019
+DOC2385,No,Pediatrics,HOS0013
+DOC2386,Wonder,Neurology,HOS0015
+DOC2387,Performance,Oncology,HOS0019
+DOC2388,Growth,General Medicine,HOS0015
+DOC2389,Loss,Oncology,HOS0013
+DOC2390,That,Pediatrics,HOS0013
+DOC2391,She,Orthopedics,HOS0017
+DOC2392,May,Pediatrics,HOS0010
+DOC2393,Various,Oncology,HOS0002
+DOC2394,Voice,Cardiology,HOS0020
+DOC2395,Result,Neurology,HOS0004
+DOC2396,Surface,Orthopedics,HOS0002
+DOC2397,Everyone,Neurology,HOS0015
+DOC2398,Candidate,Cardiology,HOS0012
+DOC2399,Whom,Oncology,HOS0007
+DOC2400,Leg,Orthopedics,HOS0015
+DOC2401,He,Cardiology,HOS0006
+DOC2402,Often,Neurology,HOS0012
+DOC2403,Upon,Neurology,HOS0005
+DOC2404,Must,General Medicine,HOS0003
+DOC2405,Night,Pediatrics,HOS0011
+DOC2406,Short,Pediatrics,HOS0002
+DOC2407,Science,Oncology,HOS0020
+DOC2408,Office,neurology,HOS0014
+DOC2409,Place,Pediatrics,HOS0009
+DOC2410,Possible,Oncology,HOS0007
+DOC2411,Stop,Cardiology,HOS0020
+DOC2412,Sound,Orthopedics,HOS0006
+DOC1788,State,Orthopedics,HOS0013
+DOC2414,Important,General Medicine,HOS0003
+DOC2415,Focus,Neurology,HOS0002
+DOC2416,Yeah,Orthopedics,HOS0003
+DOC2417,Admit,Neurology,HOS0005
+DOC2418,Reach,General Medicine,HOS0009
+DOC2419,Society,NEUROLOGY,HOS0014
+INVALID_81,Use,Neurology,HOS0018
+DOC2421,Occur,Cardiology,HOS0015
+DOC2422,Kid,General Medicine,HOS0001
+DOC2423,Stay,ORTHOPEDICS,HOS0002
+DOC2424,Plan,Cardiology,HOS0001
+DOC2425,Language,Cardiology,HOS0006
+DOC2426,Pretty,Orthopedics,HOS0003
+DOC2427,Mean,Orthopedics,HOS0004
+DOC2428,Democratic,Neurology,HOS0009
+DOC2429,Rule,General Medicine,HOS0010
+DOC2430,Physical,Orthopedics,HOS0014
+DOC2431,Various,Pediatrics,HOS0016
+DOC2432,Tend,Cardiology,HOS0016
+DOC2433,History,Neurology,HOS0014
+INVALID_92,Blood,General Medicine,HOS0003
+DOC2435,Still,Cardiology,HOS0003
+DOC2436,Air,ORTHOPEDICS,HOS0001
+DOC2437,Read,Cardiology,HOS0003
+DOC2438,Contain,ONCOLOGY,HOS0007
+DOC2439,Camera,Cardiology,HOS0005
+DOC2440,Each,Cardiology,HOS0004
+DOC2441,Seem,Neurology,HOS0009
+DOC2442,Many,Cardiology,HOS0007
+DOC2443,Tend,Oncology,HOS0006
+DOC2444,Know,Pediatrics,HOS0017
+DOC2445,Record,GENERAL MEDICINE,HOS0005
+DOC2446,Rich,Cardiology,HOS0001
+DOC2447,Community,General Medicine,HOS0003
+DOC2448,Most,Oncology,HOS0002
+DOC2449,Too,Neurology,HOS0010
+DOC2450,That,Oncology,HOS0011
+DOC2451,Officer,Cardiology,HOS0010
+DOC2452,Across,Orthopedics,HOS0017
+DOC2453,Statement,Oncology,HOS0016
+DOC2454,Apply,Oncology,HOS0008
+DOC2455,Pattern,Pediatrics,HOS0018
+DOC2456,Decision,Pediatrics,HOS0015
+DOC2457,Make,General Medicine,HOS0007
+DOC2458,Cut,General Medicine,HOS0006
+DOC1904,Year,Cardiology,HOS0020
+DOC2460,Already,Neurology,HOS0005
+DOC2461,Suggest,Pediatrics,HOS0012
+DOC2462,Within,Orthopedics,HOS0018
+DOC2463,Particular,Neurology,HOS0010
+DOC1470,Operation,General Medicine,HOS0019
+DOC2134,Receive,Neurology,HOS0018
+DOC2466,Agree,Orthopedics,HOS0017
+DOC0375,Chance,ONCOLOGY,HOS0003
+DOC2468,Almost,Pediatrics,HOS0002
+DOC2469,Attention,Oncology,HOS0006
+DOC2470,To,Oncology,HOS9999
+DOC2471,Another,Pediatrics,HOS9999
+DOC2472,Either,General Medicine,HOS0001
+DOC0953,Green,Oncology,HOS0014
+DOC1178,Charge,Pediatrics,HOS0017
+DOC2475,Good,Orthopedics,HOS0014
+DOC2476,Left,Oncology,HOS0010
+DOC2477,Apply,General Medicine,HOS0011
+DOC2478,Ever,Cardiology,HOS0020
+DOC2418,Ready,neurology,HOS0020
+DOC2480,Political,NEUROLOGY,HOS0019
+DOC2481,Fight,Neurology,HOS0007
+DOC2482,Change,Neurology,HOS0005
+DOC2483,Western,Neurology,HOS0010
+DOC2484,Decade,Oncology,HOS0004
+DOC2485,Either,Orthopedics,HOS0019
+DOC2486,Create,Neurology,HOS0015
+DOC2487,Player,General Medicine,HOS0009
+DOC2488,Serious,Cardiology,HOS0015
+DOC2489,National,Cardiology,HOS0005
+DOC2490,Development,Cardiology,HOS0019
+DOC2491,Worry,Orthopedics,HOS0014
+DOC2492,Area,Cardiology,HOS0012
+DOC2493,Measure,Pediatrics,HOS0014
+DOC2494,Guy,Neurology,HOS0012
+DOC2495,Yard,Orthopedics,HOS0018
+DOC2496,Important,Pediatrics,HOS0014
+DOC2497,Treat,Cardiology,HOS0018
+DOC2498,Real,General medicine,HOS0006
+DOC2499,Enter,Oncology,HOS0012
+DOC2500,Forward,Orthopedics,HOS0006
+DOC2501,Because,Neurology,HOS0011
+DOC2502,Keep,General Medicine,HOS0004
+DOC2503,Red,Oncology,HOS0015
+DOC2504,Offer,Oncology,HOS0018
+DOC0267,Do,Cardiology,HOS0012
+DOC2506,Read,Oncology,HOS0010
+DOC2507,Case,Orthopedics,HOS0007
+DOC2508,Main,Cardiology,HOS9999
+DOC2509,Sense,Cardiology,HOS0003
+DOC2510,Poor,orthopedics,HOS0013
+DOC2511,Better,Neurology,HOS0002
+DOC1717,Thing,Cardiology,HOS0019
+DOC2513,Back,Oncology,HOS0020
+DOC2514,Member,NEUROLOGY,HOS0010
+DOC2515,Herself,Neurology,HOS9999
+DOC2516,Evening,General medicine,HOS0011
+DOC2517,Until,Oncology,HOS0008
+DOC2518,Interest,Cardiology,HOS0001
+DOC2519,Morning,Pediatrics,HOS0007
+DOC2520,Many,General Medicine,HOS0012
+DOC2521,Course,Pediatrics,HOS0017
+DOC2522,Wonder,Orthopedics,HOS0017
+DOC2523,Interest,Pediatrics,HOS0017
+DOC2524,Wall,Pediatrics,HOS0018
+DOC2525,Make,Neurology,HOS0019
+DOC2526,Center,Cardiology,HOS0018
+DOC2527,Information,Oncology,HOS0008
+DOC2528,Machine,General Medicine,HOS0008
+DOC2529,Drive,Neurology,HOS0002
+DOC2530,Sound,Pediatrics,HOS0007
+DOC2531,What,Neurology,HOS0012
+DOC2532,Financial,Orthopedics,HOS0007
+DOC2533,Story,Oncology,HOS0010
+DOC2534,Buy,Oncology,HOS0007
+DOC2535,Why,General Medicine,HOS0011
+DOC2536,Seem,Neurology,HOS0017
+DOC2537,Something,Oncology,HOS0008
+DOC2538,Test,Orthopedics,HOS0011
+DOC2539,Hair,General Medicine,HOS0020
+DOC2540,Reach,Orthopedics,HOS0014
+DOC2541,Ok,Oncology,HOS0007
+DOC2542,Concern,Cardiology,HOS0005
+DOC2543,Mr,Pediatrics,HOS0003
+DOC2544,Information,Neurology,HOS0007
+DOC2545,With,Oncology,HOS0004
+DOC2546,Gun,Pediatrics,HOS0011
+DOC2547,End,Oncology,HOS0008
+DOC2548,For,Cardiology,HOS0013
+DOC2549,Process,Pediatrics,HOS0012
+DOC2550,Nation,Orthopedics,HOS0017
+DOC2551,Check,Orthopedics,HOS0010
+DOC2552,Although,Cardiology,HOS0015
+DOC2553,Such,Pediatrics,HOS0014
+DOC2554,Statement,Oncology,HOS0006
+DOC2555,Add,General Medicine,HOS0014
+DOC2556,Much,Cardiology,HOS0015
+DOC2557,Grow,Pediatrics,HOS0014
+DOC2558,Congress,Orthopedics,HOS0008
+DOC2559,Stop,Orthopedics,HOS0016
+DOC2560,Catch,Oncology,HOS0018
+DOC2561,Behavior,Oncology,HOS0003
+DOC2562,Social,Oncology,HOS0011
+DOC0954,Success,Cardiology,HOS0009
+DOC2564,Happen,Cardiology,HOS0006
+DOC2565,Already,Cardiology,HOS0015
+DOC2566,Public,Pediatrics,HOS0007
+INVALID_34,Finally,Cardiology,HOS0019
+DOC2568,Stock,Pediatrics,HOS0007
+DOC2569,Action,Neurology,HOS0010
+DOC1091,Later,Oncology,HOS0008
+DOC2571,Read,Oncology,HOS0016
+INVALID_36,Way,General Medicine,HOS0010
+DOC2573,Where,Orthopedics,HOS0017
+DOC2574,Have,Pediatrics,HOS0006
+DOC2575,Once,General Medicine,HOS0018
+DOC2576,Old,Orthopedics,HOS0005
+DOC2577,School,oncology,HOS0018
+DOC2578,Similar,General Medicine,HOS0011
+DOC2579,Subject,Orthopedics,HOS0012
+INVALID_21,Area,Cardiology,HOS0011
+DOC2581,Able,Oncology,HOS0018
+DOC1591,Reduce,Oncology,HOS0009
+DOC2583,Option,Neurology,HOS0003
+DOC2584,Write,Neurology,HOS0006
+DOC2585,Generation,Oncology,HOS0008
+DOC2586,Article,Pediatrics,HOS0006
+DOC2587,Shoulder,Oncology,HOS0012
+DOC2588,Above,General Medicine,HOS0005
+DOC2589,Entire,oncology,HOS0007
+DOC2590,Arrive,GENERAL MEDICINE,HOS0010
+DOC0392,Born,Neurology,HOS0014
+DOC2592,Ok,Orthopedics,HOS0002
+DOC2593,Care,Orthopedics,HOS0016
+DOC2594,Decade,Orthopedics,HOS0006
+DOC2595,Travel,Pediatrics,HOS0015
+DOC2596,Many,Pediatrics,HOS0018
+DOC2597,Surface,Orthopedics,HOS0002
+DOC1266,Similar,Neurology,HOS0019
+DOC2599,Defense,Oncology,HOS0008
+DOC2600,Will,Orthopedics,HOS0012
+DOC2601,Kid,General Medicine,HOS0001
+DOC2602,Involve,Neurology,HOS0007
+DOC2603,School,Neurology,HOS0019
+DOC2604,Style,Cardiology,HOS0016
+DOC2605,Allow,Orthopedics,HOS0016
+DOC2606,Night,Pediatrics,HOS0017
+DOC2607,Maintain,pediatrics,HOS0016
+DOC2608,Month,Cardiology,HOS0004
+DOC2609,Pressure,Neurology,HOS0007
+DOC2610,Board,Orthopedics,HOS0007
+DOC2611,Else,Cardiology,HOS0005
+DOC2612,Quickly,Cardiology,HOS0006
+DOC2613,Save,General Medicine,HOS0015
+DOC2614,Job,Pediatrics,HOS0003
+DOC2615,Tough,CARDIOLOGY,HOS0006
+DOC2616,Rate,Neurology,HOS0001
+DOC2617,Executive,Oncology,HOS0011
+DOC2618,Very,Oncology,HOS9999
+DOC2619,Great,Neurology,HOS0012
+DOC2620,Cup,General Medicine,HOS0011
+DOC2621,Movement,Cardiology,HOS0016
+DOC2622,Provide,Oncology,HOS0015
+DOC2623,Tend,Orthopedics,HOS0006
+DOC2624,Defense,Cardiology,HOS0012
+DOC2625,Film,Oncology,HOS0014
+DOC2626,Environment,Oncology,HOS0003
+DOC2627,Writer,Orthopedics,HOS0019
+DOC2628,Right,Orthopedics,HOS0016
+DOC2629,Particularly,Neurology,HOS0012
+DOC2630,Evening,Neurology,HOS0017
+DOC2631,Oil,Oncology,HOS0006
+DOC2632,Live,Pediatrics,HOS0008
+DOC2633,News,CARDIOLOGY,HOS0007
+DOC2634,Never,Orthopedics,HOS0018
+DOC2635,Hit,Oncology,HOS0017
+DOC2636,Rock,Neurology,HOS0014
+DOC2637,Fish,Pediatrics,HOS0013
+DOC2638,Simply,Orthopedics,HOS0020
+DOC2639,Continue,General Medicine,HOS0020
+DOC2640,Nor,Oncology,HOS0005
+DOC2641,Both,General Medicine,HOS0004
+DOC2642,Other,Neurology,HOS0010
+DOC2643,Or,cardiology,HOS0006
+DOC2644,Return,Orthopedics,HOS0015
+DOC2645,Order,Orthopedics,HOS0011
+DOC2646,But,Neurology,HOS0012
+DOC2647,Who,Neurology,HOS0015
+DOC2648,Leader,Cardiology,HOS0008
+DOC2649,Fund,Pediatrics,HOS0016
+DOC2650,Exactly,Oncology,HOS0016
+DOC2651,Son,Oncology,HOS0007
+DOC2652,Late,Cardiology,HOS0006
+DOC2653,Phone,Pediatrics,HOS0001
+DOC2654,Matter,Pediatrics,HOS0001
+DOC2655,Item,Neurology,HOS0007
+DOC2656,Free,General Medicine,HOS0004
+DOC2657,Agent,Cardiology,HOS0014
+DOC2658,Start,Oncology,HOS0015
+DOC2659,Wait,Orthopedics,HOS0001
+DOC2660,His,General Medicine,HOS0006
+DOC2661,Military,General Medicine,HOS0016
+DOC2662,Staff,Neurology,HOS0012
+DOC2663,Trouble,Neurology,HOS9999
+DOC2664,Reveal,General Medicine,HOS0001
+DOC2665,Television,Neurology,HOS0008
+DOC2666,Watch,Oncology,HOS0001
+DOC2667,Fight,Orthopedics,HOS0009
+DOC2668,House,ONCOLOGY,HOS0018
+DOC2669,Player,Pediatrics,HOS0008
+DOC2670,Seat,Oncology,HOS0005
+DOC2671,This,Pediatrics,HOS0011
+DOC2672,What,Pediatrics,HOS0014
+DOC2673,Republican,Oncology,HOS0014
+DOC2674,Including,Neurology,HOS0007
+DOC2675,There,Orthopedics,HOS0020
+DOC2676,Ground,Neurology,HOS0006
+DOC2677,Long,General Medicine,HOS0005
+DOC2678,Next,Cardiology,HOS0002
+DOC2679,Conference,Neurology,HOS0016
+DOC2680,Former,Neurology,HOS0001
+DOC2681,Become,Oncology,HOS0008
+DOC2682,History,General Medicine,HOS0009
+DOC2683,Truth,Oncology,HOS0017
+DOC2684,Site,Cardiology,HOS0007
+DOC2685,Class,Cardiology,HOS0007
+DOC2686,Sister,Orthopedics,HOS0010
+DOC2687,Put,Orthopedics,HOS0006
+DOC2688,Run,Pediatrics,HOS0002
+DOC2689,Glass,General Medicine,HOS0016
+DOC2690,Star,Pediatrics,HOS0013
+DOC2691,Physical,Oncology,HOS0006
+DOC2692,Break,General Medicine,HOS0004
+DOC2693,Local,Orthopedics,HOS0005
+INVALID_42,Quickly,Cardiology,HOS0001
+DOC2695,Everyone,Orthopedics,HOS0014
+DOC2696,Reflect,Pediatrics,HOS0002
+DOC2697,Determine,Oncology,HOS0008
+DOC2698,Film,Orthopedics,HOS0007
+DOC2699,Board,General Medicine,HOS0011
+DOC2700,Third,Pediatrics,HOS0015
+DOC2387,Note,Oncology,HOS0002
+DOC2702,Avoid,Neurology,HOS0019
+DOC2703,Financial,Cardiology,HOS0016
+DOC2704,Though,Pediatrics,HOS0006
+DOC2705,Stand,Orthopedics,HOS0002
+DOC2706,Unit,Oncology,HOS0009
+DOC2707,Table,Cardiology,HOS0004
+DOC2708,Save,Pediatrics,HOS0010
+DOC2709,However,Cardiology,HOS0005
+DOC2710,Vote,neurology,HOS0003
+DOC2711,Song,General Medicine,HOS0007
+DOC2712,Affect,PEDIATRICS,HOS0004
+DOC2713,So,General Medicine,HOS0008
+DOC2714,Large,Pediatrics,HOS0011
+DOC2715,Vote,Orthopedics,HOS0007
+DOC2716,Performance,Cardiology,HOS0013
+DOC2717,Seem,Oncology,HOS0020
+DOC2718,Save,Cardiology,HOS0004
+DOC2719,Use,ONCOLOGY,HOS0003
+DOC2720,Miss,Oncology,HOS0018
+DOC2721,Culture,Pediatrics,HOS0009
+DOC0699,Around,Orthopedics,HOS0005
+DOC2723,Field,Cardiology,HOS0019
+DOC2724,Still,General Medicine,HOS0006
+DOC2725,State,Orthopedics,HOS0003
+DOC1056,Language,Oncology,HOS0009
+DOC2727,Student,ORTHOPEDICS,HOS0016
+DOC2728,Dog,Cardiology,HOS0007
+INVALID_79,Might,General Medicine,HOS0001
+DOC2730,Perhaps,Oncology,HOS0008
+DOC2731,Which,Oncology,HOS9999
+DOC2732,If,Pediatrics,HOS0004
+DOC2733,Amount,Orthopedics,HOS0001
+DOC2734,Dog,Neurology,HOS0012
+DOC2735,Follow,PEDIATRICS,HOS9999
+DOC2736,Appear,orthopedics,HOS0012
+DOC2737,Director,Cardiology,HOS0014
+DOC2738,Make,General Medicine,HOS0001
+DOC2739,Also,Cardiology,HOS9999
+DOC2740,Answer,Oncology,HOS0016
+DOC2741,Number,Pediatrics,HOS0013
+DOC2742,Make,Cardiology,HOS0013
+DOC2743,Decade,Oncology,HOS0015
+DOC2744,Head,Pediatrics,HOS0004
+DOC1692,Face,General Medicine,HOS0003
+INVALID_26,Resource,Cardiology,HOS0015
+DOC2747,Own,Cardiology,HOS0016
+DOC2748,Even,Pediatrics,HOS0006
+DOC2749,Street,Cardiology,HOS0017
+DOC2750,Strong,General Medicine,HOS0003
+DOC2751,Brother,Orthopedics,HOS0007
+DOC2752,Probably,Orthopedics,HOS0003
+DOC2753,Buy,Neurology,HOS9999
+DOC2754,Unit,Oncology,HOS9999
+DOC2755,Sign,Neurology,HOS0003
+DOC2756,Allow,PEDIATRICS,HOS0014
+DOC2757,Practice,general medicine,HOS0017
+DOC2758,National,Pediatrics,HOS0004
+DOC2759,Will,General Medicine,HOS0002
+DOC2760,Prepare,Neurology,HOS0013
+DOC2761,House,Oncology,HOS0014
+DOC2762,Back,General Medicine,HOS0014
+DOC2763,Of,Oncology,HOS0006
+DOC2764,Into,Cardiology,HOS0005
+DOC2765,Truth,Orthopedics,HOS0018
+DOC2766,Very,Neurology,HOS0013
+DOC0307,Operation,Neurology,HOS0016
+DOC2768,Six,Pediatrics,HOS0011
+DOC2769,Reveal,Pediatrics,HOS0015
+DOC2770,Situation,Cardiology,HOS0017
+DOC2771,Man,General Medicine,HOS0001
+DOC2772,Poor,Neurology,HOS0008
+DOC2773,Activity,Cardiology,HOS9999
+INVALID_56,Science,Pediatrics,HOS0013
+DOC2775,Eye,Cardiology,HOS0015
+DOC2776,News,General Medicine,HOS0014
+DOC2777,Tough,Neurology,HOS0015
+DOC2778,Detail,Pediatrics,HOS0010
+DOC2779,Value,CARDIOLOGY,HOS0013
+DOC2780,Year,GENERAL MEDICINE,HOS0010
+DOC2781,Concern,General Medicine,HOS0005
+DOC2782,Sound,Cardiology,HOS0010
+DOC2783,Anything,Neurology,HOS0014
+DOC2784,Simply,Neurology,HOS0015
+DOC2785,Many,orthopedics,HOS0003
+DOC2786,Attack,Cardiology,HOS0007
+DOC2787,Door,Orthopedics,HOS0020
+DOC2788,Huge,Oncology,HOS0009
+DOC2789,Practice,General Medicine,HOS0017
+DOC2790,Scientist,Orthopedics,HOS0003
+DOC2791,Role,Cardiology,HOS0009
+DOC2792,Hour,Oncology,HOS0008
+DOC2793,Likely,Pediatrics,HOS0011
+DOC2794,Interesting,Neurology,HOS0002
+DOC2795,Outside,Pediatrics,HOS0002
+DOC2796,Travel,Pediatrics,HOS0005
+DOC2797,Box,General Medicine,HOS0008
+DOC2798,House,Oncology,HOS0020
+DOC2799,Wear,neurology,HOS0007
+DOC2800,Bed,Orthopedics,HOS0008
+DOC2801,Himself,Oncology,HOS0006
+DOC2802,Discussion,cardiology,HOS0012
+DOC2803,Need,Orthopedics,HOS0012
+DOC2804,Politics,orthopedics,HOS0016
+DOC1385,Artist,Neurology,HOS0001
+DOC2806,Hundred,General Medicine,HOS0011
+DOC2807,Include,General Medicine,HOS0001
+DOC2808,Interest,Pediatrics,HOS0004
+DOC2809,Page,General Medicine,HOS0009
+DOC2810,News,Neurology,HOS0010
+DOC2811,Consumer,Orthopedics,HOS0007
+DOC2812,Red,Pediatrics,HOS0008
+DOC2813,Street,Neurology,HOS0018
+DOC2814,Staff,Pediatrics,HOS0004
+DOC2815,High,Cardiology,HOS0020
+DOC1485,Structure,Neurology,HOS9999
+DOC2817,Particular,General Medicine,HOS0017
+DOC2818,Wind,pediatrics,HOS0002
+DOC2819,Cup,Pediatrics,HOS0009
+DOC1779,Near,Pediatrics,HOS0003
+DOC2821,Improve,Orthopedics,HOS0002
+DOC2822,Social,Oncology,HOS0012
+DOC2823,Space,Neurology,HOS0006
+DOC2824,Military,Oncology,HOS0014
+DOC2825,Investment,NEUROLOGY,HOS0002
+DOC2826,Sell,General Medicine,HOS0015
+DOC2827,Letter,General Medicine,HOS0015
+INVALID_42,Else,Neurology,HOS9999
+DOC2829,Quality,Neurology,HOS0016
+DOC2830,Change,Oncology,HOS0019
+DOC2831,Lay,Oncology,HOS0011
+DOC2832,Area,Oncology,HOS0002
+DOC2833,Industry,General Medicine,HOS0001
+DOC2834,Heart,Oncology,HOS0004
+DOC2835,Perhaps,Orthopedics,HOS0010
+DOC2836,Range,Cardiology,HOS0001
+DOC2837,North,pediatrics,HOS0010
+DOC2838,Course,Oncology,HOS0012
+DOC2839,Discover,Pediatrics,HOS0020
+DOC2840,Special,General Medicine,HOS0014
+DOC2841,Hotel,Neurology,HOS0020
+DOC2842,Bit,Cardiology,HOS9999
+DOC2843,Word,Orthopedics,HOS0004
+DOC2844,Thing,Neurology,HOS0001
+DOC2845,Us,Neurology,HOS0012
+DOC2846,Food,CARDIOLOGY,HOS0006
+DOC2847,Its,Neurology,HOS0007
+DOC2848,Bed,Cardiology,HOS0011
+DOC2849,Question,Cardiology,HOS0006
+DOC2850,For,Orthopedics,HOS0017
+DOC2851,Almost,Cardiology,HOS0010
+DOC2325,Size,neurology,HOS0005
+DOC2853,Part,Cardiology,HOS0012
+DOC2854,Represent,NEUROLOGY,HOS0007
+DOC2855,Decade,Pediatrics,HOS0008
+DOC2856,Kitchen,Oncology,HOS0018
+DOC2857,Simple,Pediatrics,HOS0012
+DOC2858,As,Cardiology,HOS0001
+INVALID_55,Nature,Pediatrics,HOS0002
+DOC2860,Main,Pediatrics,HOS0011
+DOC2861,Then,Oncology,HOS0012
+DOC2862,Including,Neurology,HOS0012
+DOC2863,Health,General Medicine,HOS0006
+INVALID_28,Truth,Oncology,HOS0010
+DOC2865,Painting,Pediatrics,HOS0005
+DOC2866,Stuff,Neurology,HOS0020
+DOC2867,Stock,General Medicine,HOS0010
+DOC2868,Skin,Pediatrics,HOS0004
+DOC2869,Almost,Pediatrics,HOS0008
+DOC0611,Research,Oncology,HOS0010
+DOC2871,Score,Pediatrics,HOS0011
+DOC2872,National,Oncology,HOS0011
+DOC2873,Debate,Neurology,HOS0001
+DOC2874,Ok,pediatrics,HOS0013
+DOC2875,Want,Orthopedics,HOS0003
+DOC2876,Far,General Medicine,HOS0004
+DOC2877,Ready,Orthopedics,HOS0004
+DOC2878,Cover,Neurology,HOS0011
+DOC1175,Management,neurology,HOS0019
+DOC2880,Modern,General Medicine,HOS0006
+DOC2881,Floor,General Medicine,HOS0011
+DOC2882,Stop,Cardiology,HOS0004
+DOC2883,Reach,Pediatrics,HOS0002
+DOC2884,Still,Pediatrics,HOS0004
+DOC2885,Development,Cardiology,HOS0010
+DOC2886,Floor,Oncology,HOS0005
+DOC2887,Participant,Cardiology,HOS0001
+DOC2888,Purpose,Pediatrics,HOS0019
+DOC2889,Above,Neurology,HOS0009
+DOC2890,Require,General Medicine,HOS0002
+INVALID_98,Student,Neurology,HOS0010
+DOC2892,Detail,Orthopedics,HOS0010
+DOC2893,Difficult,Neurology,HOS0009
+DOC2894,Wonder,Cardiology,HOS0003
+DOC2895,Member,Oncology,HOS0004
+DOC2896,Fire,Neurology,HOS0007
+DOC2897,Next,General Medicine,HOS0004
+DOC2898,Effect,Neurology,HOS0013
+DOC2899,Stop,Oncology,HOS0002
+DOC2900,Member,Pediatrics,HOS0009
+DOC2901,Any,Pediatrics,HOS9999
+INVALID_64,Miss,Cardiology,HOS0011
+DOC2903,Character,General Medicine,HOS0012
+DOC2904,Short,cardiology,HOS0007
+DOC2905,Record,cardiology,HOS0016
+DOC2906,Argue,Cardiology,HOS0007
+INVALID_84,Despite,Pediatrics,HOS0011
+DOC2908,Sound,Oncology,HOS0016
+DOC2909,Up,Cardiology,HOS0001
+DOC2910,Yet,Orthopedics,HOS0015
+DOC2911,Stop,Pediatrics,HOS0005
+DOC2912,Imagine,General Medicine,HOS0003
+DOC2913,With,ORTHOPEDICS,HOS0013
+DOC2914,Buy,Cardiology,HOS0004
+DOC2915,View,Cardiology,HOS0012
+DOC2916,Form,Oncology,HOS0007
+DOC2917,Mind,Cardiology,HOS0007
+DOC2918,Page,General Medicine,HOS0004
+DOC2919,Yes,Cardiology,HOS0001
+DOC2920,Name,Oncology,HOS0019
+DOC2921,Get,Cardiology,HOS0016
+DOC2922,Where,Pediatrics,HOS0003
+DOC2923,Stuff,Orthopedics,HOS0016
+DOC2924,People,Orthopedics,HOS0006
+DOC2925,Several,Oncology,HOS0007
+DOC2926,Real,Pediatrics,HOS0017
+DOC2927,Fill,Orthopedics,HOS0018
+DOC2928,Film,Orthopedics,HOS0013
+DOC2929,Majority,Pediatrics,HOS0011
+DOC2930,Chance,Oncology,HOS0017
+DOC2931,School,Neurology,HOS0004
+DOC2932,Security,General Medicine,HOS0013
+DOC2933,Environment,Orthopedics,HOS0009
+DOC2934,Across,Cardiology,HOS9999
+DOC2935,Commercial,NEUROLOGY,HOS0010
+DOC2936,Return,Neurology,HOS0011
+DOC0587,Eye,Orthopedics,HOS0019
+DOC2938,Than,Cardiology,HOS0018
+DOC2939,Senior,orthopedics,HOS0009
+DOC2940,Part,General Medicine,HOS0019
+DOC2941,Hot,Oncology,HOS0013
+DOC2942,Like,Orthopedics,HOS0004
+DOC2943,Someone,Orthopedics,HOS0002
+DOC2944,Suggest,General Medicine,HOS0003
+DOC2945,Which,Pediatrics,HOS0004
+DOC2946,Stuff,Oncology,HOS0003
+DOC2947,Public,Orthopedics,HOS0018
+DOC2948,Participant,Pediatrics,HOS0009
+DOC2949,President,Pediatrics,HOS0014
+DOC0280,Participant,Neurology,HOS0014
+DOC2951,Remain,GENERAL MEDICINE,HOS0006
+DOC1050,Class,General Medicine,HOS0006
+DOC2953,Guess,Oncology,HOS0017
+DOC2954,Huge,Cardiology,HOS0017
+DOC2955,Nature,Neurology,HOS0016
+DOC2956,Food,Orthopedics,HOS0019
+DOC2957,Mouth,Oncology,HOS0004
+DOC2958,While,Cardiology,HOS0019
+DOC2959,Idea,General Medicine,HOS0014
+DOC2960,Opportunity,General Medicine,HOS0011
+DOC2961,Leave,General Medicine,HOS0010
+DOC2962,Exactly,Pediatrics,HOS0002
+DOC2963,Establish,Oncology,HOS0009
+DOC2964,Stock,Cardiology,HOS0014
+DOC2965,Red,General Medicine,HOS0003
+DOC2966,Result,Oncology,HOS0001
+DOC2967,Feel,Pediatrics,HOS0001
+DOC0004,Yes,Oncology,HOS0009
+DOC0384,Citizen,Cardiology,HOS0018
+DOC2970,Under,Neurology,HOS0020
+DOC2971,Perhaps,General Medicine,HOS9999
+DOC2972,Time,ORTHOPEDICS,HOS0003
+DOC2973,Benefit,Orthopedics,HOS0011
+DOC2974,As,Orthopedics,HOS0016
+DOC2370,Hotel,Oncology,HOS0013
+DOC2976,Writer,Orthopedics,HOS0013
+DOC2977,Fund,Orthopedics,HOS0002
+DOC2978,Hear,Neurology,HOS0005
+DOC2979,Finally,Orthopedics,HOS0008
+DOC2980,Mrs,Pediatrics,HOS0020
+DOC2981,Sense,general medicine,HOS0020
+DOC2982,Moment,Orthopedics,HOS0001
+DOC2983,Defense,Neurology,HOS0001
+DOC2984,Coach,Neurology,HOS0012
+DOC2985,Lose,Pediatrics,HOS0019
+DOC2986,Entire,pediatrics,HOS0006
+DOC2987,Draw,Pediatrics,HOS0012
+DOC2988,Thus,General Medicine,HOS0015
+DOC2989,Mrs,Pediatrics,HOS0018
+DOC2990,Different,Cardiology,HOS9999
+DOC0529,Sit,Cardiology,HOS0004
+INVALID_34,Site,Oncology,HOS0008
+DOC2827,Fly,Oncology,HOS0019
+DOC2994,Drive,Neurology,HOS0003
+DOC2441,Model,Cardiology,HOS0008
+DOC2996,Want,Neurology,HOS0018
+DOC2997,Smile,General Medicine,HOS0011
+DOC2998,Value,Orthopedics,HOS0011
+DOC2999,Phone,Oncology,HOS0018
+DOC3000,State,Pediatrics,HOS0001
+DOC3001,Money,Cardiology,HOS0019
+DOC3002,Reduce,CARDIOLOGY,HOS0007
+DOC0299,Force,Neurology,HOS0006
+DOC3004,Service,Orthopedics,HOS0020
+DOC3005,Mother,ONCOLOGY,HOS0006
+DOC3006,Big,Orthopedics,HOS0011
+DOC3007,Specific,Neurology,HOS0006
+DOC3008,For,Orthopedics,HOS0004
+DOC3009,Crime,Neurology,HOS0009
+DOC3010,Situation,Cardiology,HOS0001
+DOC3011,Rather,Oncology,HOS0010
+DOC3012,Morning,General Medicine,HOS0018
+DOC3013,Specific,Cardiology,HOS0002
+DOC3014,Place,Pediatrics,HOS0011
+DOC3015,Executive,Cardiology,HOS0005
+DOC3016,Cost,Neurology,HOS0014
+DOC0768,Particularly,Oncology,HOS0010
+DOC3018,Approach,Neurology,HOS0010
+DOC3019,Machine,Pediatrics,HOS0003
+DOC3020,Side,ONCOLOGY,HOS0019
+DOC3021,Fact,Neurology,HOS0012
+DOC3022,Policy,Oncology,HOS0016
+DOC3023,Thought,Oncology,HOS0005
+DOC3024,Actually,Orthopedics,HOS0020
+DOC3025,Want,Pediatrics,HOS0006
+DOC3026,Business,Pediatrics,HOS0020
+DOC3027,Material,General Medicine,HOS0006
+DOC3028,Movement,Pediatrics,HOS0018
+DOC3029,Medical,Orthopedics,HOS0017
+DOC3030,Region,Cardiology,HOS0013
+INVALID_37,Add,Oncology,HOS0011
+DOC3032,Tax,Orthopedics,HOS0019
+DOC3033,Project,Cardiology,HOS0013
+DOC3034,Court,Pediatrics,HOS0008
+DOC3035,I,Cardiology,HOS0019
+DOC3036,His,Orthopedics,HOS0003
+DOC3037,White,Orthopedics,HOS0019
+INVALID_36,Write,Neurology,HOS0005
+DOC3039,Act,General Medicine,HOS0006
+DOC3040,Service,Cardiology,HOS0005
+DOC3041,Individual,orthopedics,HOS0010
+DOC3042,Thousand,Orthopedics,HOS0013
+DOC3043,Town,General Medicine,HOS0013
+DOC3044,Share,Neurology,HOS0004
+DOC3045,All,Neurology,HOS0011
+INVALID_61,Address,General Medicine,HOS0003
+DOC3047,Station,Neurology,HOS0011
+DOC3048,Before,Neurology,HOS0002
+DOC3049,Plan,Neurology,HOS0005
+DOC3050,The,GENERAL MEDICINE,HOS0013
+DOC3051,Hospital,Neurology,HOS0003
+DOC3052,Truth,Pediatrics,HOS0013
+DOC3053,Community,General Medicine,HOS0012
+DOC3054,Radio,Oncology,HOS0013
+DOC3055,Think,General Medicine,HOS0018
+DOC3056,Themselves,General Medicine,HOS0013
+DOC3057,Color,Pediatrics,HOS0015
+DOC3058,Personal,Orthopedics,HOS0017
+DOC3059,Language,General medicine,HOS9999
+DOC3060,Arrive,Oncology,HOS0014
+DOC3061,Best,NEUROLOGY,HOS0015
+DOC3062,National,Oncology,HOS0002
+DOC3063,Air,Pediatrics,HOS0019
+DOC3064,Rich,Orthopedics,HOS0017
+DOC3065,Radio,Oncology,HOS0001
+DOC3066,Threat,Pediatrics,HOS0014
+DOC3067,American,Neurology,HOS0002
+DOC3068,Create,Orthopedics,HOS0018
+DOC3069,Back,Neurology,HOS0009
+DOC3070,Record,Orthopedics,HOS0016
+DOC3071,Quite,Pediatrics,HOS0001
+DOC3072,Always,Pediatrics,HOS0004
+DOC3073,List,Oncology,HOS0005
+DOC3074,Training,Neurology,HOS0016
+DOC3075,Kitchen,Neurology,HOS0020
+DOC3076,Fall,Oncology,HOS0007
+DOC3077,Apply,Neurology,HOS0007
+DOC3078,Out,Orthopedics,HOS0019
+DOC3079,Thousand,Orthopedics,HOS0012
+DOC3080,Stock,Orthopedics,HOS0003
+INVALID_49,Personal,Neurology,HOS9999
+DOC3082,Spring,Cardiology,HOS0009
+DOC3083,Carry,Cardiology,HOS0007
+DOC3084,Argue,Orthopedics,HOS0006
+DOC3085,Soldier,Oncology,HOS0002
+DOC3086,Security,General Medicine,HOS0003
+INVALID_63,College,Orthopedics,HOS0003
+DOC3088,Mouth,Cardiology,HOS0008
+DOC1788,Wide,Neurology,HOS0015
+DOC3090,Believe,Neurology,HOS0018
+DOC3091,Not,Pediatrics,HOS0012
+DOC3092,Speech,General Medicine,HOS0007
+DOC3093,Item,oncology,HOS0002
+DOC3094,Far,Cardiology,HOS0009
+DOC3095,Image,Pediatrics,HOS0020
+DOC3096,Relate,Cardiology,HOS0003
+DOC3097,Family,Neurology,HOS0013
+DOC3098,Around,Pediatrics,HOS0014
+DOC3099,Blue,Cardiology,HOS0008
+DOC3100,Believe,Pediatrics,HOS0011
+DOC3101,Civil,Pediatrics,HOS0016
+DOC3102,Quite,Orthopedics,HOS0017
+DOC3103,Thank,General Medicine,HOS0004
+DOC3104,Offer,cardiology,HOS0010
+DOC3105,Key,Pediatrics,HOS0010
+DOC3106,Music,Cardiology,HOS0017
+DOC3107,Such,Neurology,HOS0017
+DOC3108,Collection,Pediatrics,HOS0016
+DOC3109,Else,Orthopedics,HOS0015
+DOC3110,Training,Neurology,HOS0020
+DOC3111,Stage,Pediatrics,HOS0013
+DOC3112,Would,Oncology,HOS0002
+DOC3113,Others,Pediatrics,HOS0013
+DOC3114,Range,Cardiology,HOS0018
+DOC3115,Federal,Cardiology,HOS0016
+DOC3116,Debate,Oncology,HOS0005
+DOC3117,Which,Oncology,HOS0019
+DOC3118,Reality,Neurology,HOS0020
+DOC3119,Read,Neurology,HOS0005
+DOC3120,Size,Oncology,HOS0020
+DOC3121,Produce,Cardiology,HOS0011
+DOC3122,Hold,General Medicine,HOS0020
+DOC3123,Plan,Orthopedics,HOS0013
+DOC3124,Team,Pediatrics,HOS0010
+DOC3125,My,Orthopedics,HOS0009
+DOC1051,Social,Pediatrics,HOS0013
+DOC3127,He,Cardiology,HOS0002
+DOC3128,Skill,Orthopedics,HOS0002
+DOC3129,Their,Pediatrics,HOS0011
+DOC3130,You,oncology,HOS0009
+DOC3131,Present,GENERAL MEDICINE,HOS0004
+INVALID_96,Agree,Oncology,HOS0007
+DOC3133,Increase,Orthopedics,HOS0003
+DOC0999,Local,Oncology,HOS0001
+DOC3135,Arrive,General Medicine,HOS0010
+DOC3136,Development,Orthopedics,HOS0011
+DOC3137,Without,Neurology,HOS0001
+DOC3138,Second,Oncology,HOS0020
+DOC3139,Will,Orthopedics,HOS0009
+DOC3140,Chair,Oncology,HOS0001
+DOC3141,Loss,cardiology,HOS0017
+DOC2155,Often,Oncology,HOS0004
+DOC3143,History,Neurology,HOS0005
+DOC3144,Room,Oncology,HOS0002
+DOC3145,Defense,Neurology,HOS0009
+DOC3146,Past,Cardiology,HOS0008
+DOC3147,Others,Orthopedics,HOS0020
+DOC3148,Five,General Medicine,HOS0009
+INVALID_29,Financial,pediatrics,HOS0007
+DOC3150,Nearly,Pediatrics,HOS0007
+DOC3151,Pressure,Neurology,HOS0003
+DOC3152,Relationship,Pediatrics,HOS0020
+DOC3153,Sister,General Medicine,HOS0013
+DOC3154,Summer,General Medicine,HOS0005
+DOC3155,Leader,Pediatrics,HOS0016
+INVALID_70,Group,Cardiology,HOS0003
+DOC3157,Money,Pediatrics,HOS0012
+DOC1262,Or,Oncology,HOS0009
+DOC3159,Mrs,Cardiology,HOS0003
+DOC3160,His,Neurology,HOS0002
+DOC3161,Term,Cardiology,HOS0020
+DOC3162,Book,Neurology,HOS0013
+DOC3163,Back,Orthopedics,HOS0010
+INVALID_35,Or,Neurology,HOS0016
+DOC3165,West,General Medicine,HOS0001
+DOC3166,Different,Cardiology,HOS0002
+DOC3167,Conference,Cardiology,HOS0020
+DOC3168,Four,General Medicine,HOS0003
+DOC3169,Field,General Medicine,HOS0004
+DOC3170,Model,Neurology,HOS0001
+DOC3171,Thing,Oncology,HOS0003
+DOC3172,While,Neurology,HOS0002
+DOC3173,Parent,Pediatrics,HOS0016
+DOC2964,Stay,General Medicine,HOS0001
+DOC3175,Level,Pediatrics,HOS0001
+DOC0748,Fact,Oncology,HOS0017
+DOC3177,Accept,Neurology,HOS0010
+DOC3178,Machine,Neurology,HOS0019
+DOC3179,Many,Cardiology,HOS0017
+DOC3180,Best,General Medicine,HOS0016
+DOC3181,Company,Neurology,HOS0009
+DOC3182,Return,Orthopedics,HOS0015
+DOC3183,Prepare,Pediatrics,HOS0018
+DOC3184,Mission,General Medicine,HOS0014
+DOC3185,Certainly,Cardiology,HOS0012
+DOC3186,How,Neurology,HOS0009
+DOC3187,Someone,Orthopedics,HOS9999
+DOC3188,Performance,General Medicine,HOS0017
+DOC3189,Far,General Medicine,HOS0010
+DOC3190,Society,Oncology,HOS0011
+DOC3191,Lot,Neurology,HOS0010
+DOC3192,Win,Oncology,HOS0016
+DOC3193,Billion,Cardiology,HOS0020
+DOC3194,Short,Oncology,HOS0017
+DOC0626,Effect,Orthopedics,HOS0001
+DOC3196,Congress,Orthopedics,HOS0001
+DOC3197,Late,Pediatrics,HOS0013
+DOC3198,Left,Neurology,HOS0004
+DOC3199,These,Neurology,HOS0019
+DOC3200,Son,Neurology,HOS0020
+INVALID_2,Process,General Medicine,HOS0020
+DOC3202,Beat,Pediatrics,HOS0006
+DOC3203,Around,Cardiology,HOS0004
+DOC3204,Shoulder,Oncology,HOS0015
+DOC2474,Surface,Neurology,HOS0013
+DOC3206,Apply,Orthopedics,HOS0007
+DOC3207,Himself,Pediatrics,HOS0009
+DOC3208,Full,Neurology,HOS0013
+DOC3209,Treatment,Oncology,HOS0020
+DOC3210,Gas,Oncology,HOS0017
+DOC3211,Around,Orthopedics,HOS0012
+DOC3212,Wrong,General Medicine,HOS0012
+DOC3213,Direction,Oncology,HOS0015
+DOC3214,Political,Orthopedics,HOS0001
+DOC3215,Magazine,General Medicine,HOS0015
+DOC3216,Education,Orthopedics,HOS0006
+DOC3217,President,Orthopedics,HOS0017
+DOC3218,Out,Neurology,HOS0007
+INVALID_28,Girl,Neurology,HOS0020
+DOC3220,Expect,Cardiology,HOS0019
+DOC3221,Less,neurology,HOS0013
+DOC2889,Perform,Orthopedics,HOS0013
+DOC3223,Impact,Neurology,HOS0020
+DOC3224,Reveal,orthopedics,HOS0013
+DOC3225,Also,Pediatrics,HOS0002
+DOC3226,Show,Orthopedics,HOS0006
+DOC3227,Push,Oncology,HOS0013
+DOC3228,Scene,Pediatrics,HOS0015
+DOC3229,Measure,Oncology,HOS0012
+DOC3230,From,Neurology,HOS0015
+DOC3231,Painting,Pediatrics,HOS0013
+DOC3232,Away,Oncology,HOS0018
+DOC3233,Way,Neurology,HOS0012
+DOC3234,Approach,Neurology,HOS0010
+DOC3235,Finally,Oncology,HOS0005
+DOC3236,Various,Oncology,HOS0016
+DOC3237,Less,Cardiology,HOS0011
+DOC3238,Accept,Orthopedics,HOS0008
+DOC3239,How,Neurology,HOS0010
+DOC3240,The,Oncology,HOS0005
+DOC3241,Store,Pediatrics,HOS9999
+DOC3242,Mean,General Medicine,HOS0018
+DOC3243,Else,Oncology,HOS9999
+DOC3244,Term,Neurology,HOS0008
+DOC3245,Amount,Pediatrics,HOS0002
+DOC3246,Probably,Cardiology,HOS0006
+DOC3247,Dog,General Medicine,HOS0005
+DOC3248,Kind,Neurology,HOS9999
+DOC3249,Although,Pediatrics,HOS0016
+DOC3250,Top,Pediatrics,HOS0002
+DOC3251,Fall,Oncology,HOS0006
+DOC3252,Difference,General Medicine,HOS0006
+DOC3253,Face,General medicine,HOS0017
+DOC3254,Its,Cardiology,HOS0006
+DOC3255,Miss,Cardiology,HOS9999
+DOC3256,Tough,Neurology,HOS0005
+DOC3257,Exactly,Neurology,HOS0015
+DOC3258,Easy,Orthopedics,HOS0014
+DOC3259,Change,Orthopedics,HOS0007
+DOC3260,Maybe,General Medicine,HOS0001
+DOC3261,Raise,Orthopedics,HOS0008
+DOC3262,News,Orthopedics,HOS0006
+DOC3263,Drive,General Medicine,HOS0004
+INVALID_18,Section,Oncology,HOS0014
+DOC3265,Move,General Medicine,HOS0005
+DOC3266,Break,Cardiology,HOS0001
+DOC3267,Red,Cardiology,HOS9999
+DOC3268,Tough,Neurology,HOS0016
+DOC3269,Everyone,Orthopedics,HOS0009
+DOC3270,Act,Orthopedics,HOS0005
+DOC3271,Travel,Neurology,HOS0011
+DOC3272,Process,Pediatrics,HOS0012
+INVALID_78,Purpose,General Medicine,HOS0008
+DOC3274,Democrat,Pediatrics,HOS9999
+DOC3275,Difficult,Orthopedics,HOS0019
+DOC3276,Either,General Medicine,HOS0003
+DOC3277,Mean,General Medicine,HOS0007
+DOC3278,School,Pediatrics,HOS0005
+DOC3279,Citizen,Neurology,HOS0008
+DOC3280,Card,Pediatrics,HOS0002
+DOC3281,Answer,Orthopedics,HOS0009
+DOC3282,With,Orthopedics,HOS0017
+DOC3283,See,General Medicine,HOS0019
+DOC3284,Series,Orthopedics,HOS0018
+DOC3285,Meet,Neurology,HOS0016
+DOC3286,Far,Cardiology,HOS0018
+DOC3287,Happen,Oncology,HOS0018
+DOC3288,Difference,Orthopedics,HOS0009
+DOC3289,Value,Oncology,HOS0005
+DOC3290,School,Oncology,HOS0018
+DOC3291,Know,Neurology,HOS0007
+DOC3292,Organization,Oncology,HOS0006
+DOC3293,Deep,Oncology,HOS0014
+DOC3294,Decision,Cardiology,HOS0017
+DOC3295,Record,Oncology,HOS0018
+DOC3296,Business,CARDIOLOGY,HOS0014
+DOC3297,Bring,Neurology,HOS0016
+DOC3298,Talk,Orthopedics,HOS0015
+DOC3299,Four,GENERAL MEDICINE,HOS0014
+DOC3300,Hit,Orthopedics,HOS0017
+DOC3301,Piece,Orthopedics,HOS0018
+DOC3302,Station,Oncology,HOS0007
+DOC3303,Artist,Neurology,HOS0011
+DOC3304,Moment,General Medicine,HOS0005
+DOC3305,Wind,Neurology,HOS0001
+DOC3306,Until,Orthopedics,HOS0010
+DOC3307,Door,Pediatrics,HOS0005
+DOC3308,View,Cardiology,HOS0017
+DOC3309,Resource,General Medicine,HOS0014
+DOC3310,Assume,Orthopedics,HOS0005
+DOC3311,Nearly,Cardiology,HOS0003
+DOC3312,Take,Cardiology,HOS0017
+DOC3313,Debate,Oncology,HOS0003
+DOC3314,Near,Neurology,HOS0001
+DOC3315,Wish,Oncology,HOS0020
+DOC3316,Tax,Pediatrics,HOS0018
+DOC3317,Condition,Orthopedics,HOS0013
+DOC3318,Husband,Cardiology,HOS0005
+DOC3319,Young,Pediatrics,HOS0009
+DOC3320,Pm,Oncology,HOS0009
+DOC3321,Commercial,Neurology,HOS0005
+DOC3322,Around,General Medicine,HOS0020
+DOC3323,Quickly,Pediatrics,HOS0006
+DOC3324,Stand,Oncology,HOS0008
+DOC3325,Young,Neurology,HOS0001
+DOC3326,Number,Cardiology,HOS0011
+DOC3327,Science,Pediatrics,HOS0013
+DOC3328,Discover,Cardiology,HOS0013
+DOC3329,Event,Oncology,HOS0010
+DOC3330,Short,Orthopedics,HOS0006
+DOC3331,Would,Cardiology,HOS0003
+DOC3332,People,Cardiology,HOS0017
+DOC3333,Bed,Cardiology,HOS0020
+DOC3334,Hospital,General Medicine,HOS0015
+DOC3335,Music,Oncology,HOS0018
+DOC3336,Point,Pediatrics,HOS0005
+DOC3337,Whose,Pediatrics,HOS0013
+DOC0477,Authority,Pediatrics,HOS0009
+DOC3339,Son,General Medicine,HOS0013
+DOC3340,Pull,Neurology,HOS0017
+DOC3341,Language,Oncology,HOS0001
+DOC3342,He,Pediatrics,HOS0017
+DOC3343,Own,Orthopedics,HOS0011
+DOC3344,Determine,Cardiology,HOS0006
+DOC3345,Police,General Medicine,HOS0013
+DOC3346,One,orthopedics,HOS0010
+DOC3347,Step,Oncology,HOS0006
+DOC3348,Mother,Oncology,HOS0007
+DOC3349,Those,ORTHOPEDICS,HOS0001
+DOC3350,Set,Orthopedics,HOS0015
+DOC3351,Evidence,Oncology,HOS0012
+DOC3352,Economy,oncology,HOS0001
+DOC3353,Season,Oncology,HOS0020
+DOC3354,Firm,Neurology,HOS0008
+DOC3355,Maintain,Pediatrics,HOS0020
+DOC3356,Entire,Orthopedics,HOS0006
+DOC3357,Security,Oncology,HOS0018
+DOC3358,Fact,General Medicine,HOS0012
+DOC3359,Watch,Neurology,HOS0006
+DOC3360,Present,Oncology,HOS9999
+DOC3361,Approach,Orthopedics,HOS0012
+DOC3362,Consider,Oncology,HOS0011
+DOC3363,A,General Medicine,HOS9999
+DOC3364,Production,Neurology,HOS0015
+DOC0485,Many,Oncology,HOS0003
+DOC3366,Position,Cardiology,HOS0011
+DOC3367,Before,Oncology,HOS0017
+DOC3368,Upon,General Medicine,HOS0017
+DOC3369,Huge,Neurology,HOS0014
+DOC3370,Open,Pediatrics,HOS0011
+DOC3371,If,General Medicine,HOS0014
+DOC3372,Congress,Orthopedics,HOS0004
+DOC3373,Dream,Cardiology,HOS0005
+DOC3374,Pay,Cardiology,HOS0012
+DOC3375,All,Cardiology,HOS0001
+DOC3376,Interesting,Oncology,HOS0009
+DOC3377,Bit,Pediatrics,HOS0009
+DOC3378,Sort,Cardiology,HOS0018
+DOC3379,Letter,Oncology,HOS0006
+DOC3380,Crime,Cardiology,HOS0011
+DOC3381,Growth,Orthopedics,HOS0003
+DOC3382,Per,Cardiology,HOS0010
+DOC3383,Accept,Pediatrics,HOS0011
+DOC3384,Religious,Oncology,HOS0001
+DOC3385,Physical,Orthopedics,HOS0008
+DOC3386,Arrive,Cardiology,HOS0004
+DOC3387,Term,Cardiology,HOS0006
+INVALID_60,Protect,Neurology,HOS0018
+DOC3389,Long,Pediatrics,HOS0017
+DOC3390,Fill,Pediatrics,HOS0011
+DOC3391,Important,ONCOLOGY,HOS0001
+DOC3392,Senior,Orthopedics,HOS0002
+DOC3393,Or,Pediatrics,HOS0014
+DOC3394,My,General Medicine,HOS0007
+DOC3395,Center,Oncology,HOS9999
+DOC3396,Think,Cardiology,HOS0005
+DOC3397,Participant,Cardiology,HOS0009
+DOC3398,Prevent,GENERAL MEDICINE,HOS0012
+DOC3399,Go,Oncology,HOS0019
+DOC3400,Player,Cardiology,HOS0019
+DOC3401,Provide,Cardiology,HOS0004
+DOC3402,Poor,Cardiology,HOS0018
+DOC1647,Notice,Oncology,HOS0005
+DOC3404,Product,Orthopedics,HOS0011
+DOC3405,Now,Cardiology,HOS0002
+DOC3406,Oil,Oncology,HOS0001
+DOC3407,Effort,Orthopedics,HOS0016
+DOC3408,Five,Orthopedics,HOS0011
+DOC3409,Someone,Orthopedics,HOS0020
+DOC3410,Travel,Neurology,HOS0005
+DOC3411,Single,Neurology,HOS0010
+INVALID_19,Bit,Neurology,HOS0001
+DOC3413,Hear,Cardiology,HOS0012
+DOC3414,Black,Neurology,HOS0008
+DOC3415,Great,General Medicine,HOS0016
+DOC3416,Minute,Cardiology,HOS0011
+DOC2768,Tonight,Pediatrics,HOS0006
+DOC0949,Career,Neurology,HOS0008
+DOC2340,Decide,Orthopedics,HOS0013
+DOC3420,Matter,Orthopedics,HOS0015
+DOC3421,Indicate,Cardiology,HOS0001
+DOC3422,Instead,Orthopedics,HOS0018
+INVALID_7,Impact,Orthopedics,HOS0016
+DOC3424,The,Oncology,HOS9999
+DOC3425,Over,Orthopedics,HOS0012
+DOC3426,Dream,General Medicine,HOS0017
+DOC3427,Both,Pediatrics,HOS0018
+DOC3428,Recent,Orthopedics,HOS0009
+DOC3429,Which,pediatrics,HOS0012
+DOC3430,Happen,Orthopedics,HOS0020
+DOC3431,Indeed,Neurology,HOS0019
+DOC3432,Themselves,Orthopedics,HOS0006
+DOC3433,Recent,Cardiology,HOS0014
+DOC3434,Ahead,Orthopedics,HOS0012
+INVALID_36,Understand,Oncology,HOS0003
+DOC3436,Oil,Neurology,HOS0012
+DOC3437,Throw,Pediatrics,HOS0011
+DOC3438,Teacher,neurology,HOS0010
+DOC3439,Bag,Oncology,HOS0005
+DOC3440,Draw,Cardiology,HOS0017
+DOC3441,Season,Neurology,HOS0018
+DOC3442,Their,Neurology,HOS9999
+INVALID_29,Throughout,Pediatrics,HOS0020
+DOC3444,Grow,Orthopedics,HOS0016
+DOC3445,Woman,Orthopedics,HOS0011
+DOC3446,Democrat,General Medicine,HOS0008
+DOC3447,Recent,Cardiology,HOS0020
+DOC3448,Test,General Medicine,HOS0019
+DOC3449,Fire,Cardiology,HOS0016
+DOC3450,Never,Oncology,HOS0017
+DOC3451,Recently,Orthopedics,HOS0018
+DOC3452,Movement,Pediatrics,HOS0020
+DOC3453,Recently,ONCOLOGY,HOS0018
+DOC3454,Fund,Oncology,HOS0010
+DOC3455,Both,Pediatrics,HOS0020
+DOC3456,Look,Cardiology,HOS0002
+DOC3457,Fire,Neurology,HOS0003
+DOC3458,Range,Cardiology,HOS0020
+DOC3459,Budget,cardiology,HOS0009
+DOC3460,Ground,Oncology,HOS0019
+DOC3461,Radio,NEUROLOGY,HOS0008
+DOC3462,Action,General Medicine,HOS0020
+DOC3463,Capital,Orthopedics,HOS0018
+DOC3464,Play,Orthopedics,HOS0012
+DOC2560,Indicate,ONCOLOGY,HOS0012
+DOC3466,Also,General medicine,HOS0006
+DOC3467,Inside,Pediatrics,HOS0013
+DOC3468,Everyone,Cardiology,HOS9999
+DOC3469,Miss,Pediatrics,HOS0007
+DOC3470,Step,Oncology,HOS0004
+DOC3471,Important,Cardiology,HOS0009
+DOC3472,Source,Neurology,HOS0006
+DOC3473,Station,Pediatrics,HOS0016
+DOC3474,Conference,General Medicine,HOS0006
+DOC3475,Many,General Medicine,HOS0003
+DOC3476,Pattern,General Medicine,HOS0012
+DOC3477,Personal,Neurology,HOS0008
+DOC3478,Above,Cardiology,HOS0002
+DOC3479,Product,Cardiology,HOS0015
+DOC3480,Thought,Oncology,HOS0015
+DOC3481,Claim,Pediatrics,HOS0009
+DOC3482,Step,Orthopedics,HOS0019
+DOC3483,Central,Pediatrics,HOS0017
+DOC3484,Thought,Orthopedics,HOS0006
+DOC3485,Information,General Medicine,HOS0004
+DOC3486,Company,Orthopedics,HOS0006
+DOC3487,Board,ONCOLOGY,HOS0004
+DOC2476,Lead,General Medicine,HOS0015
+DOC3489,Worry,Cardiology,HOS0002
+DOC3490,Section,Orthopedics,HOS0006
+DOC3491,Decision,Neurology,HOS0004
+DOC3492,Short,Oncology,HOS0006
+DOC3493,Protect,General Medicine,HOS0001
+DOC3494,Water,Pediatrics,HOS0020
+DOC0280,Someone,Pediatrics,HOS0018
+DOC3496,Bag,Neurology,HOS0008
+DOC3497,Government,Pediatrics,HOS0017
+DOC3498,Late,Neurology,HOS9999
+DOC3499,Film,General Medicine,HOS0019
+DOC2790,Game,General Medicine,HOS0003
+DOC3501,Every,Oncology,HOS0015
+DOC1929,Run,Pediatrics,HOS9999
+DOC3503,Street,Orthopedics,HOS0008
+DOC3504,Night,Oncology,HOS0015
+DOC3505,Maintain,oncology,HOS0018
+DOC3506,When,Orthopedics,HOS0014
+DOC3507,Above,Neurology,HOS0006
+DOC3508,Than,Orthopedics,HOS0018
+DOC3509,Sport,Oncology,HOS9999
+DOC3510,War,Neurology,HOS0016
+DOC3511,According,Orthopedics,HOS0003
+DOC3512,Heart,Cardiology,HOS0019
+DOC3513,Office,Oncology,HOS0010
+DOC3514,Beat,Orthopedics,HOS0001
+DOC3515,Perhaps,Cardiology,HOS0004
+DOC3516,Between,cardiology,HOS0013
+DOC3517,Rather,Orthopedics,HOS0013
+DOC3518,Already,general medicine,HOS0016
+DOC3519,Card,Pediatrics,HOS0015
+DOC3520,Prove,Neurology,HOS0005
+DOC3521,Community,General Medicine,HOS0002
+DOC3522,Five,General Medicine,HOS0009
+DOC3523,Detail,Cardiology,HOS0007
+DOC3524,Everything,Orthopedics,HOS0012
+DOC3525,Believe,Orthopedics,HOS0002
+DOC3526,Find,Pediatrics,HOS0020
+DOC3527,Seven,Orthopedics,HOS0005
+DOC3528,Four,Neurology,HOS0011
+DOC3529,Some,Neurology,HOS0005
+DOC3530,End,Cardiology,HOS0001
+DOC3531,Machine,Pediatrics,HOS0013
+DOC3532,Total,Orthopedics,HOS9999
+DOC3533,Blue,Orthopedics,HOS0008
+DOC3534,Brother,General Medicine,HOS0005
+DOC3535,Easy,Orthopedics,HOS0018
+DOC3536,Business,Orthopedics,HOS0015
+DOC3537,Home,Neurology,HOS0009
+DOC3538,Culture,ORTHOPEDICS,HOS0018
+DOC3539,Team,Orthopedics,HOS0012
+DOC3540,Family,Cardiology,HOS0004
+DOC3541,Imagine,Neurology,HOS0004
+DOC0278,Put,Cardiology,HOS0015
+DOC3543,Ahead,Orthopedics,HOS0018
+DOC3544,Attention,Oncology,HOS0014
+DOC3545,Religious,Cardiology,HOS0011
+INVALID_30,Be,ORTHOPEDICS,HOS0005
+INVALID_35,Choose,Cardiology,HOS0011
+DOC3548,Her,Oncology,HOS0009
+INVALID_94,Argue,General Medicine,HOS9999
+DOC3550,Local,cardiology,HOS0011
+DOC3551,Start,Neurology,HOS0015
+DOC2390,Among,Oncology,HOS0009
+DOC3553,Admit,Pediatrics,HOS0017
+DOC3554,Real,Orthopedics,HOS0009
+DOC3555,Student,Cardiology,HOS0011
+DOC3556,Board,Neurology,HOS0020
+DOC3557,Through,General Medicine,HOS0012
+DOC3558,Smile,Neurology,HOS0019
+DOC3559,Help,Pediatrics,HOS0019
+DOC3560,Five,ORTHOPEDICS,HOS0010
+INVALID_21,Against,ORTHOPEDICS,HOS0017
+DOC3562,Happen,Orthopedics,HOS0010
+DOC3563,Development,Oncology,HOS0007
+DOC3564,This,General Medicine,HOS0011
+DOC3565,Back,Oncology,HOS0012
+DOC3566,Interest,Neurology,HOS0015
+DOC3567,Learn,Cardiology,HOS0014
+DOC3568,Ground,Orthopedics,HOS0007
+DOC3569,Car,Neurology,HOS0002
+DOC3570,Blue,Orthopedics,HOS0006
+DOC3571,Institution,Cardiology,HOS0009
+DOC3572,Phone,Neurology,HOS0010
+DOC3573,Still,Pediatrics,HOS0020
+DOC3574,Economy,Oncology,HOS0020
+DOC2477,Against,Oncology,HOS0019
+DOC3576,Page,Pediatrics,HOS0014
+INVALID_38,Beat,General Medicine,HOS0001
+DOC3578,Evening,Oncology,HOS0018
+DOC3579,With,Cardiology,HOS0020
+DOC3580,Activity,Neurology,HOS0007
+DOC3581,Capital,Oncology,HOS0009
+DOC3582,Respond,General Medicine,HOS0020
+DOC3583,Speak,Neurology,HOS0004
+DOC3584,Health,Orthopedics,HOS0008
+DOC3585,Hotel,Cardiology,HOS0009
+INVALID_81,Us,Oncology,HOS0001
+DOC3587,Character,Neurology,HOS0007
+DOC3588,Work,General Medicine,HOS0006
+DOC3589,Ready,Cardiology,HOS0013
+DOC3590,Room,Orthopedics,HOS9999
+INVALID_85,Road,Orthopedics,HOS0009
+DOC3592,Evening,General Medicine,HOS0016
+DOC3593,Catch,Pediatrics,HOS0012
+DOC3594,Throw,Cardiology,HOS0014
+DOC3595,Per,Oncology,HOS0013
+DOC3596,Instead,Oncology,HOS0019
+DOC3597,Garden,neurology,HOS0005
+DOC3598,Light,General Medicine,HOS0007
+DOC3599,To,Cardiology,HOS0003
+DOC3600,Lose,Pediatrics,HOS0020
+DOC3601,Serious,Neurology,HOS0014
+DOC3602,Whom,Neurology,HOS0007
+DOC3603,Type,Oncology,HOS0004
+DOC3604,Law,Oncology,HOS0014
+DOC3605,Evening,Pediatrics,HOS0001
+DOC3606,Amount,Orthopedics,HOS0004
+DOC3607,Very,Neurology,HOS0010
+DOC3608,Local,Oncology,HOS0014
+DOC3609,Have,Neurology,HOS0018
+DOC3610,Arm,Cardiology,HOS0002
+DOC1156,Finally,Oncology,HOS9999
+DOC3612,Look,Neurology,HOS0019
+DOC3613,Late,General Medicine,HOS0014
+DOC3614,Book,General Medicine,HOS0003
+DOC3615,Often,Cardiology,HOS0020
+DOC3616,World,Oncology,HOS0003
+DOC0762,Analysis,CARDIOLOGY,HOS0001
+DOC3618,True,Neurology,HOS0015
+DOC3619,Break,PEDIATRICS,HOS0006
+DOC3620,Media,Neurology,HOS0003
+DOC3621,Hard,Oncology,HOS0007
+DOC3622,Purpose,Pediatrics,HOS0016
+DOC3623,Thing,Orthopedics,HOS9999
+DOC3624,Open,Cardiology,HOS0009
+DOC3625,Health,Pediatrics,HOS0002
+DOC3626,Federal,Oncology,HOS0003
+DOC3627,Significant,Neurology,HOS0014
+DOC3628,Open,Cardiology,HOS0002
+INVALID_86,Idea,General Medicine,HOS0018
+DOC3630,Nice,Orthopedics,HOS0014
+DOC3631,Idea,Pediatrics,HOS0004
+DOC3632,Figure,neurology,HOS0008
+DOC3633,Impact,General Medicine,HOS0004
+DOC3634,Suddenly,General Medicine,HOS0016
+DOC3635,Pull,General Medicine,HOS0009
+DOC3636,Three,Cardiology,HOS0012
+DOC3637,View,Cardiology,HOS0007
+DOC3638,Player,Pediatrics,HOS0012
+DOC3639,Economy,Neurology,HOS0013
+DOC3640,Magazine,Cardiology,HOS0016
+DOC3641,Measure,Orthopedics,HOS0017
+DOC3642,Serve,Orthopedics,HOS0002
+DOC3643,Treat,Cardiology,HOS0019
+DOC3644,Writer,Orthopedics,HOS0019
+DOC3645,Audience,Orthopedics,HOS0016
+INVALID_60,Easy,Cardiology,HOS0011
+DOC3647,Other,Orthopedics,HOS0009
+DOC1829,Many,General Medicine,HOS0009
+DOC3649,Age,Neurology,HOS9999
+DOC3650,Speak,Neurology,HOS0015
+DOC3651,Process,Orthopedics,HOS0017
+DOC3652,Last,Oncology,HOS0020
+DOC3653,Hair,General Medicine,HOS0015
+DOC3654,Rule,Pediatrics,HOS0004
+DOC3655,Federal,Orthopedics,HOS0019
+DOC3656,Generation,Cardiology,HOS0017
+DOC3657,Tough,Oncology,HOS0017
+DOC3658,Tough,Pediatrics,HOS0020
+DOC3659,Sea,Oncology,HOS0009
+DOC3660,Responsibility,Pediatrics,HOS0014
+DOC3661,Cause,Pediatrics,HOS0019
+DOC3662,Quality,Pediatrics,HOS0020
+DOC3663,Quality,General Medicine,HOS0017
+DOC2486,Doctor,Neurology,HOS0010
+INVALID_35,Fall,Cardiology,HOS0016
+DOC3666,Senior,General Medicine,HOS0002
+DOC3667,Garden,Oncology,HOS0015
+DOC3668,Smile,Oncology,HOS0012
+DOC3669,Song,Pediatrics,HOS0007
+DOC3670,College,Cardiology,HOS0001
+DOC3671,All,Neurology,HOS0001
+DOC3672,Environment,Cardiology,HOS0020
+DOC3673,Phone,Neurology,HOS0003
+DOC3674,Add,Neurology,HOS0012
+DOC3675,Including,Oncology,HOS0007
+DOC3676,Raise,Pediatrics,HOS0015
+DOC3677,Yet,Neurology,HOS9999
+DOC3678,Myself,Pediatrics,HOS0003
+DOC3679,Leave,Orthopedics,HOS0001
+DOC3680,Hear,Neurology,HOS0011
+DOC3681,Trial,Orthopedics,HOS0018
+DOC3682,Assume,Oncology,HOS0006
+DOC3683,Few,Neurology,HOS0010
+DOC3684,Guy,Cardiology,HOS0017
+DOC3685,Modern,Neurology,HOS0018
+DOC3685,Field,General Medicine,HOS0005
+DOC3687,Necessary,Cardiology,HOS0008
+DOC3688,Break,Neurology,HOS0001
+DOC3689,Citizen,Neurology,HOS0005
+DOC3690,Mean,Oncology,HOS0020
+DOC3691,When,Pediatrics,HOS9999
+DOC3692,Answer,Oncology,HOS0008
+DOC3693,Star,Oncology,HOS0005
+DOC3694,Decision,Neurology,HOS0002
+DOC3695,Big,Oncology,HOS0013
+DOC3696,Low,oncology,HOS0003
+DOC3697,Often,Pediatrics,HOS0020
+DOC1794,Adult,Oncology,HOS0015
+DOC3699,Reflect,General Medicine,HOS0012
+DOC3700,Pretty,Cardiology,HOS0004
+DOC3701,Song,Orthopedics,HOS0012
+DOC3702,Reveal,Cardiology,HOS0011
+DOC3703,Dog,Cardiology,HOS0011
+DOC3704,Republican,Neurology,HOS9999
+DOC3705,Yes,Pediatrics,HOS0001
+DOC3706,While,Oncology,HOS0017
+DOC3707,Power,Pediatrics,HOS0016
+DOC3708,High,Cardiology,HOS0001
+DOC3709,Goal,Cardiology,HOS0009
+DOC3710,Particularly,Orthopedics,HOS0007
+DOC3711,Miss,Orthopedics,HOS0004
+DOC3712,Car,Neurology,HOS0003
+DOC3713,Southern,Pediatrics,HOS0001
+DOC3714,Fact,Orthopedics,HOS0008
+DOC3715,Sport,General Medicine,HOS0006
+DOC3716,President,pediatrics,HOS0010
+DOC3717,House,Pediatrics,HOS0012
+DOC3718,Own,Oncology,HOS0006
+DOC3719,Condition,Orthopedics,HOS0019
+DOC3720,Science,Pediatrics,HOS0018
+DOC3721,Apply,Neurology,HOS0017
+DOC3722,Hand,Pediatrics,HOS0014
+DOC3723,South,Cardiology,HOS0003
+DOC3724,Rich,Neurology,HOS0001
+DOC3725,Sound,cardiology,HOS0020
+DOC0184,Throughout,Cardiology,HOS0017
+DOC3727,Production,General Medicine,HOS0014
+DOC3728,Service,Cardiology,HOS0016
+DOC3729,When,General Medicine,HOS0011
+DOC3730,Training,Orthopedics,HOS0005
+DOC3731,Hear,Oncology,HOS0015
+DOC3732,Fall,Neurology,HOS0008
+DOC3733,Move,General Medicine,HOS0001
+DOC3734,Claim,Cardiology,HOS0015
+DOC3735,Season,Neurology,HOS0013
+DOC3736,Class,Oncology,HOS0011
+DOC3737,Down,Pediatrics,HOS0005
+DOC3738,Watch,Cardiology,HOS0009
+DOC3739,Energy,Pediatrics,HOS0012
+DOC1778,Choice,Oncology,HOS0004
+INVALID_26,Agent,Pediatrics,HOS0008
+DOC3742,Plan,Neurology,HOS0015
+DOC3743,Discuss,Orthopedics,HOS0019
+DOC3744,Work,Neurology,HOS0010
+DOC1583,Fill,Cardiology,HOS0019
+DOC3746,Either,Cardiology,HOS0010
+DOC3747,Forget,Orthopedics,HOS0011
+DOC3748,Minute,General Medicine,HOS0016
+DOC3749,Yet,Oncology,HOS0019
+DOC3750,Small,Cardiology,HOS9999
+DOC3751,Response,Orthopedics,HOS0008
+DOC3752,Sell,General Medicine,HOS0008
+DOC3753,Sit,cardiology,HOS0006
+DOC3754,Available,Oncology,HOS0002
+DOC3755,Body,Neurology,HOS0011
+DOC3756,Himself,Orthopedics,HOS0016
+DOC3757,Receive,Cardiology,HOS0003
+DOC3758,Notice,General medicine,HOS0001
+DOC3759,Its,Oncology,HOS0001
+DOC3760,Party,Cardiology,HOS0002
+DOC3761,Available,Cardiology,HOS0015
+DOC3762,Street,Orthopedics,HOS0013
+DOC3763,Result,Oncology,HOS9999
+DOC3764,Political,General Medicine,HOS0020
+DOC3765,Possible,Orthopedics,HOS0019
+DOC3766,Sing,Pediatrics,HOS0013
+DOC3767,Woman,Cardiology,HOS0013
+DOC3768,Range,General Medicine,HOS0007
+DOC3769,Player,Pediatrics,HOS0020
+DOC3770,Exactly,Oncology,HOS0014
+DOC3771,When,Cardiology,HOS0002
+DOC3772,Art,Pediatrics,HOS0008
+DOC3773,Range,General Medicine,HOS0012
+DOC3774,Not,Neurology,HOS0003
+DOC3775,Even,General Medicine,HOS0010
+DOC3776,Play,Neurology,HOS0018
+DOC3777,Bar,General Medicine,HOS0006
+DOC3778,Serious,Oncology,HOS0006
+DOC3779,Central,Cardiology,HOS0013
+DOC3780,Kitchen,Orthopedics,HOS0008
+DOC3781,Arm,General Medicine,HOS0006
+DOC3782,Day,Oncology,HOS0007
+DOC3783,Plant,Cardiology,HOS0018
+DOC3784,No,Cardiology,HOS0018
+DOC3785,National,Pediatrics,HOS0008
+DOC3786,Sister,GENERAL MEDICINE,HOS0015
+DOC3787,Probably,NEUROLOGY,HOS0002
+DOC3788,Military,General Medicine,HOS0009
+DOC3789,Wear,General Medicine,HOS0011
+DOC3790,Wear,Cardiology,HOS0005
+DOC3791,Soon,Orthopedics,HOS0017
+DOC3792,Born,Pediatrics,HOS0006
+DOC3793,Newspaper,Cardiology,HOS0013
+DOC3794,Everybody,Oncology,HOS0002
+DOC3795,Within,General Medicine,HOS0012
+DOC3796,Add,Orthopedics,HOS0009
+DOC3797,Song,General medicine,HOS0001
+DOC3798,Such,Pediatrics,HOS0020
+DOC3799,Understand,Oncology,HOS0014
+DOC3800,May,Neurology,HOS0004
+DOC3801,Ready,Neurology,HOS0001
+DOC3802,Firm,General Medicine,HOS0003
+DOC3803,Entire,Pediatrics,HOS0020
+DOC3804,Upon,General Medicine,HOS0012
+DOC3805,Direction,Oncology,HOS0018
+DOC3806,Toward,Orthopedics,HOS0005
+DOC3807,Nature,Neurology,HOS0011
+DOC3808,Prove,Oncology,HOS0001
+DOC3809,Visit,Pediatrics,HOS0019
+DOC3810,Win,Cardiology,HOS0003
+DOC3811,Parent,General Medicine,HOS0007
+DOC3812,Know,orthopedics,HOS9999
+DOC3358,Past,Pediatrics,HOS0013
+DOC3814,Marriage,Neurology,HOS0012
+DOC3815,Join,Cardiology,HOS0010
+DOC3816,Wife,Oncology,HOS0007
+DOC3817,Particularly,Oncology,HOS0015
+DOC3818,Side,Orthopedics,HOS0017
+DOC3819,Commercial,Orthopedics,HOS0014
+DOC3820,Note,Orthopedics,HOS0014
+DOC3821,Difficult,Cardiology,HOS0004
+DOC3822,Between,General Medicine,HOS0006
+DOC3625,Want,Orthopedics,HOS9999
+DOC3824,War,oncology,HOS0020
+INVALID_58,Buy,Orthopedics,HOS0016
+DOC3826,Much,Oncology,HOS0007
+DOC3827,Factor,General Medicine,HOS0020
+DOC3828,Great,Neurology,HOS0015
+DOC3829,Important,General Medicine,HOS0013
+DOC3830,Score,cardiology,HOS0018
+DOC0387,Five,Orthopedics,HOS0011
+DOC3832,Mr,Neurology,HOS0013
+DOC3833,Key,General Medicine,HOS0017
+DOC3834,Look,Orthopedics,HOS0014
+DOC3835,Clear,Oncology,HOS0020
+DOC3836,Senior,Cardiology,HOS0011
+DOC3837,Question,Oncology,HOS0001
+DOC3838,Along,Pediatrics,HOS0009
+DOC3839,Parent,General Medicine,HOS0017
+DOC3840,Respond,Orthopedics,HOS0006
+DOC3841,Consider,Cardiology,HOS0003
+DOC3842,Much,general medicine,HOS0002
+INVALID_45,Trouble,Oncology,HOS9999
+DOC3844,We,General Medicine,HOS0001
+DOC3845,Cup,General Medicine,HOS0010
+DOC3846,Eye,Oncology,HOS0007
+DOC3847,American,Cardiology,HOS0001
+DOC3848,Reveal,Cardiology,HOS0008
+DOC3849,Painting,Orthopedics,HOS0008
+DOC3850,Computer,General Medicine,HOS0004
+DOC3851,Themselves,General Medicine,HOS0009
+DOC3852,Space,Orthopedics,HOS0004
+DOC3853,Experience,cardiology,HOS0002
+DOC3854,Career,Neurology,HOS0008
+DOC3855,Table,General Medicine,HOS0002
+DOC3856,Job,Oncology,HOS0011
+DOC3857,Top,General Medicine,HOS0020
+DOC3858,Democrat,Orthopedics,HOS0003
+DOC3859,Traditional,Oncology,HOS0003
+DOC3860,Quickly,General Medicine,HOS0005
+DOC3861,Note,Orthopedics,HOS0001
+DOC3862,Consider,Oncology,HOS9999
+DOC3863,Pick,pediatrics,HOS0011
+DOC3864,Join,Cardiology,HOS0011
+DOC3865,Gas,Oncology,HOS0010
+DOC3866,Between,neurology,HOS0010
+DOC3867,Direction,Cardiology,HOS0016
+DOC3868,Example,Neurology,HOS0008
+DOC3187,Campaign,Orthopedics,HOS0016
+DOC3870,Physical,Orthopedics,HOS0014
+DOC3871,Up,Orthopedics,HOS0019
+DOC3872,Entire,Pediatrics,HOS0005
+DOC3873,Too,Cardiology,HOS0001
+DOC3874,Tell,PEDIATRICS,HOS9999
+DOC3875,Mother,Pediatrics,HOS0009
+DOC3876,Dinner,GENERAL MEDICINE,HOS0014
+DOC3877,Role,Neurology,HOS0017
+DOC3878,When,Pediatrics,HOS0010
+DOC2954,Cut,Pediatrics,HOS0008
+DOC3880,Rich,GENERAL MEDICINE,HOS0007
+DOC3881,Actually,Orthopedics,HOS0004
+DOC3882,American,Orthopedics,HOS0011
+DOC3883,Deep,Neurology,HOS0001
+DOC3884,Service,Pediatrics,HOS0007
+DOC3885,Key,General Medicine,HOS0011
+DOC3886,Fall,Pediatrics,HOS0009
+DOC3887,Professor,Orthopedics,HOS0012
+DOC3888,Cover,Orthopedics,HOS0018
+DOC3889,Evidence,Cardiology,HOS0010
+DOC3890,Organization,Neurology,HOS0016
+DOC3891,Clearly,General Medicine,HOS0002
+DOC3892,Large,Orthopedics,HOS9999
+DOC3142,Research,Oncology,HOS0016
+DOC3894,Read,Oncology,HOS0001
+DOC3895,Hand,Cardiology,HOS0019
+DOC3896,Deep,General Medicine,HOS0004
+DOC3897,Rather,Orthopedics,HOS0013
+DOC3898,Hard,Pediatrics,HOS0010
+DOC3899,Suddenly,General Medicine,HOS0002
+DOC3900,Image,Orthopedics,HOS0020
+DOC3901,Example,Pediatrics,HOS0017
+DOC3902,More,Oncology,HOS0006
+DOC3903,Give,Oncology,HOS0018
+DOC3904,Rest,Oncology,HOS0018
+DOC3905,Stuff,Cardiology,HOS9999
+DOC3906,However,PEDIATRICS,HOS0010
+DOC3907,Draw,Oncology,HOS0008
+DOC3908,Industry,Cardiology,HOS0004
+DOC3909,Energy,oncology,HOS0020
+DOC3910,Pressure,Oncology,HOS0014
+DOC3911,Case,Cardiology,HOS0010
+DOC3912,Maintain,Neurology,HOS0001
+DOC3913,Too,Orthopedics,HOS0003
+DOC3914,Finally,Cardiology,HOS0013
+DOC3915,Mouth,Orthopedics,HOS0020
+DOC3916,Old,Neurology,HOS0018
+DOC3917,Source,orthopedics,HOS0018
+DOC3918,Deal,Neurology,HOS0015
+DOC3919,Thank,Neurology,HOS0002
+DOC1475,Ground,General Medicine,HOS0020
+DOC3921,Door,cardiology,HOS0019
+DOC3922,When,General Medicine,HOS0014
+DOC3923,Every,Pediatrics,HOS0007
+DOC3924,Dog,Cardiology,HOS0005
+DOC3925,Guess,Cardiology,HOS0014
+DOC3926,Machine,General Medicine,HOS0012
+DOC3927,Plan,Orthopedics,HOS0018
+DOC3928,Glass,Neurology,HOS0015
+DOC3929,Pay,Oncology,HOS9999
+DOC3930,Popular,Pediatrics,HOS0009
+DOC3931,If,Neurology,HOS0011
+DOC3932,Word,Cardiology,HOS0007
+DOC3933,Any,Oncology,HOS9999
+DOC3934,Everyone,Orthopedics,HOS0018
+DOC3935,Until,Orthopedics,HOS0007
+DOC3936,Government,Oncology,HOS0002
+DOC3937,Live,Pediatrics,HOS0019
+DOC3938,Program,Pediatrics,HOS0005
+DOC3939,Never,General Medicine,HOS0012
+DOC3940,Available,General Medicine,HOS0011
+DOC3941,Know,Orthopedics,HOS0017
+DOC3942,Finally,Cardiology,HOS0007
+DOC3943,Only,ORTHOPEDICS,HOS0003
+DOC3944,Member,Cardiology,HOS0018
+DOC3945,Pick,Oncology,HOS9999
+DOC3946,Social,Pediatrics,HOS0018
+DOC3947,Happen,Oncology,HOS9999
+DOC3948,Have,Neurology,HOS0016
+DOC3949,Something,Oncology,HOS0013
+DOC3950,Truth,Oncology,HOS0007
+DOC3951,Collection,GENERAL MEDICINE,HOS0011
+DOC3952,Will,General Medicine,HOS0009
+DOC3953,Television,Orthopedics,HOS0018
+DOC3954,Trial,Orthopedics,HOS0012
+DOC3955,Story,Oncology,HOS0018
+DOC3956,Partner,Orthopedics,HOS0009
+DOC3957,Pick,oncology,HOS0002
+DOC3958,Paper,General Medicine,HOS0013
+DOC3959,Less,Pediatrics,HOS0003
+DOC3960,Five,Pediatrics,HOS0010
+DOC3961,Possible,Cardiology,HOS0018
+DOC3962,Business,Oncology,HOS0007
+DOC3963,Air,Pediatrics,HOS0016
+DOC1085,Thank,Pediatrics,HOS0017
+DOC3965,Guess,general medicine,HOS0010
+DOC3966,Executive,NEUROLOGY,HOS0004
+DOC3967,Seek,Orthopedics,HOS0017
+DOC3968,Individual,General Medicine,HOS0013
+DOC3969,New,Orthopedics,HOS0008
+DOC3970,Effect,General Medicine,HOS0011
+DOC3971,Marriage,Oncology,HOS0011
+DOC3972,Discussion,Pediatrics,HOS0020
+DOC3973,Without,Oncology,HOS0011
+DOC1123,Effort,Oncology,HOS0019
+DOC3975,In,Oncology,HOS0009
+DOC3976,Professional,Pediatrics,HOS0013
+DOC3977,Now,Neurology,HOS0011
+DOC3978,Environmental,Oncology,HOS0009
+DOC3979,Minute,Oncology,HOS0002
+DOC1713,Improve,Cardiology,HOS0009
+DOC3981,Teach,Orthopedics,HOS0005
+DOC3982,Difference,Pediatrics,HOS0017
+DOC3983,Wife,Oncology,HOS0010
+DOC3984,Score,Cardiology,HOS0006
+DOC3985,Offer,Pediatrics,HOS0019
+DOC3986,Safe,Pediatrics,HOS0019
+DOC3987,Box,Oncology,HOS0011
+DOC3988,Language,General Medicine,HOS0011
+DOC3989,Effect,General Medicine,HOS0017
+DOC3990,Environmental,Neurology,HOS0015
+DOC3991,All,General Medicine,HOS0019
+DOC3992,Fill,Oncology,HOS0004
+DOC3993,Interview,General Medicine,HOS0016
+DOC3994,Weight,General Medicine,HOS0020
+DOC3995,Issue,Orthopedics,HOS0020
+DOC3996,Glass,Orthopedics,HOS0008
+DOC3997,Blood,Orthopedics,HOS0002
+DOC3998,New,Orthopedics,HOS0016
+DOC3999,Hundred,General Medicine,HOS0018
+DOC4000,Off,Pediatrics,HOS0015
+DOC4001,Full,Neurology,HOS0017
+DOC4002,Newspaper,ORTHOPEDICS,HOS0017
+DOC4003,Type,Orthopedics,HOS0010
+DOC4004,Good,Cardiology,HOS0011
+DOC4005,Page,Neurology,HOS0006
+DOC4006,Majority,Cardiology,HOS0018
+DOC4007,Remember,Oncology,HOS0003
+DOC4008,Ground,Oncology,HOS0004
+DOC4009,Make,Cardiology,HOS0006
+DOC4010,Deal,Neurology,HOS0006
+DOC4011,Cover,General Medicine,HOS0014
+DOC4012,Some,Pediatrics,HOS0009
+DOC4013,Pretty,General Medicine,HOS0009
+DOC4014,Across,Pediatrics,HOS0002
+DOC4015,Open,Cardiology,HOS0011
+DOC4016,Style,Cardiology,HOS0006
+DOC4017,Matter,Neurology,HOS0007
+DOC4018,Industry,Cardiology,HOS0020
+DOC4019,Family,Cardiology,HOS0009
+DOC4020,First,orthopedics,HOS0005
+DOC4021,Author,Pediatrics,HOS0001
+DOC4022,Black,Cardiology,HOS0013
+DOC4023,Describe,Pediatrics,HOS0006
+DOC4024,Pass,Pediatrics,HOS0014
+DOC4025,Every,Orthopedics,HOS0014
+DOC4026,Every,Pediatrics,HOS0017
+DOC4027,Heart,General Medicine,HOS0010
+DOC4028,On,Cardiology,HOS0009
+DOC4029,Approach,Neurology,HOS0011
+DOC4030,Single,Oncology,HOS0002
+DOC4031,Respond,Orthopedics,HOS0020
+DOC4032,Floor,Cardiology,HOS0020
+DOC4033,After,General Medicine,HOS0006
+DOC4034,Step,Oncology,HOS0006
+DOC4035,Anyone,Cardiology,HOS0010
+DOC4036,Nice,Cardiology,HOS0002
+INVALID_9,Hot,Pediatrics,HOS0003
+DOC4038,Talk,Pediatrics,HOS0004
+DOC4039,Institution,Neurology,HOS0003
+DOC4040,Day,Oncology,HOS0012
+DOC4041,Medical,general medicine,HOS0006
+DOC4042,Cover,Pediatrics,HOS0017
+DOC4043,College,Cardiology,HOS0002
+DOC4044,Hold,Neurology,HOS0003
+DOC4045,Record,Cardiology,HOS0003
+DOC4046,Nice,Cardiology,HOS0006
+DOC4047,Bad,Oncology,HOS0013
+DOC4048,First,Oncology,HOS0001
+DOC4049,Campaign,ONCOLOGY,HOS0010
+DOC4050,Color,general medicine,HOS0020
+DOC4051,Story,Orthopedics,HOS0016
+DOC4052,List,Neurology,HOS0018
+DOC4053,Ago,Oncology,HOS0011
+DOC4054,Image,Pediatrics,HOS9999
+DOC4055,Woman,Oncology,HOS0011
+DOC4056,Make,Neurology,HOS0017
+DOC4057,Lead,Oncology,HOS0017
+DOC4058,Hit,Pediatrics,HOS0018
+DOC4059,Administration,Orthopedics,HOS0005
+DOC4060,Scene,Oncology,HOS0005
+DOC4061,Home,Orthopedics,HOS9999
+DOC4062,Sure,Orthopedics,HOS0018
+DOC4063,Break,Orthopedics,HOS0020
+DOC4064,Station,Orthopedics,HOS0010
+DOC4065,Human,Oncology,HOS0004
+DOC4066,Defense,General Medicine,HOS0012
+DOC4067,Out,Neurology,HOS0014
+DOC4068,Financial,Neurology,HOS0009
+DOC4069,Eye,Oncology,HOS0002
+DOC4070,Listen,Orthopedics,HOS9999
+DOC4071,Like,General Medicine,HOS0019
+DOC4072,Scientist,Neurology,HOS0020
+DOC4073,Anyone,General Medicine,HOS0009
+DOC4074,Might,General Medicine,HOS0008
+DOC4075,Address,Neurology,HOS0014
+DOC4076,Feel,Oncology,HOS0001
+DOC4077,Point,Oncology,HOS0019
+DOC4078,Change,Orthopedics,HOS0020
+DOC4079,Six,general medicine,HOS0013
+DOC4080,Manage,Cardiology,HOS0018
+DOC4081,Follow,Pediatrics,HOS0018
+DOC4082,Road,Pediatrics,HOS0020
+DOC2321,Discuss,Cardiology,HOS9999
+DOC4084,Foot,Pediatrics,HOS0014
+DOC4085,Country,Orthopedics,HOS0013
+DOC4086,Around,Oncology,HOS0014
+DOC4087,Ahead,Orthopedics,HOS0001
+DOC0189,Keep,Cardiology,HOS0008
+DOC4089,Itself,Neurology,HOS0015
+DOC4090,Trial,General Medicine,HOS0001
+DOC4091,Contain,Oncology,HOS0017
+DOC4092,Red,Orthopedics,HOS0006
+DOC4093,Man,Cardiology,HOS0004
+DOC4094,Smile,Cardiology,HOS0013
+DOC4095,World,Orthopedics,HOS0002
+DOC4096,Off,Cardiology,HOS0019
+DOC4097,Center,Neurology,HOS0009
+DOC1010,Always,Oncology,HOS0011
+DOC4099,Say,Pediatrics,HOS0009
+DOC4100,Policy,Pediatrics,HOS0002
+DOC4101,Recognize,Neurology,HOS0001
+DOC4102,Meeting,Orthopedics,HOS0016
+DOC4103,Organization,Oncology,HOS0014
+DOC4104,A,NEUROLOGY,HOS0011
+DOC4105,Gas,Oncology,HOS0001
+DOC4106,Professional,Neurology,HOS0020
+DOC4107,Attack,General Medicine,HOS0018
+DOC4108,Process,General Medicine,HOS0006
+DOC4109,Ground,Neurology,HOS0007
+DOC4110,Official,General Medicine,HOS0019
+DOC4111,Decide,Pediatrics,HOS0009
+DOC4112,Article,Oncology,HOS0017
+DOC4113,Out,Neurology,HOS0017
+DOC4114,Staff,Pediatrics,HOS0010
+DOC4115,Song,Oncology,HOS0004
+DOC4116,Side,Oncology,HOS0008
+DOC4117,Plant,Neurology,HOS0004
+DOC4118,Her,Pediatrics,HOS0019
+DOC4119,Financial,Cardiology,HOS0001
+DOC4120,Reach,NEUROLOGY,HOS0014
+DOC2750,Better,Cardiology,HOS0009
+DOC4122,Year,Oncology,HOS9999
+DOC4123,Threat,Cardiology,HOS0005
+DOC4124,Structure,General Medicine,HOS0017
+DOC4125,Sound,Neurology,HOS0011
+DOC4126,My,Pediatrics,HOS0019
+DOC1384,Economic,Pediatrics,HOS0020
+DOC4128,Sell,Oncology,HOS0004
+DOC4129,Yeah,Neurology,HOS0007
+DOC4130,Effort,Orthopedics,HOS0017
+DOC4131,Without,Cardiology,HOS0009
+DOC4132,Pass,Neurology,HOS0003
+DOC4133,State,Pediatrics,HOS0004
+DOC4134,Across,Pediatrics,HOS0015
+DOC4135,Front,Oncology,HOS0001
+DOC4136,Alone,Cardiology,HOS0006
+DOC4137,Father,Pediatrics,HOS0009
+DOC4138,Beat,General Medicine,HOS0002
+DOC4139,Face,Neurology,HOS0016
+DOC4140,From,General Medicine,HOS0009
+DOC4141,Turn,Cardiology,HOS0014
+DOC4142,Benefit,General Medicine,HOS0018
+DOC4143,Police,GENERAL MEDICINE,HOS0002
+DOC1426,Among,Neurology,HOS0014
+DOC4145,Per,Oncology,HOS0013
+DOC4146,Threat,General Medicine,HOS0005
+DOC4147,Term,Neurology,HOS0012
+DOC4148,Thought,Cardiology,HOS0016
+DOC4149,Budget,General Medicine,HOS0015
+DOC4150,Itself,Oncology,HOS9999
+DOC4151,Likely,General Medicine,HOS0019
+DOC4152,Natural,Orthopedics,HOS0003
+DOC4153,Direction,General Medicine,HOS0016
+DOC4154,Certainly,Orthopedics,HOS0005
+DOC3667,Member,Cardiology,HOS0003
+DOC4156,Work,Cardiology,HOS0014
+DOC4157,Direction,Pediatrics,HOS0006
+DOC4158,Finally,General Medicine,HOS0001
+DOC4159,Since,General Medicine,HOS0017
+DOC4160,Name,General Medicine,HOS0010
+DOC4161,Democratic,Neurology,HOS0003
+DOC4162,Try,Pediatrics,HOS0009
+DOC4163,Large,NEUROLOGY,HOS0013
+INVALID_32,Tonight,Pediatrics,HOS0004
+DOC4165,Manage,Neurology,HOS0002
+DOC4166,To,Pediatrics,HOS0001
+DOC4167,Not,Cardiology,HOS0020
+DOC4168,She,Orthopedics,HOS0012
+DOC4169,Space,Cardiology,HOS0019
+DOC4170,Own,Neurology,HOS0005
+DOC4171,Century,Neurology,HOS0009
+DOC4172,Member,Neurology,HOS0003
+DOC4173,Public,Neurology,HOS0007
+DOC4174,Well,Cardiology,HOS0006
+DOC4175,Relate,Oncology,HOS0005
+DOC4176,Buy,Pediatrics,HOS0004
+DOC4177,Own,Orthopedics,HOS0020
+DOC4178,Interest,Orthopedics,HOS0005
+DOC4179,In,Orthopedics,HOS0009
+DOC4180,New,Oncology,HOS0016
+DOC4181,Player,Orthopedics,HOS0020
+DOC4182,Need,Oncology,HOS0019
+DOC4183,Indicate,Pediatrics,HOS0015
+DOC4184,Black,General Medicine,HOS0013
+DOC4185,Deal,Orthopedics,HOS0009
+DOC4186,Family,neurology,HOS0003
+DOC4187,Bill,Oncology,HOS0012
+DOC4188,Enough,Pediatrics,HOS0001
+DOC4189,Chance,Oncology,HOS0004
+DOC4190,Sense,Neurology,HOS0009
+DOC4191,Effort,Orthopedics,HOS0016
+INVALID_72,Program,Orthopedics,HOS0006
+DOC4193,Either,ONCOLOGY,HOS0005
+DOC4194,Environment,Oncology,HOS0016
+DOC4195,Way,Pediatrics,HOS9999
+DOC4196,Fish,Oncology,HOS0007
+DOC4197,Natural,Pediatrics,HOS0014
+DOC4198,Pm,General Medicine,HOS0013
+DOC4199,Chance,Pediatrics,HOS0005
+DOC4200,Natural,Cardiology,HOS0013
+DOC4201,Moment,Orthopedics,HOS0011
+DOC4202,Next,Neurology,HOS0003
+DOC4203,Key,Pediatrics,HOS0003
+DOC4204,Plan,Oncology,HOS0006
+DOC4205,Wide,Neurology,HOS0010
+DOC0023,Agreement,General Medicine,HOS0012
+DOC1714,Others,Neurology,HOS0003
+DOC2713,Dream,Cardiology,HOS0020
+DOC4209,Live,Orthopedics,HOS0003
+DOC4210,Well,Neurology,HOS0009
+DOC4211,Sense,Orthopedics,HOS0007
+DOC4212,East,Orthopedics,HOS0020
+DOC4213,Religious,Oncology,HOS0013
+DOC4214,Word,ONCOLOGY,HOS0017
+DOC4215,Certainly,Cardiology,HOS0014
+DOC4216,Report,Cardiology,HOS0015
+DOC4217,Customer,Neurology,HOS0009
+DOC4218,Ten,Orthopedics,HOS0005
+DOC4219,Floor,Neurology,HOS0011
+DOC4220,Learn,Neurology,HOS0004
+DOC4221,Major,Orthopedics,HOS0012
+DOC4222,Even,Orthopedics,HOS0012
+DOC4223,Lose,Neurology,HOS0014
+DOC4224,Clearly,Pediatrics,HOS0007
+DOC1440,Few,Cardiology,HOS0008
+DOC4226,Relate,Orthopedics,HOS0010
+DOC4227,Partner,Cardiology,HOS0007
+DOC4228,Teach,Cardiology,HOS0019
+DOC4229,Huge,Cardiology,HOS0017
+DOC4230,Significant,Oncology,HOS0005
+DOC4231,Talk,Oncology,HOS0017
+DOC4232,Another,Cardiology,HOS0004
+DOC4233,Group,neurology,HOS0017
+DOC4234,Picture,Orthopedics,HOS0020
+DOC4235,True,Pediatrics,HOS0004
+DOC4236,Water,Pediatrics,HOS0002
+DOC4237,Cell,Neurology,HOS0002
+DOC4238,Card,Neurology,HOS0010
+DOC4239,Available,Oncology,HOS9999
+DOC4240,Test,Oncology,HOS0007
+DOC4241,Interesting,Pediatrics,HOS0014
+DOC4242,Speak,Cardiology,HOS0002
+DOC4243,Act,Oncology,HOS0015
+DOC4244,Bill,Oncology,HOS0007
+DOC4245,Tough,Cardiology,HOS0015
+DOC4246,House,Cardiology,HOS0011
+DOC4247,Out,Cardiology,HOS0012
+DOC4248,Interview,Oncology,HOS0016
+DOC4249,Level,Neurology,HOS0007
+DOC4250,Cost,Pediatrics,HOS0002
+DOC4251,Painting,Pediatrics,HOS0003
+DOC4252,Democrat,Orthopedics,HOS0003
+DOC4253,Cost,Neurology,HOS0019
+DOC4254,Mean,Cardiology,HOS0002
+DOC4255,Security,Oncology,HOS0011
+DOC4256,Town,Neurology,HOS0008
+DOC4257,Wait,Orthopedics,HOS0018
+DOC4258,All,Cardiology,HOS0013
+DOC4259,Room,Oncology,HOS0016
+DOC4260,Less,Orthopedics,HOS0011
+DOC4261,Evidence,Cardiology,HOS0020
+DOC4262,Real,General Medicine,HOS0006
+DOC4263,White,Pediatrics,HOS0013
+DOC4264,Strategy,Neurology,HOS0020
+DOC2854,Economy,Neurology,HOS0007
+DOC4266,Hair,Orthopedics,HOS0015
+DOC4267,Billion,Neurology,HOS0010
+DOC4268,There,Neurology,HOS0002
+DOC4269,Seek,Cardiology,HOS0009
+DOC4270,Age,General Medicine,HOS0001
+DOC4271,Recognize,Neurology,HOS0002
+DOC4272,Affect,Pediatrics,HOS0018
+DOC4273,Develop,Neurology,HOS0003
+DOC4274,Door,General Medicine,HOS0014
+DOC4275,Someone,Orthopedics,HOS0002
+DOC4276,Become,Orthopedics,HOS0005
+DOC4277,Public,Cardiology,HOS0010
+DOC4278,Animal,NEUROLOGY,HOS0016
+DOC4279,Wrong,Oncology,HOS0014
+DOC4280,Present,Pediatrics,HOS0008
+DOC4281,Watch,Oncology,HOS0004
+DOC3117,Add,General Medicine,HOS0011
+DOC4283,Push,Neurology,HOS0003
+DOC4284,Think,Pediatrics,HOS0016
+DOC4285,Degree,Pediatrics,HOS0015
+DOC4286,Especially,Oncology,HOS9999
+DOC4287,Agency,Orthopedics,HOS0004
+DOC4288,Feeling,Orthopedics,HOS0008
+DOC4289,Body,Cardiology,HOS0020
+DOC4290,Later,Neurology,HOS0005
+INVALID_41,True,Pediatrics,HOS0011
+DOC4292,Church,Orthopedics,HOS9999
+DOC4293,Sense,Pediatrics,HOS0001
+DOC4294,Nation,Cardiology,HOS0005
+DOC4295,Level,Neurology,HOS0005
+DOC4296,Child,Neurology,HOS0007
+DOC4297,Partner,Orthopedics,HOS0012
+DOC4298,Sing,Cardiology,HOS0019
+DOC4299,Weight,General Medicine,HOS0005
+DOC4300,Rock,Cardiology,HOS0019
+DOC4301,Cup,Orthopedics,HOS0012
+DOC4302,First,Oncology,HOS0016
+DOC4303,See,Orthopedics,HOS0001
+DOC4304,Gun,Orthopedics,HOS0004
+DOC4305,Color,Pediatrics,HOS0012
+DOC4306,Alone,General Medicine,HOS0017
+DOC4307,Choose,Orthopedics,HOS0009
+DOC4308,Your,Neurology,HOS0002
+DOC4309,Win,Pediatrics,HOS0008
+DOC4310,Game,Orthopedics,HOS0011
+DOC4311,Into,Pediatrics,HOS0001
+DOC4312,News,General Medicine,HOS0017
+DOC4313,Green,General Medicine,HOS0011
+DOC4314,Sing,Orthopedics,HOS0005
+DOC4315,Decision,Orthopedics,HOS0016
+DOC4316,Space,Neurology,HOS0008
+DOC4317,Charge,general medicine,HOS0013
+DOC4318,To,pediatrics,HOS0006
+DOC4319,Mother,Orthopedics,HOS0006
+DOC4320,Still,Cardiology,HOS0007
+DOC4321,Plan,Orthopedics,HOS0008
+DOC4322,Condition,Orthopedics,HOS0008
+DOC4323,Act,General Medicine,HOS0007
+DOC4324,Throw,Oncology,HOS0002
+DOC4325,However,Cardiology,HOS0009
+DOC4326,Kind,Neurology,HOS0008
+DOC4327,Discover,General Medicine,HOS0016
+DOC4328,Dark,General Medicine,HOS0015
+DOC4329,Commercial,Oncology,HOS0005
+DOC4330,Right,Pediatrics,HOS0008
+DOC4331,That,Orthopedics,HOS0016
+DOC4332,Discover,orthopedics,HOS0011
+DOC4333,Scene,Orthopedics,HOS0016
+DOC4334,Protect,Orthopedics,HOS0018
+DOC4335,Information,Orthopedics,HOS0015
+DOC4336,Dark,Orthopedics,HOS0001
+DOC4337,Open,Cardiology,HOS0006
+DOC4338,Lose,Orthopedics,HOS0015
+DOC4339,Population,Pediatrics,HOS0010
+DOC4340,Game,Pediatrics,HOS0017
+DOC4341,Indicate,Orthopedics,HOS0012
+DOC4342,Anything,Pediatrics,HOS0013
+DOC4343,Perform,General Medicine,HOS9999
+DOC4344,Fall,Pediatrics,HOS0003
+DOC4345,Everybody,General Medicine,HOS0016
+DOC4346,Site,Oncology,HOS0009
+DOC4347,Often,Pediatrics,HOS0013
+INVALID_90,Spend,Oncology,HOS0015
+DOC4349,Section,Orthopedics,HOS0015
+DOC4350,Candidate,General Medicine,HOS0018
+DOC4351,Both,Orthopedics,HOS0007
+DOC4352,Mission,General Medicine,HOS0016
+DOC4353,Particularly,Orthopedics,HOS0001
+DOC4354,Step,Orthopedics,HOS0009
+DOC4355,Low,Cardiology,HOS0004
+DOC4356,Computer,Orthopedics,HOS0020
+DOC4357,Another,Pediatrics,HOS0008
+DOC4358,Different,Cardiology,HOS0015
+DOC4359,Difference,Pediatrics,HOS0007
+DOC4360,Type,Neurology,HOS0009
+DOC4361,The,Neurology,HOS0002
+DOC4362,Detail,Pediatrics,HOS0019
+INVALID_14,Protect,General Medicine,HOS0006
+DOC4364,Want,Neurology,HOS0001
+DOC4365,Quite,Neurology,HOS0009
+DOC4366,Try,CARDIOLOGY,HOS0002
+DOC3670,Table,General Medicine,HOS0013
+DOC4368,Far,Oncology,HOS0008
+DOC4369,General,Neurology,HOS0005
+DOC4370,Follow,Cardiology,HOS0006
+DOC4371,Discussion,Neurology,HOS0012
+DOC4372,Analysis,Oncology,HOS0010
+DOC4373,See,Pediatrics,HOS0002
+DOC4374,Risk,oncology,HOS0008
+DOC4375,Know,Neurology,HOS0010
+DOC4376,Mean,Oncology,HOS0005
+DOC4377,Congress,General Medicine,HOS0002
+DOC4378,Partner,General Medicine,HOS0012
+DOC4379,Democratic,General Medicine,HOS0015
+DOC4380,Act,Pediatrics,HOS0010
+DOC0457,Evening,General Medicine,HOS9999
+DOC4382,People,Neurology,HOS0004
+DOC0567,Current,Pediatrics,HOS0015
+DOC4384,Send,Pediatrics,HOS0008
+DOC4385,Business,Pediatrics,HOS0019
+DOC4386,Guy,General Medicine,HOS0011
+INVALID_54,Billion,Pediatrics,HOS0004
+DOC4388,To,Oncology,HOS0010
+DOC4389,Identify,Neurology,HOS0011
+DOC4390,Lot,Orthopedics,HOS0013
+DOC4391,Particularly,Orthopedics,HOS0010
+DOC4392,Foot,Cardiology,HOS0018
+DOC4393,Discuss,Pediatrics,HOS0006
+DOC4394,Tonight,Oncology,HOS0009
+DOC4395,Southern,Oncology,HOS0013
+DOC4396,High,Oncology,HOS0020
+DOC4397,Gas,Orthopedics,HOS0003
+DOC4398,Blue,General Medicine,HOS0014
+DOC4399,Open,oncology,HOS0006
+DOC4400,Year,Orthopedics,HOS0018
+DOC4401,List,Neurology,HOS0004
+DOC4402,Middle,Pediatrics,HOS0011
+DOC4403,Student,Oncology,HOS0010
+DOC4404,Forward,Orthopedics,HOS0002
+DOC4405,Avoid,Cardiology,HOS0016
+DOC0649,Community,General Medicine,HOS0007
+DOC4407,Student,General medicine,HOS0011
+DOC4408,Reason,Pediatrics,HOS0014
+DOC4409,System,Pediatrics,HOS0008
+DOC4410,Season,Orthopedics,HOS0005
+DOC4411,Myself,Oncology,HOS0004
+DOC4412,Yet,oncology,HOS0013
+DOC4413,Energy,Oncology,HOS0018
+INVALID_59,Manage,Neurology,HOS0010
+DOC4415,Throw,Oncology,HOS0017
+DOC4416,Great,Pediatrics,HOS0019
+DOC4417,Young,Orthopedics,HOS0018
+DOC4418,He,Orthopedics,HOS0008
+DOC4419,Speak,General medicine,HOS0013
+DOC4420,Sign,Neurology,HOS0018
+DOC4421,Take,oncology,HOS0007
+DOC4422,Culture,General Medicine,HOS0009
+DOC4423,Former,Neurology,HOS0004
+DOC4424,How,cardiology,HOS0006
+DOC4425,Car,Neurology,HOS0016
+DOC4426,Candidate,Orthopedics,HOS0004
+DOC4427,Whether,General Medicine,HOS0014
+DOC4428,Draw,General Medicine,HOS0002
+DOC4429,Off,GENERAL MEDICINE,HOS0016
+DOC4430,System,Neurology,HOS0010
+DOC4431,Leave,General Medicine,HOS0020
+DOC4432,Condition,PEDIATRICS,HOS0016
+DOC2599,Garden,Cardiology,HOS0002
+DOC4434,Language,General Medicine,HOS0004
+DOC4435,Answer,Oncology,HOS0015
+DOC4436,Mean,oncology,HOS0016
+DOC4437,Moment,Orthopedics,HOS0004
+DOC4438,Politics,Cardiology,HOS0008
+INVALID_5,Ten,Pediatrics,HOS0002
+DOC4440,Close,General Medicine,HOS0010
+DOC4441,Skin,Orthopedics,HOS0010
+DOC4442,Red,General Medicine,HOS0007
+DOC4443,Thank,Orthopedics,HOS0012
+DOC4444,Physical,Orthopedics,HOS0004
+DOC4445,Scientist,orthopedics,HOS0014
+DOC4446,Grow,General Medicine,HOS0018
+DOC4447,Out,Cardiology,HOS0008
+DOC4448,Walk,General Medicine,HOS0013
+DOC4449,Myself,Cardiology,HOS0015
+DOC4450,Source,Orthopedics,HOS0013
+DOC4451,Attention,General Medicine,HOS0004
+DOC4452,Thousand,Pediatrics,HOS0014
+DOC4453,Wife,Cardiology,HOS0009
+DOC4454,Trip,Pediatrics,HOS0017
+DOC4455,Tonight,Oncology,HOS0005
+DOC4456,Professional,NEUROLOGY,HOS0006
+DOC4457,Agree,Oncology,HOS0020
+DOC4458,Success,Orthopedics,HOS0010
+DOC4459,Cost,Cardiology,HOS0004
+DOC4460,Left,Orthopedics,HOS0009
+DOC4461,Surface,Neurology,HOS0010
+DOC4462,Not,Neurology,HOS0016
+DOC4463,Protect,Pediatrics,HOS0010
+DOC4464,Provide,Cardiology,HOS0016
+DOC4465,Guy,Cardiology,HOS0019
+DOC4466,Method,General Medicine,HOS0010
+DOC4467,Country,Pediatrics,HOS0012
+DOC4468,Rather,Cardiology,HOS0020
+DOC4469,Next,Pediatrics,HOS0004
+DOC4470,Them,Cardiology,HOS0007
+DOC4471,Stop,General Medicine,HOS0011
+DOC4472,Performance,Cardiology,HOS0015
+DOC4473,Too,Pediatrics,HOS0017
+DOC4474,Education,Oncology,HOS0019
+DOC4475,Policy,General Medicine,HOS0018
+DOC4476,Customer,Neurology,HOS0017
+DOC4477,Wrong,General Medicine,HOS0005
+DOC4478,Possible,Cardiology,HOS0001
+DOC4479,Such,Neurology,HOS0014
+DOC4480,Direction,Pediatrics,HOS0016
+DOC4481,Rich,Pediatrics,HOS0019
+DOC4482,Garden,Pediatrics,HOS0001
+DOC4483,Ever,general medicine,HOS0009
+DOC4484,Every,Cardiology,HOS0011
+DOC4485,House,Pediatrics,HOS0013
+DOC4486,Sense,Oncology,HOS0019
+DOC4487,News,General Medicine,HOS0008
+DOC4488,Probably,General Medicine,HOS0008
+DOC4489,Production,General Medicine,HOS0019
+DOC4490,Apply,General Medicine,HOS0010
+DOC4491,Account,General Medicine,HOS0009
+DOC4492,Level,Oncology,HOS0017
+DOC4493,Drive,Cardiology,HOS0001
+DOC4494,Assume,Pediatrics,HOS0006
+DOC4495,Reality,Neurology,HOS0016
+DOC4496,Source,Neurology,HOS0011
+DOC4497,Section,Oncology,HOS0005
+DOC4498,Yourself,Neurology,HOS0017
+DOC4499,Account,General medicine,HOS0002
+DOC4500,Suggest,General Medicine,HOS0019
+DOC4501,Discussion,PEDIATRICS,HOS0017
+DOC4502,Within,Oncology,HOS0012
+DOC4503,During,General Medicine,HOS0014
+DOC4504,This,Pediatrics,HOS0015
+DOC4505,Peace,Neurology,HOS0009
+DOC2843,Weight,General Medicine,HOS0004
+DOC4507,Buy,General Medicine,HOS0003
+DOC4508,Major,General Medicine,HOS0003
+DOC4509,Police,Oncology,HOS0011
+DOC4510,Above,Pediatrics,HOS0007
+DOC4511,Else,Pediatrics,HOS0014
+DOC4512,Middle,Pediatrics,HOS0018
+DOC4513,Road,Pediatrics,HOS0009
+DOC4514,Staff,General Medicine,HOS0005
+DOC4515,Simple,Pediatrics,HOS0007
+DOC4516,Method,Neurology,HOS0002
+DOC4517,Artist,Oncology,HOS0001
+DOC4518,Any,Oncology,HOS0004
+DOC4519,Protect,Oncology,HOS0015
+DOC4520,Lead,Orthopedics,HOS0011
+DOC4521,Case,Orthopedics,HOS0004
+DOC4522,Between,General Medicine,HOS0013
+DOC4523,Prepare,Pediatrics,HOS9999
+DOC4524,Often,Pediatrics,HOS0014
+DOC4525,Manager,Oncology,HOS0014
+INVALID_27,Third,Pediatrics,HOS0001
+DOC4527,Billion,Oncology,HOS0017
+DOC4528,Wide,Oncology,HOS0012
+DOC4529,Chair,Pediatrics,HOS0003
+DOC4530,Certain,Cardiology,HOS0012
+DOC1274,Growth,Cardiology,HOS0013
+DOC4532,Particular,general medicine,HOS0016
+DOC4533,Measure,General Medicine,HOS0013
+DOC4534,Deal,Oncology,HOS0016
+DOC4535,Positive,Oncology,HOS0016
+INVALID_11,Two,Neurology,HOS9999
+DOC4537,Listen,Orthopedics,HOS0010
+DOC4538,Policy,Cardiology,HOS0001
+DOC4539,Crime,Pediatrics,HOS0013
+DOC4540,Become,Pediatrics,HOS0004
+DOC4541,Stage,General Medicine,HOS0010
+DOC4542,Card,Oncology,HOS0020
+DOC4543,Everyone,Cardiology,HOS0011
+DOC4544,Find,Orthopedics,HOS0020
+DOC4545,Organization,Orthopedics,HOS0020
+DOC4546,Practice,Orthopedics,HOS0015
+DOC4547,Hand,General Medicine,HOS0011
+DOC4548,Professional,General Medicine,HOS0018
+DOC4549,Truth,General Medicine,HOS0002
+DOC4550,Official,Pediatrics,HOS0015
+DOC4442,Security,Oncology,HOS0002
+DOC4552,Avoid,Neurology,HOS0019
+DOC4553,College,Oncology,HOS0016
+DOC4554,Describe,Neurology,HOS0008
+DOC4555,Thousand,General Medicine,HOS0003
+DOC4556,Degree,Oncology,HOS0002
+DOC4557,Personal,Pediatrics,HOS0007
+DOC4558,Success,Orthopedics,HOS0012
+DOC4559,Economy,General Medicine,HOS0008
+DOC4560,Family,Cardiology,HOS0014
+DOC4561,Agreement,Orthopedics,HOS0011
+DOC4562,Inside,Cardiology,HOS0019
+DOC4563,Prepare,Neurology,HOS0017
+DOC4564,Address,cardiology,HOS0020
+DOC4565,Information,Neurology,HOS0010
+DOC4566,Door,General Medicine,HOS0012
+DOC4567,Be,Orthopedics,HOS0016
+DOC4568,Prove,GENERAL MEDICINE,HOS0001
+DOC4569,Free,Cardiology,HOS0007
+DOC4570,Scientist,General Medicine,HOS9999
+DOC4571,Upon,Cardiology,HOS0015
+DOC4572,Professor,Cardiology,HOS0006
+INVALID_84,Interesting,Oncology,HOS0010
+DOC4574,Mrs,Orthopedics,HOS0017
+DOC4575,Low,Neurology,HOS0007
+DOC4576,Explain,General Medicine,HOS0005
+DOC4577,Suggest,Oncology,HOS0011
+DOC4578,Pass,Orthopedics,HOS0004
+DOC4579,Deep,General Medicine,HOS0005
+DOC4580,Begin,Pediatrics,HOS0009
+DOC4581,Seven,Oncology,HOS9999
+DOC4582,School,General Medicine,HOS0014
+DOC4583,Number,Cardiology,HOS0001
+DOC4584,Cost,Oncology,HOS0015
+DOC4585,Month,General Medicine,HOS0016
+DOC4586,Small,Orthopedics,HOS0012
+DOC4587,Perform,Neurology,HOS0008
+DOC4588,Senior,Oncology,HOS0007
+DOC4589,Enter,Pediatrics,HOS0015
+DOC4590,Relate,Pediatrics,HOS0016
+DOC4591,Cold,Orthopedics,HOS0002
+DOC4592,Age,Cardiology,HOS0015
+DOC4593,Human,General Medicine,HOS0006
+DOC4594,Behind,Oncology,HOS0012
+DOC4595,President,Orthopedics,HOS0001
+DOC4596,Relationship,General Medicine,HOS0013
+DOC4409,Fish,Pediatrics,HOS9999
+DOC3471,Order,Oncology,HOS0005
+DOC4599,Month,General Medicine,HOS0005
+DOC4600,Middle,Cardiology,HOS0018
+DOC4601,Teacher,Cardiology,HOS0001
+DOC4602,Food,Neurology,HOS0006
+DOC4603,Impact,Pediatrics,HOS0015
+DOC4604,Inside,pediatrics,HOS0018
+DOC4605,Become,Pediatrics,HOS0015
+DOC4606,Property,General medicine,HOS0018
+DOC4607,History,Cardiology,HOS0009
+DOC4608,Goal,Pediatrics,HOS0001
+DOC4609,Value,Oncology,HOS0017
+DOC4610,International,Orthopedics,HOS0018
+DOC4611,Fire,neurology,HOS0002
+DOC4612,Trouble,Orthopedics,HOS0003
+DOC4613,Goal,Neurology,HOS9999
+DOC4614,Notice,Orthopedics,HOS0013
+DOC4615,Bad,Neurology,HOS0010
+DOC4616,And,Pediatrics,HOS0003
+DOC4617,Far,Neurology,HOS0019
+DOC4618,Child,Neurology,HOS0005
+DOC4619,Live,Oncology,HOS0009
+DOC4620,Mouth,Neurology,HOS0005
+DOC4621,Later,neurology,HOS0007
+DOC4622,Respond,Neurology,HOS0004
+DOC4623,Any,Neurology,HOS0020
+DOC4624,Result,CARDIOLOGY,HOS0016
+DOC4625,Development,Cardiology,HOS0009
+DOC4626,Line,Neurology,HOS0001
+DOC4627,Read,Pediatrics,HOS0018
+DOC4628,Consider,Oncology,HOS0013
+DOC4629,Word,Cardiology,HOS0006
+DOC4630,Indeed,Orthopedics,HOS0014
+DOC4631,Grow,Neurology,HOS0010
+INVALID_75,Task,Neurology,HOS0009
+DOC4633,Like,Orthopedics,HOS0012
+DOC4634,Focus,Pediatrics,HOS0002
+DOC4635,Article,Orthopedics,HOS0019
+DOC4636,Study,Neurology,HOS0013
+DOC4637,Good,Neurology,HOS9999
+DOC4638,Continue,Orthopedics,HOS0004
+DOC4639,Will,Pediatrics,HOS0012
+DOC4640,Owner,Orthopedics,HOS0009
+DOC4641,Evening,Oncology,HOS0019
+DOC4642,Performance,Orthopedics,HOS0005
+DOC4643,Can,cardiology,HOS0001
+DOC4644,Ball,cardiology,HOS0001
+DOC4645,Each,Orthopedics,HOS9999
+DOC4646,Skill,Oncology,HOS0019
+DOC4647,According,Oncology,HOS0003
+DOC4648,Life,Pediatrics,HOS0004
+DOC4649,West,Cardiology,HOS0009
+DOC4650,Environmental,Pediatrics,HOS0003
+DOC4651,Deal,Pediatrics,HOS0019
+DOC4652,Director,General Medicine,HOS9999
+DOC4653,Protect,Pediatrics,HOS0011
+DOC4654,Direction,Oncology,HOS0006
+DOC4655,Surface,General medicine,HOS0010
+DOC4656,Discover,Cardiology,HOS9999
+DOC4657,Daughter,Orthopedics,HOS0014
+DOC4658,Product,General Medicine,HOS0019
+DOC4659,Its,Cardiology,HOS0020
+DOC4660,Although,orthopedics,HOS0003
+DOC4661,Evening,Pediatrics,HOS0003
+DOC4662,Ok,General Medicine,HOS0005
+DOC4663,Life,Pediatrics,HOS0003
+DOC4664,Fly,Orthopedics,HOS0016
+DOC4665,Food,Neurology,HOS0008
+DOC4666,Employee,Cardiology,HOS0017
+DOC4019,Common,General Medicine,HOS0006
+DOC4668,Question,General Medicine,HOS0019
+DOC1369,Area,Neurology,HOS0008
+DOC4670,Company,Pediatrics,HOS0005
+DOC4671,Tree,Neurology,HOS0008
+DOC4672,Factor,GENERAL MEDICINE,HOS0019
+DOC4673,Huge,Cardiology,HOS0006
+DOC4674,Show,Orthopedics,HOS0003
+DOC4675,Simply,Pediatrics,HOS0015
+DOC4676,Option,Orthopedics,HOS0002
+DOC4677,Many,Cardiology,HOS0007
+DOC4678,Figure,Cardiology,HOS0012
+DOC4679,Grow,Orthopedics,HOS0003
+DOC4680,Ground,Neurology,HOS0020
+DOC4681,Far,Oncology,HOS0004
+DOC4682,Detail,Oncology,HOS0001
+DOC4683,Tax,General Medicine,HOS0002
+DOC4684,Although,Neurology,HOS0006
+DOC4685,Claim,Neurology,HOS0013
+DOC4686,Generation,Orthopedics,HOS0011
+DOC4687,Pass,Orthopedics,HOS0005
+DOC4688,Between,Orthopedics,HOS0020
+DOC4689,Laugh,Orthopedics,HOS0020
+DOC4690,Computer,Cardiology,HOS0011
+DOC4691,Skill,Neurology,HOS0013
+DOC4692,Hotel,Oncology,HOS0016
+DOC4693,Very,Orthopedics,HOS0014
+DOC4694,Strong,Neurology,HOS0014
+DOC4695,After,Oncology,HOS0008
+DOC4696,Sea,General Medicine,HOS0005
+DOC4697,Letter,Neurology,HOS0009
+DOC4698,Condition,Neurology,HOS0001
+DOC4699,Rule,Oncology,HOS0002
+DOC2577,Admit,Orthopedics,HOS0017
+DOC4701,Yourself,General Medicine,HOS0001
+DOC4702,Region,Cardiology,HOS0003
+DOC4703,If,Neurology,HOS0007
+DOC4704,Want,Orthopedics,HOS0002
+DOC4705,Some,General Medicine,HOS0009
+DOC4706,Party,Orthopedics,HOS0019
+DOC4707,Building,Cardiology,HOS0010
+DOC4708,Truth,General Medicine,HOS0013
+DOC4709,Hair,Neurology,HOS0010
+DOC4710,Radio,Pediatrics,HOS0020
+DOC3693,Computer,Cardiology,HOS0013
+DOC4712,Hair,Cardiology,HOS0020
+DOC4713,Price,Cardiology,HOS0001
+DOC4714,Tree,General medicine,HOS0016
+DOC4715,Population,Pediatrics,HOS0014
+DOC4716,Mrs,General Medicine,HOS0003
+DOC4717,Stage,Neurology,HOS0013
+INVALID_77,Away,Oncology,HOS0019
+DOC4719,Over,Orthopedics,HOS0018
+DOC4720,Finally,orthopedics,HOS0005
+DOC4721,Property,Neurology,HOS0005
+DOC4722,Gas,Oncology,HOS0012
+DOC4723,Campaign,General Medicine,HOS0006
+DOC4724,Simple,Pediatrics,HOS0017
+DOC4725,Not,oncology,HOS0009
+DOC4726,Prepare,Oncology,HOS9999
+DOC4727,Base,Pediatrics,HOS0019
+DOC1267,Put,Orthopedics,HOS0013
+DOC4729,Investment,Orthopedics,HOS0002
+DOC4730,Offer,Cardiology,HOS0020
+DOC4731,Month,General Medicine,HOS0014
+DOC4732,Body,Neurology,HOS0018
+DOC4733,Million,General Medicine,HOS0020
+DOC4734,Consumer,Orthopedics,HOS0003
+DOC4735,Challenge,Cardiology,HOS0019
+DOC4736,Tough,general medicine,HOS0002
+DOC4737,Now,Oncology,HOS0017
+DOC4738,His,Neurology,HOS0018
+DOC4739,Behind,Oncology,HOS0011
+DOC4740,Cold,Neurology,HOS0002
+DOC4741,Hit,Orthopedics,HOS0019
+DOC4742,Name,Orthopedics,HOS0004
+INVALID_59,Door,General Medicine,HOS0005
+DOC4744,Sense,Orthopedics,HOS0016
+DOC4745,Attack,Pediatrics,HOS0006
+DOC4746,Onto,orthopedics,HOS0001
+DOC4747,Somebody,General Medicine,HOS0001
+DOC4748,Continue,oncology,HOS0008
+DOC4749,Item,Oncology,HOS0018
+DOC4750,Lay,Oncology,HOS0004
+DOC4751,Focus,Oncology,HOS0015
+DOC4752,Report,Neurology,HOS0019
+DOC4640,Letter,Pediatrics,HOS0019
+DOC4754,Thing,General Medicine,HOS0008
+DOC4755,Hear,Orthopedics,HOS9999
+DOC4756,Worry,Oncology,HOS0004
+DOC4757,Big,Orthopedics,HOS0013
+DOC4758,Father,General Medicine,HOS0003
+DOC4759,Sing,Pediatrics,HOS0011
+DOC4760,Great,Cardiology,HOS0008
+DOC4761,Dream,Oncology,HOS0008
+DOC4762,Cover,General Medicine,HOS0007
+DOC4763,Foreign,neurology,HOS0016
+DOC4764,Support,Oncology,HOS0015
+DOC4765,Camera,ORTHOPEDICS,HOS0014
+DOC4766,Reason,ORTHOPEDICS,HOS0020
+DOC4767,Thought,Cardiology,HOS0015
+DOC0682,Eye,Orthopedics,HOS0020
+DOC4769,Around,cardiology,HOS0002
+DOC4770,Financial,Neurology,HOS0017
+DOC4771,However,Neurology,HOS0001
+DOC4772,Past,General Medicine,HOS0018
+DOC4773,They,Cardiology,HOS0016
+DOC4774,Smile,Neurology,HOS0014
+DOC4775,Television,Oncology,HOS0002
+DOC4776,Write,Cardiology,HOS0004
+DOC4777,Current,Pediatrics,HOS0005
+DOC4778,Not,Neurology,HOS0002
+DOC4779,Weight,CARDIOLOGY,HOS9999
+DOC4780,Task,neurology,HOS0020
+DOC4781,Cut,Orthopedics,HOS0006
+DOC4782,Throughout,Oncology,HOS0015
+DOC4783,Off,Neurology,HOS0011
+DOC4784,Girl,Orthopedics,HOS9999
+DOC4785,History,Orthopedics,HOS0013
+DOC4786,By,Neurology,HOS0018
+DOC4787,Those,Pediatrics,HOS0017
+DOC4788,Parent,Pediatrics,HOS0009
+DOC4789,Nation,Orthopedics,HOS0003
+DOC0088,Shake,Oncology,HOS0002
+DOC4791,Hard,General Medicine,HOS0008
+DOC4792,Different,Cardiology,HOS0016
+DOC4793,Out,Orthopedics,HOS0011
+DOC4794,Remember,Neurology,HOS0011
+DOC4795,Need,General Medicine,HOS0012
+DOC4796,Religious,Oncology,HOS0009
+DOC4797,Popular,General Medicine,HOS0010
+DOC4798,Difficult,Pediatrics,HOS0002
+DOC4799,Feeling,Cardiology,HOS0002
+DOC4800,Check,neurology,HOS0010
+DOC4801,Indicate,NEUROLOGY,HOS0012
+DOC4802,History,Oncology,HOS0011
+DOC4803,Cup,Oncology,HOS0011
+DOC4804,Crime,Neurology,HOS0016
+DOC4805,Environmental,Neurology,HOS0002
+DOC4806,Agree,Oncology,HOS0016
+DOC4807,Energy,Oncology,HOS0017
+DOC4808,Why,Orthopedics,HOS0014
+DOC4809,This,Cardiology,HOS0011
+DOC4810,Government,Orthopedics,HOS9999
+DOC4811,Radio,General Medicine,HOS0010
+DOC4812,Plant,Cardiology,HOS0009
+DOC4813,Choice,Pediatrics,HOS0007
+DOC4814,Born,General Medicine,HOS0005
+DOC4815,Citizen,Orthopedics,HOS0014
+DOC4816,Field,Oncology,HOS0020
+DOC4817,Agree,Oncology,HOS0006
+DOC4818,Example,Pediatrics,HOS0001
+DOC4819,Small,Orthopedics,HOS0005
+DOC4820,None,Pediatrics,HOS0002
+DOC4821,Return,Cardiology,HOS0007
+DOC4822,Do,Neurology,HOS0013
+DOC4823,Guess,Oncology,HOS0005
+DOC4824,Heart,PEDIATRICS,HOS0019
+DOC4825,Commercial,Pediatrics,HOS0005
+DOC4826,Nor,Pediatrics,HOS0005
+DOC4827,Hair,Oncology,HOS0016
+INVALID_80,Top,Orthopedics,HOS0001
+DOC4829,Single,GENERAL MEDICINE,HOS0016
+DOC2881,Bring,Oncology,HOS0007
+DOC4831,Pay,Pediatrics,HOS9999
+DOC4832,He,Orthopedics,HOS0001
+DOC4833,Around,cardiology,HOS0002
+DOC3000,He,Orthopedics,HOS0004
+DOC2192,Effort,Pediatrics,HOS0013
+DOC4836,Property,pediatrics,HOS0016
+DOC4837,Occur,Cardiology,HOS0011
+DOC4838,Southern,Orthopedics,HOS0004
+DOC4839,Quality,General Medicine,HOS0011
+DOC4840,Research,Oncology,HOS0010
+DOC4841,Just,Orthopedics,HOS0009
+DOC4842,Piece,pediatrics,HOS0016
+DOC4843,Religious,General Medicine,HOS0012
+DOC4844,Always,Oncology,HOS0013
+DOC2028,Billion,General Medicine,HOS0010
+DOC4846,Difference,Pediatrics,HOS0015
+DOC4847,View,Cardiology,HOS0002
+DOC4848,Probably,Orthopedics,HOS0018
+DOC4849,Other,NEUROLOGY,HOS0007
+DOC4850,Likely,Neurology,HOS0016
+DOC4851,Make,Pediatrics,HOS0003
+DOC4852,Why,Pediatrics,HOS0005
+DOC4853,Raise,Oncology,HOS0015
+DOC2361,Finally,Pediatrics,HOS0016
+DOC4855,Moment,Cardiology,HOS0006
+DOC4856,Better,Pediatrics,HOS0018
+INVALID_9,Require,Neurology,HOS0015
+DOC4858,Able,Pediatrics,HOS0013
+DOC4859,Sell,Oncology,HOS0012
+DOC4860,Protect,Orthopedics,HOS0012
+DOC4861,Cup,Oncology,HOS0005
+DOC4862,Begin,GENERAL MEDICINE,HOS0007
+DOC4863,Travel,General Medicine,HOS0010
+DOC4864,Argue,Neurology,HOS0017
+DOC4865,Light,Neurology,HOS0015
+DOC4866,Impact,Orthopedics,HOS0017
+DOC4867,Information,Orthopedics,HOS0014
+DOC4868,Fund,General Medicine,HOS0003
+DOC4869,Night,Neurology,HOS0012
+DOC4870,Care,ONCOLOGY,HOS0011
+DOC4871,Forward,General Medicine,HOS0016
+DOC4872,Cell,General Medicine,HOS9999
+DOC4873,Sign,Cardiology,HOS0014
+DOC4874,American,Oncology,HOS0004
+DOC4875,Amount,General medicine,HOS0003
+DOC4876,Level,General Medicine,HOS9999
+DOC4877,Center,General Medicine,HOS0017
+DOC4878,Phone,General Medicine,HOS9999
+DOC4879,Early,NEUROLOGY,HOS0014
+DOC4880,Arrive,Cardiology,HOS0016
+DOC4881,Weight,Neurology,HOS0014
+DOC4882,West,General Medicine,HOS0012
+DOC4883,Picture,Orthopedics,HOS0009
+DOC1856,Finally,General Medicine,HOS0007
+DOC4885,Look,Orthopedics,HOS0007
+DOC4886,Whole,Neurology,HOS0001
+DOC4887,Listen,ONCOLOGY,HOS0011
+DOC4888,Several,Neurology,HOS0009
+DOC4889,Clear,Oncology,HOS0003
+DOC4890,Discussion,Oncology,HOS0012
+DOC4891,First,General Medicine,HOS0019
+DOC4892,Probably,Neurology,HOS0002
+DOC4893,Build,Cardiology,HOS0006
+DOC4894,Nearly,Pediatrics,HOS0004
+DOC4895,Management,Pediatrics,HOS0001
+DOC4896,Forward,Oncology,HOS0014
+DOC4897,Size,Neurology,HOS0020
+DOC4898,Director,Neurology,HOS0013
+DOC4899,Assume,Orthopedics,HOS0012
+DOC4900,Enjoy,Pediatrics,HOS0011
+DOC4901,Him,Orthopedics,HOS0002
+DOC4902,Movement,General Medicine,HOS0007
+DOC4903,Lose,Oncology,HOS0007
+DOC4904,As,Cardiology,HOS0004
+DOC4905,Body,Orthopedics,HOS0004
+DOC4906,Box,General Medicine,HOS0012
+DOC4907,Country,Oncology,HOS0019
+DOC4908,Threat,Oncology,HOS0005
+DOC4909,Fill,Orthopedics,HOS0018
+DOC4910,Father,Pediatrics,HOS0018
+DOC4911,Voice,Oncology,HOS0007
+DOC4912,Reason,Neurology,HOS0018
+DOC4913,Easy,Oncology,HOS0020
+DOC4914,Inside,Orthopedics,HOS0003
+DOC4915,Surface,Pediatrics,HOS0013
+DOC4916,Fact,Cardiology,HOS0004
+DOC4917,Occur,Cardiology,HOS0009
+DOC4918,Interest,General Medicine,HOS0002
+INVALID_55,Development,Cardiology,HOS0010
+DOC4920,Partner,General Medicine,HOS0003
+DOC4921,Forget,Orthopedics,HOS0014
+DOC4922,Meet,Neurology,HOS0017
+DOC4923,Thank,Neurology,HOS0013
+DOC4924,Down,Oncology,HOS0015
+DOC4925,Majority,Oncology,HOS0017
+DOC4926,Available,Neurology,HOS0005
+DOC4927,Free,Pediatrics,HOS0010
+DOC4928,Only,Cardiology,HOS0018
+DOC4929,Bar,Orthopedics,HOS0005
+DOC3530,Success,Orthopedics,HOS0004
+DOC4931,Pick,PEDIATRICS,HOS9999
+DOC4932,Deal,Orthopedics,HOS0003
+DOC4933,Wonder,oncology,HOS0011
+DOC4934,Consider,Cardiology,HOS0009
+DOC4935,Rich,Cardiology,HOS0009
+DOC4936,Close,Cardiology,HOS0005
+DOC4937,Deal,Cardiology,HOS0017
+DOC4938,Activity,Cardiology,HOS0004
+DOC4939,Home,General Medicine,HOS0010
+DOC4940,Increase,Pediatrics,HOS0014
+DOC4941,Floor,Oncology,HOS0004
+DOC4942,Control,General Medicine,HOS0013
+DOC4943,Until,Orthopedics,HOS0019
+DOC4944,Sport,Oncology,HOS0001
+DOC4945,Represent,Pediatrics,HOS0016
+DOC4946,Push,NEUROLOGY,HOS0003
+DOC4947,View,Neurology,HOS0011
+DOC4948,Staff,Pediatrics,HOS0017
+INVALID_15,Main,Pediatrics,HOS9999
+DOC4414,Capital,General Medicine,HOS0005
+INVALID_48,Star,Neurology,HOS0007
+DOC4952,Talk,Neurology,HOS0018
+DOC4953,Style,General Medicine,HOS0019
+DOC4954,Become,Pediatrics,HOS0010
+DOC4955,Cut,Oncology,HOS0009
+DOC4956,Remember,Oncology,HOS0004
+DOC4957,Interview,NEUROLOGY,HOS0009
+DOC4958,Voice,neurology,HOS0015
+DOC4959,General,General Medicine,HOS0017
+DOC4960,Safe,General Medicine,HOS0003
+DOC4961,Body,Orthopedics,HOS0013
+DOC4962,Tough,General Medicine,HOS0009
+DOC3896,Say,Oncology,HOS0002
+DOC4964,Concern,Oncology,HOS0002
+DOC4965,Eye,Neurology,HOS0016
+DOC4966,Process,Neurology,HOS0009
+DOC4967,East,Oncology,HOS0008
+DOC4968,Role,General Medicine,HOS0003
+DOC4969,Democratic,Cardiology,HOS0005
+DOC4970,Kid,Oncology,HOS0006
+DOC4971,Somebody,Cardiology,HOS0017
+DOC4972,Test,Pediatrics,HOS0011
+DOC4973,Scene,Neurology,HOS0003
+DOC4974,Play,Pediatrics,HOS0001
+DOC3829,Interview,Neurology,HOS0010
+DOC4976,Security,Orthopedics,HOS0002
+DOC4977,Fly,Pediatrics,HOS0018
+DOC4978,Imagine,Neurology,HOS0020
+DOC4979,Dark,Pediatrics,HOS0010
+DOC4980,Man,Oncology,HOS0019
+DOC4981,Build,General Medicine,HOS0016
+DOC4982,Third,Orthopedics,HOS0005
+DOC4983,Positive,ORTHOPEDICS,HOS0002
+DOC4984,Reason,Oncology,HOS0011
+DOC4985,Happen,Orthopedics,HOS0014
+DOC4986,Modern,Neurology,HOS0006
+DOC4987,Which,Cardiology,HOS0010
+DOC4988,Walk,Orthopedics,HOS0008
+DOC4989,Easy,Neurology,HOS0008
+DOC4990,Shake,Pediatrics,HOS0012
+DOC4991,Skin,Oncology,HOS0012
+DOC4992,Price,Orthopedics,HOS0009
+DOC4993,Sell,Oncology,HOS0013
+DOC4994,His,cardiology,HOS0008
+DOC4995,Subject,Pediatrics,HOS0012
+DOC4996,Question,Oncology,HOS0017
+DOC4997,Accept,Orthopedics,HOS0002
+DOC4998,Local,Oncology,HOS0017
+DOC4999,Bad,Cardiology,HOS0007
+DOC5000,Tv,Oncology,HOS0015
+DOC0605,Generation,cardiology,HOS0011
+DOC1957,Baby,Neurology,HOS0013
+DOC1777,Agency,General Medicine,HOS0019
+DOC1860,Argue,Cardiology,HOS0018
+DOC1060,Really,Oncology,HOS9999
+DOC4153,Direction,General Medicine,HOS0016
+DOC4033,After,General Medicine,HOS0006
+INVALID_63,Mission,Orthopedics,HOS0005
+DOC4844,Always,Oncology,HOS0013
+DOC3671,All,Neurology,HOS0001
+DOC1573,Nothing,general medicine,HOS0011
+DOC0608,Own,Neurology,HOS0019
+DOC4398,Blue,General Medicine,HOS0014
+DOC3653,Hair,General Medicine,HOS0015
+DOC1219,Page,Oncology,HOS0018
+DOC4235,True,Pediatrics,HOS0004
+DOC4270,Age,General Medicine,HOS0001
+DOC3550,Local,cardiology,HOS0011
+DOC4561,Agreement,Orthopedics,HOS0011
+DOC4762,Cover,General Medicine,HOS0007
+DOC2421,Occur,Cardiology,HOS0015
+DOC0447,Though,Orthopedics,HOS0014
+DOC1461,Last,Oncology,HOS0003
+DOC3113,Others,Pediatrics,HOS0013
+DOC0769,Resource,Cardiology,HOS0005
+DOC1533,Total,General Medicine,HOS0002
+INVALID_58,Buy,Orthopedics,HOS0016
+DOC4242,Speak,Cardiology,HOS0002
+DOC2084,Easy,Pediatrics,HOS0013
+DOC3512,Heart,Cardiology,HOS0019
+DOC1641,Choice,Neurology,HOS0008
+DOC4455,Tonight,Oncology,HOS0005
+INVALID_73,Protect,Cardiology,HOS0002
+DOC4642,Performance,Orthopedics,HOS0005
+DOC4847,View,Cardiology,HOS0002
+DOC1070,Important,Pediatrics,HOS0008
+DOC4350,Candidate,General Medicine,HOS0018
+DOC0105,Old,Oncology,HOS0015
+DOC0970,Drop,Oncology,HOS0013
+DOC3439,Bag,Oncology,HOS0005
+DOC0510,Ground,Pediatrics,HOS0012
+DOC4821,Return,Cardiology,HOS0007
+DOC1597,Answer,Pediatrics,HOS0019
+DOC4016,Style,Cardiology,HOS0006
+DOC4821,Return,Cardiology,HOS0007
+DOC4513,Road,Pediatrics,HOS0009
+DOC3738,Watch,Cardiology,HOS0009
+DOC4167,Not,Cardiology,HOS0020
+DOC2262,Growth,General Medicine,HOS0005
+DOC4141,Turn,Cardiology,HOS0014
+DOC3640,Magazine,Cardiology,HOS0016
+DOC0295,Budget,General Medicine,HOS0008
+DOC0380,Find,Neurology,HOS0020
+DOC4887,Listen,ONCOLOGY,HOS0011
+DOC2476,Left,Oncology,HOS0010
+DOC3846,Eye,Oncology,HOS0007
+DOC3590,Room,Orthopedics,HOS9999
+DOC2649,Fund,Pediatrics,HOS0016
+DOC4687,Pass,Orthopedics,HOS0005
+DOC3545,Religious,Cardiology,HOS0011
+DOC3008,For,Orthopedics,HOS0004
+DOC1305,Condition,Oncology,HOS0007
+DOC0313,Store,General medicine,HOS0019
+DOC3842,Much,general medicine,HOS0002
+DOC2150,His,Orthopedics,HOS0012
+DOC2511,Better,Neurology,HOS0002
+DOC1025,Room,General Medicine,HOS0004
+DOC3438,Teacher,neurology,HOS0010
+DOC0900,Here,General Medicine,HOS0013
+DOC0655,Wait,Neurology,HOS0005
+DOC4272,Affect,Pediatrics,HOS0018
+DOC4072,Scientist,Neurology,HOS0020
+DOC1443,Local,Orthopedics,HOS0009
+DOC0665,Happen,general medicine,HOS0009
+DOC2273,Card,General Medicine,HOS0003
+DOC3185,Certainly,Cardiology,HOS0012
+DOC4814,Born,General Medicine,HOS0005
+DOC1767,Purpose,General Medicine,HOS0006
+DOC2770,Situation,Cardiology,HOS0017
+DOC0124,Develop,Neurology,HOS0020
+DOC2685,Class,Cardiology,HOS0007
+DOC4227,Partner,Cardiology,HOS0007
+DOC1211,Operation,Cardiology,HOS0008
+DOC3381,Growth,Orthopedics,HOS0003
+DOC4082,Road,Pediatrics,HOS0020
+DOC3677,Yet,Neurology,HOS9999
+DOC4566,Door,General Medicine,HOS0012
+DOC3926,Machine,General Medicine,HOS0012
+DOC3898,Hard,Pediatrics,HOS0010
+DOC1012,New,Orthopedics,HOS0008
+DOC1310,Stage,Pediatrics,HOS0001
+DOC1549,Military,Neurology,HOS0017
+DOC2357,Night,Neurology,HOS0005
+DOC4058,Hit,Pediatrics,HOS0018
+DOC3402,Poor,Cardiology,HOS0018
+DOC3271,Travel,Neurology,HOS0011
+DOC2363,Certain,general medicine,HOS0011
+DOC4292,Church,Orthopedics,HOS9999
+DOC0965,Town,General Medicine,HOS0010
+DOC0933,Knowledge,Pediatrics,HOS0001
+DOC4203,Key,Pediatrics,HOS0003
+INVALID_80,Beyond,Oncology,HOS0009
+DOC3559,Help,Pediatrics,HOS0019
+DOC1754,Discover,Orthopedics,HOS0017
+DOC3058,Personal,Orthopedics,HOS0017
+DOC1074,Successful,Oncology,HOS0009
+DOC0184,Throughout,Cardiology,HOS0017
+DOC2198,President,Oncology,HOS0005
+DOC3058,Personal,Orthopedics,HOS0017
+DOC4742,Name,Orthopedics,HOS0004
+DOC1471,Perhaps,NEUROLOGY,HOS0001
+DOC2454,Apply,Oncology,HOS0008
+DOC1347,Add,Orthopedics,HOS0003
+DOC4901,Him,Orthopedics,HOS0002
+DOC2543,Mr,Pediatrics,HOS0003
+DOC4542,Card,Oncology,HOS0020
+DOC1931,Day,General Medicine,HOS0008
+DOC0335,Wonder,Cardiology,HOS0011
+DOC4581,Seven,Oncology,HOS9999
+DOC1985,Inside,Neurology,HOS9999
+DOC1123,Effort,Oncology,HOS0019
+DOC0900,Here,General Medicine,HOS0013
+DOC3073,List,Oncology,HOS0005
+DOC0217,Game,Cardiology,HOS0014
+DOC0404,Argue,General Medicine,HOS0009
+DOC0952,Bank,Pediatrics,HOS0003
+DOC1114,Part,Oncology,HOS0004
+DOC3032,Tax,Orthopedics,HOS0019
+DOC0284,Customer,GENERAL MEDICINE,HOS0018
+DOC1851,Tell,Orthopedics,HOS0010
+DOC4649,West,Cardiology,HOS0009
+DOC0452,Movement,General Medicine,HOS0019
+DOC3875,Mother,Pediatrics,HOS0009
+DOC0956,Mission,General Medicine,HOS0015
+DOC1384,Cell,Cardiology,HOS0007
+DOC2657,Agent,Cardiology,HOS0014
+DOC3275,Difficult,Orthopedics,HOS0019
+DOC2158,Behavior,Orthopedics,HOS0002
+DOC0842,Event,Orthopedics,HOS0018
+DOC3023,Thought,Oncology,HOS0005
+DOC4851,Make,Pediatrics,HOS0003
+DOC1812,Forward,Oncology,HOS0006
+DOC2366,Ready,Neurology,HOS0018
+DOC1528,Value,Pediatrics,HOS0003
+DOC2936,Return,Neurology,HOS0011
+DOC3291,Know,Neurology,HOS0007
+DOC3334,Hospital,General Medicine,HOS0015
+DOC0604,Through,Pediatrics,HOS0010
+DOC1833,Place,Neurology,HOS0007
+DOC2882,Stop,Cardiology,HOS0004
+DOC3746,Either,Cardiology,HOS0010
+DOC3540,Family,Cardiology,HOS0004
+DOC4443,Thank,Orthopedics,HOS0012
+DOC2896,Fire,Neurology,HOS0007
+DOC3822,Between,General Medicine,HOS0006
+DOC2151,Several,Orthopedics,HOS0012
+DOC1784,Activity,Cardiology,HOS0016
+DOC0573,Way,Oncology,HOS0011
+DOC3945,Pick,Oncology,HOS9999
+DOC2365,Will,Orthopedics,HOS0017
+DOC4295,Level,Neurology,HOS0005
+DOC1011,North,Neurology,HOS0006
+DOC0014,Face,General Medicine,HOS0020
+DOC2596,Many,Pediatrics,HOS0018
+DOC4557,Personal,Pediatrics,HOS0007
+DOC3261,Raise,Orthopedics,HOS0008
+DOC2226,In,Pediatrics,HOS0015
+DOC2853,Part,Cardiology,HOS0012
+DOC2614,Job,Pediatrics,HOS0003
+DOC1869,Data,Neurology,HOS0003
+DOC3147,Others,Orthopedics,HOS0020
+DOC2730,Perhaps,Oncology,HOS0008
+DOC1019,Condition,Orthopedics,HOS0002
+DOC2797,Box,General Medicine,HOS0008
+DOC4791,Hard,General Medicine,HOS0008
+DOC0432,How,Neurology,HOS0002
+DOC2750,Strong,General Medicine,HOS0003
+DOC0762,Because,Orthopedics,HOS0015
+DOC3075,Kitchen,Neurology,HOS0020
+DOC2098,Left,Neurology,HOS0018
+DOC3484,Thought,Orthopedics,HOS0006
+DOC3113,Others,Pediatrics,HOS0013
+DOC0555,East,Oncology,HOS0010
+DOC2619,Great,Neurology,HOS0012
+DOC3981,Teach,Orthopedics,HOS0005
+DOC2895,Member,Oncology,HOS0004
+DOC3984,Score,Cardiology,HOS0006
+DOC4473,Too,Pediatrics,HOS0017
+DOC3110,Training,Neurology,HOS0020
+DOC4926,Available,Neurology,HOS0005
+DOC4469,Next,Pediatrics,HOS0004
+DOC1800,Rest,Orthopedics,HOS0004
+INVALID_59,Manage,Neurology,HOS0010
+DOC4266,Hair,Orthopedics,HOS0015
+DOC0019,Address,Oncology,HOS0008
+DOC0607,Low,Cardiology,HOS0015
+DOC0300,Resource,Neurology,HOS0007
+DOC0560,Food,Oncology,HOS0018
+DOC2526,Center,Cardiology,HOS0018
+DOC3507,Above,Neurology,HOS0006
+DOC1686,Traditional,Oncology,HOS0014
+DOC4428,Draw,General Medicine,HOS0002
+DOC2571,Read,Oncology,HOS0016
+DOC4389,Identify,Neurology,HOS0011
+DOC4016,Style,Cardiology,HOS0006
+DOC2620,Cup,General Medicine,HOS0011
+DOC0579,Which,oncology,HOS0019
+DOC0848,Financial,Cardiology,HOS0018
+DOC1923,Yes,Pediatrics,HOS0016
+INVALID_25,Director,Pediatrics,HOS0011
+DOC0506,Gas,orthopedics,HOS0018
+DOC3220,Expect,Cardiology,HOS0019
+DOC0651,Become,General Medicine,HOS0010
+DOC4212,East,Orthopedics,HOS0020
+DOC0517,Guy,Cardiology,HOS0006
+DOC4190,Sense,Neurology,HOS0009
+DOC4940,Increase,Pediatrics,HOS0014
+DOC2725,State,Orthopedics,HOS0003
+DOC4705,Some,General Medicine,HOS0009
+DOC0191,Paper,ONCOLOGY,HOS0018
+DOC1809,Community,Neurology,HOS0014
+DOC0307,Operation,Neurology,HOS0016
+DOC3380,Crime,Cardiology,HOS0011
+DOC4128,Sell,Oncology,HOS0004
+DOC0005,Animal,Cardiology,HOS0015
+DOC4504,This,Pediatrics,HOS0015
+DOC2138,Lot,Pediatrics,HOS0015
+DOC1022,Soldier,Oncology,HOS0014
+DOC3751,Response,Orthopedics,HOS0008
+DOC4224,Clearly,Pediatrics,HOS0007
+DOC0924,Grow,Oncology,HOS0018
+DOC4567,Be,Orthopedics,HOS0016
+DOC1708,Vote,Pediatrics,HOS0015
+DOC4274,Door,General Medicine,HOS0014
+DOC4853,Raise,Oncology,HOS0015
+DOC1143,Suffer,General Medicine,HOS0013
+DOC4770,Financial,Neurology,HOS0017
+DOC3742,Plan,Neurology,HOS0015
+DOC2232,Such,General Medicine,HOS0017
+DOC3636,Three,Cardiology,HOS0012
+DOC3230,From,Neurology,HOS0015
+DOC3814,Marriage,Neurology,HOS0012
+DOC4029,Approach,Neurology,HOS0011
+DOC3357,Security,Oncology,HOS0018
+DOC0247,Himself,Pediatrics,HOS0002
+DOC2997,Smile,General Medicine,HOS0011
+DOC0911,Money,Cardiology,HOS0008
+DOC1092,Apply,Orthopedics,HOS0015
+DOC2469,Attention,Oncology,HOS0006
+DOC2041,New,General Medicine,HOS0005
+BROKEN,Test
+BROKEN,Test
+BROKEN,Test
